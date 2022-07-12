@@ -1,9 +1,18 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
 @import url(../blocks/main-page/main-page.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_header/logo_header.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
 
 @import url(../blocks/about-project/about-project.css);
+@import url(../blocks/about-project/__paragraph/about-project__paragraph.css);
+@import url(../blocks/documents/documents.css);
 
 @import url(../blocks/news/news.css);
 

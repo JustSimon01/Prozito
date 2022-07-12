@@ -1,6 +1,5 @@
 .header{
-    width: 1400px;
-    height: 50px;
-    margin: auto;
-    border: rgb(145, 38, 38) solid 1px;
+    width: 100%;
+    display: flex;
+    background-color: #F7F4F0;
 }

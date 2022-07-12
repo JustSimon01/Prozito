@@ -1,6 +1,7 @@
 .about-project{
-    height: 1180px;
+    box-sizing: border-box;
+    height: 1250px;
     width: 100%;
-    margin-top: 32px;
-    border: green solid 1px;
+    padding: 70px 0 164px;
+    background-color: #F7F4F0;
 }

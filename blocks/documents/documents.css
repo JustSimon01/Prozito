@@ -1,0 +1,8 @@
+.documents{
+    margin: 114px auto 0;
+    display: grid;
+    max-width: 1144px;
+    gap: 20px 19.66px;
+    grid-template-columns: 563px 563px;
+    grid-template-rows: 276px 276px;
+}

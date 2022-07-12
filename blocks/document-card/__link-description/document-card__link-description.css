@@ -1,0 +1,10 @@
+.document-card__link-description{
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: rgba(50, 50, 50, 0.5);
+    margin: 0;
+
+}

@@ -33,6 +33,7 @@
 @import url(../blocks/media/media.css);
 
 @import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/special-projects/__card/special-projects__card.css);
 
 @import url(../blocks/footer/footer.css);
 

@@ -1,0 +1,10 @@
+.button-rectangle__content {
+	width: 329px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	justify-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

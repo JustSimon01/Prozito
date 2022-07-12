@@ -1,0 +1,9 @@
+.button-rectangle__arrow {
+	width: 18px;
+	height: 10px;
+	/*background-image: url(../../../images/buttons/arrow-right.svg);
+	background-position: center;
+	background-repeat: no-repeat;*/
+	margin-left: 8px;
+	border: none;
+}

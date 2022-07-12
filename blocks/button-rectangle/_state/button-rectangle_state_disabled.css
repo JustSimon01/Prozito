@@ -1,0 +1,4 @@
+.button-rectangle_state_disabled {
+	pointer-events: none; /*убирает эффекты :hover и :active*/
+	opacity: 0.6;
+}

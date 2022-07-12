@@ -18,6 +18,8 @@
 @import url(../blocks/document-card/__link-container/document-card__link-container.css);
 @import url(../blocks/document-card/__paragraph/document-card__paragraph.css);
 @import url(../blocks/document-card/__link-description/document-card__link-description.css);
+@import url(../blocks/pop-up-menu/pop-up-menu.css);
+@import url(../blocks/pop-up-menu/_opend/pop-up-menu_opend.css);
 
 @import url(../blocks/news/news.css);
 

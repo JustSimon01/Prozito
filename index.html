@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Прожито</title>
-    <link rel="stylesheet" href="./pages/main-page-style-sheet.css">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Прожито</title>
+   <link rel="stylesheet" href="./pages/main-page-style-sheet.css">
 </head>
 <button class="button-rectangle" type="" aria-label="" id="">
   <!--Тут текст кнопки, а ниже стрелка
@@ -41,6 +41,7 @@
     <div class="document-card">
       <div>
        <h3 class="document-card__header">Стать волонтёром</h3>
+
        <p class="document-card__paragraph">Вы можете помочь нашему делу — для работы с документами нужен компьютер и несколько свободных часов в неделю</p>
       </div>
       <div class="document-card__link-container">
@@ -62,6 +63,7 @@
       <div>
        <h3 class="document-card__header">Работа с архивом</h3>
        <p class="document-card__paragraph">Как устроен наш архив и поиск по сохранённым документам</p>
+
       </div>
       <div class="document-card__link-container">
         <p class="document-card__link-description">Перейти к архиву</p>
@@ -75,10 +77,30 @@
     <main>
       <section class="news"> Новости и события</section>
       <section class="diary">Материалы</section>
-      <section class="serch-banner">Ищем редактора для дневника</section>
+      <section class="search-banner">
+         <img class="search-banner__image" src="./images/search-banner-image.jpg" alt="">
+         <div class="search-banner__column-text">
+            <div class="search-banner__description">
+               <h2 class="search-banner__title">
+                  Ищем редактора для дневника
+               </h2>
+               <blockquote class="search-banner__text">
+                  «Отец мой, Георгий Васильевич Антипов, из богатой семьи. У его отца и деда были участки леса, земли. Имел
+                  мой дед, Василий Кузьмич, лавку, в которой торговал бакалеей и красным товаром, и, конечно, занимался
+                  крестьянством, т.е. земледелием. Жили они богато. Дети у дедушки Василия были все грамотные,
+                  и земледелием занимались неохотно».
+               </blockquote>
+            </div>
+
+            <div class="search-banner__buttons">
+               <button class="search-banner__button">1</button>
+               <button class="search-banner__button">2</button>
+            </div>
+         </div>
+      </section>
       <section class="media">Журнал "Прожито"</section>
       <section class="special-projects">Спецпроекты</section>
-    </main>
-  <footer class="footer">Футер (навигация - часть футера)</footer>
+   </main>
+   <footer class="footer">Футер (навигация - часть футера)</footer>
 </body>
 </html>

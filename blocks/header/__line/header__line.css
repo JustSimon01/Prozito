@@ -4,8 +4,8 @@
     margin-right: 20px;
     height: 50px;
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid rgba(50, 50, 50, 0.3);
 }

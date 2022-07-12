@@ -1,0 +1,8 @@
+.document-card{
+box-sizing: border-box;
+padding: 32px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+border: 1px solid rgba(50, 50, 50, 0.3);;
+}

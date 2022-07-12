@@ -1,0 +1,17 @@
+.search-banner {
+    margin: auto 32px;
+    background-color: #F7F4F0;
+    padding: 56px 116px 64px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (max-width: 768px) {
+    .search-banner {
+        margin: auto;
+        padding: 20px;
+    }
+
+}

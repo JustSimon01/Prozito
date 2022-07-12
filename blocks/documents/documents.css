@@ -3,7 +3,6 @@
     display: grid;
     max-width: 1144px;
     gap: 20px 19.66px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 563px 563px;
     grid-template-rows: 276px 276px;
-border: green solid 1px;
 }

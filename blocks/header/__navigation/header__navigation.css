@@ -1,0 +1,14 @@
+.header__navigation{
+    padding: 0;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    list-style: none;
+    border: rgb(34, 34, 139) solid 1px;
+    font-family: PT Sans, Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}

@@ -13,6 +13,11 @@
 @import url(../blocks/about-project/about-project.css);
 @import url(../blocks/about-project/__paragraph/about-project__paragraph.css);
 @import url(../blocks/documents/documents.css);
+@import url(../blocks/document-card/document-card.css);
+@import url(../blocks/document-card/__header/document-card__header.css);
+@import url(../blocks/document-card/__link-container/document-card__link-container.css);
+@import url(../blocks/document-card/__paragraph/document-card__paragraph.css);
+@import url(../blocks/document-card/__link-description/document-card__link-description.css);
 
 @import url(../blocks/news/news.css);
 

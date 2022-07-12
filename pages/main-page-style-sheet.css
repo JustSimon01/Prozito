@@ -33,7 +33,16 @@
 @import url(../blocks/media/media.css);
 
 @import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/special-projects/__title/special-projects__title.css);
+@import url(../blocks/special-projects/__image/special-projects__image.css);
+@import url(../blocks/special-projects/__cards/special-projects__cards.css);
 @import url(../blocks/special-projects/__card/special-projects__card.css);
+@import url(../blocks/special-projects/__column-text/special-projects__column-text.css);
+@import url(../blocks/special-projects/__heading/special-projects__heading.css);
+@import url(../blocks/special-projects/__text/special-projects__text.css);
+@import url(../blocks/special-projects/__date/special-projects__date.css);
+@import url(../blocks/special-projects/__button-rectangle/special-projects__button-rectangle.css);
+@import url(../blocks/special-projects/__button-rectangle-text/special-projects__button-rectangle-text.css);
 
 @import url(../blocks/footer/footer.css);
 

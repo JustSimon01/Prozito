@@ -1,0 +1,6 @@
+.special-projects__column-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 28px 31.45px 17px;
+}

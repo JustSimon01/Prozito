@@ -1,3 +1,24 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/page/page__magazine.css);
 
+@import url(../blocks/text/h1/text__h1.css);
+@import url(../blocks/text/h2/text__h2.css);
+@import url(../blocks/text/h3/text__h3.css);
+@import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
+@import url(../blocks/text/pt_sans_small/text__pt_sans_small.css);
+@import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
+
+@import url(../blocks/magazine/__title/magazine__title.css);
+
+@import url(../blocks/magazine/__sort/magazine__sort.css);
+@import url(../blocks/magazine/__sort_items/magazine__sort_items.css);
+@import url(../blocks/magazine/__sort_item/magazine__sort_item.css);
+@import url(../blocks/magazine/__sort_item/__sort_item_active/magazine__sort_item_active.css);
+
+@import url(../blocks/magazine/__cards/magazine__cards.css);
+@import url(../blocks/magazine/__card_exp/magazine__card_exp.css);
+@import url(../blocks/magazine/__card_title/magazine__card_exp_title.css);
+@import url(../blocks/magazine/__card_exp_img/magazine__card_exp_img.css);
+@import url(../blocks/magazine/__card_tematic/magazine__card_tematic.css);
+@import url(../blocks/magazine/__card_tematic_img/magazine__card_tematic_img.css);

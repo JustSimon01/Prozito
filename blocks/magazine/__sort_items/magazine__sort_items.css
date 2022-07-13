@@ -1,0 +1,7 @@
+.magazine__sort_items {
+    margin: 32px auto auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}

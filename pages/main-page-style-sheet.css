@@ -41,8 +41,7 @@
 @import url(../blocks/special-projects/__heading/special-projects__heading.css);
 @import url(../blocks/special-projects/__text/special-projects__text.css);
 @import url(../blocks/special-projects/__date/special-projects__date.css);
-@import url(../blocks/special-projects/__button-rectangle/special-projects__button-rectangle.css);
-@import url(../blocks/special-projects/__button-rectangle-text/special-projects__button-rectangle-text.css);
+@import url(../blocks/special-projects/__button/special-projects__button.css);
 
 @import url(../blocks/footer/footer.css);
 

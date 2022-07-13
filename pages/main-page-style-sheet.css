@@ -46,6 +46,12 @@
 @import url(../blocks/special-projects/__button/special-projects__button.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/network-logo/network-logo.css);
 
 @import url(../blocks/pop-up/pop-up.css);
 @import url(../blocks/pop-up/pop-up_opend/pop-up_opend.css);

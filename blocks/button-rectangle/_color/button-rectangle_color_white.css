@@ -3,3 +3,11 @@
 	color: black;
 	border: 1px solid #A5CDAB;
 }
+
+.button-rectangle_color_white:hover {
+	border-color: #97BA9C;
+}
+
+.button-rectangle_color_white:active {
+	border-color: #7A9F80;
+}

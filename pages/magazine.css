@@ -10,6 +10,8 @@
 @import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
 @import url(../blocks/text/color/text__color_white.css);
 
+@import url(../blocks/route/route__link.css);
+
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 

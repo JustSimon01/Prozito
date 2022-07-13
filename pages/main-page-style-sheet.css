@@ -62,9 +62,7 @@
 @import url(../blocks/button-rectangle/_color/button-rectangle_color_white.css);
 @import url(../blocks/button-rectangle/_state/button-rectangle_state_disabled.css);
 
-/*TEST Заголовок и стелка для прямоугольной кнопки*/
-@import url(../blocks/button-rectangle/__content/button-rectangle__content.css);
-@import url(../blocks/button-rectangle/__name/button-rectangle__name.css);
+/*Стелка для прямоугольной кнопки*/
 @import url(../blocks/button-rectangle/__arrow/button-rectangle__arrow.css);
 
 /*Кнопки круглые*/
@@ -72,7 +70,6 @@
 @import url(../blocks/button-circular/_state/button-circular_state_disabled.css);
 
 /*Стрелки влево-вправо*/
-@import url(../blocks/button-arrow/button-arrow.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 @import url(../blocks/button-arrow/_style/button-arrow_style_circle.css);

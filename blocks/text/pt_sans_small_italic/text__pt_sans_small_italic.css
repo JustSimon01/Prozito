@@ -1,0 +1,16 @@
+.text__pt_sans_small_italic {
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #323232;
+}
+
+@media screen and (max-width: 768px) {
+    .text__pt_sans_small_italic {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+}

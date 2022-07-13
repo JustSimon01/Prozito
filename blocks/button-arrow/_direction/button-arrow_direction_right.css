@@ -1,8 +1,10 @@
 .button-arrow_direction_right {
 	background-image: url(../../../images/buttons/arrow-right.svg);
-	background-color: white;
+	background-color: transparent;
 	background-position: center;
 	background-repeat: no-repeat;
 	border: none;
 	padding: 0;
+	width: 24px;
+	height: 24px;
 }

@@ -2,6 +2,7 @@
     list-style: none;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     margin: 36px auto auto;
     justify-content: center;
     column-gap: 80px;

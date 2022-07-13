@@ -8,6 +8,10 @@
 @import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
 @import url(../blocks/text/pt_sans_small/text__pt_sans_small.css);
 @import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
+@import url(../blocks/text/color/text__color_white.css);
+
+@import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
+@import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 
 @import url(../blocks/magazine/__title/magazine__title.css);
 
@@ -23,3 +27,9 @@
 @import url(../blocks/magazine/__card_exp_name/magazine__card_exp_name.css);
 @import url(../blocks/magazine/__card_tematic/magazine__card_tematic.css);
 @import url(../blocks/magazine/__card_tematic_img/magazine__card_tematic_img.css);
+@import url(../blocks/magazine/__card_tematic_name/magazine__card_tematic_name.css);
+@import url(../blocks/magazine/__card_tematic_text/magazine__card_tematic_text.css);
+
+@import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);
+@import url(../blocks/magazine/__cards_pages_count/magazine__cards_pages_count.css);
+@import url(../blocks/magazine/__cards_pages_count/__cards_pages_count_active/magazine__cards_pages_count_active.css);

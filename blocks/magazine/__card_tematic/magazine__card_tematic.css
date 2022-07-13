@@ -1,4 +1,7 @@
 .magazine__card_tematic {
     position: relative;
     width: 328px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

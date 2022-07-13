@@ -1,0 +1,9 @@
+.magazine__cards {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 36px auto auto;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 62px;
+}

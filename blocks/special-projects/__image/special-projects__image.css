@@ -1,0 +1,5 @@
+.special-projects__image {
+   max-width: 212px;
+   min-height: 352px;
+   object-fit: cover;
+}

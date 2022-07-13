@@ -1,0 +1,10 @@
+.diary__card-label {
+	width: max-content;
+	height: 34px;
+	position: absolute;
+	top: -16px;
+	background-color: #A5CDAB;
+	border-radius: 8px;
+	padding: 8px 32px;
+	box-sizing: border-box;
+}

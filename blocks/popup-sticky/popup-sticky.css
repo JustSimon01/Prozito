@@ -1,0 +1,9 @@
+.popup-sticky {
+	visibility: hidden;
+	width: 237px;
+	height: 132px;
+	position: absolute;
+	right: 0;
+	top: 70px;
+	background-color: #A5CDAB;
+}

@@ -1,20 +1,28 @@
 //открыть попап
 function openPopup(popup) {
-    popup.classList.add('pop-up_opend');
+    popup.classList.add('pop-up_opened');
   } 
   
   //закрыть попап
   function closePopup(popup) {
-      popup.classList.remove('pop-up_opend');
+      popup.classList.remove('pop-up_opened');
   } 
 
 //открытие-закрытие попапа меню через функции
 const button = document.querySelector('#aboutProject');
 const menuList = document.querySelector('.pop-up_menu');
 button.addEventListener('click', function(){
-    if (menuList.classList.contains('pop-up_opend')){
-        menuList.classList.remove('pop-up_opend');
+    if (menuList.classList.contains('pop-up_opened')){
+        menuList.classList.remove('pop-up_opened');
     }else{
-        menuList.classList.add('pop-up_opend');
+        menuList.classList.add('pop-up_opened');
     }
 });
+
+//мини-попап на заглавной (закрытие. поумолчанию открыт)
+const popupMini = document.querySelector('popup-sticky');
+const buttonMiniPopupClose = document.querySelector('popup-sticky__button-close');
+function closePopupMini(popupMini) {
+    popupMini.classList.remove('pop-up_opened')
+} 
+buttonMiniPopupClose.addEventListener('click', closePopupMini);

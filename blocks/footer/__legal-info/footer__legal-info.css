@@ -1,0 +1,33 @@
+.footer__legal-info{
+    grid-area: legal;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    max-width: 327px;
+    gap: 12px;
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+@media screen and (max-width: 930px) {
+    .footer__legal-info {
+        gap: 8px;
+        font-size: 14px;
+        line-height: 18px;
+        padding:0;
+
+     }
+}
+
+@media screen and (max-width: 440px) {
+    .footer__legal-info {
+        justify-self:flex-start;
+        align-self:flex-end;
+     }
+}

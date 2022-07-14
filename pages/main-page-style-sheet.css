@@ -30,30 +30,42 @@
 @import url(../blocks/search-banner/__column-text/__text/search-banner__text.css);
 @import url(../blocks/search-banner/__column-text/__title/search-banner__title.css);
 @import url(../blocks/search-banner/search-banner__button.css);
+@import url(../blocks/search-banner/__buttons/search-banner__buttons.css);
 
 @import url(../blocks/media/media.css);
 
 @import url(../blocks/special-projects/special-projects.css);
+@import url(../blocks/special-projects/__title/special-projects__title.css);
+@import url(../blocks/special-projects/__image/special-projects__image.css);
+@import url(../blocks/special-projects/__cards/special-projects__cards.css);
+@import url(../blocks/special-projects/__card/special-projects__card.css);
+@import url(../blocks/special-projects/__column-text/special-projects__column-text.css);
+@import url(../blocks/special-projects/__heading/special-projects__heading.css);
+@import url(../blocks/special-projects/__text/special-projects__text.css);
+@import url(../blocks/special-projects/__date/special-projects__date.css);
+@import url(../blocks/special-projects/__button/special-projects__button.css);
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/network-logo/network-logo.css);
 
 @import url(../blocks/pop-up/pop-up.css);
 @import url(../blocks/pop-up/pop-up_opend/pop-up_opend.css);
 @import url(../blocks/pop-up/pop-up_menu/pop-up_menu.css);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*dairy block*/
+@import url(../blocks/diary/diary.css);
+@import url(../blocks/diary/__header/diary__header.css);
+@import url(../blocks/diary/__card-container/diary__card-container.css);
+@import url(../blocks/diary/__card/diary__card.css);
+@import url(../blocks/diary/__card-label/diary__card-label.css);
+@import url(../blocks/diary/__label-text/diary__label-text.css);
+@import url(../blocks/diary/__card-title/diary__card-title.css);
+@import url(../blocks/diary/__card-image/diary__card-image.css);
+@import url(../blocks/diary/__card-text/diary__card-text.css);
 
 /*Прямоугольные кнопки*/
 @import url(../blocks/button-rectangle/button-rectangle.css);
@@ -62,9 +74,7 @@
 @import url(../blocks/button-rectangle/_color/button-rectangle_color_white.css);
 @import url(../blocks/button-rectangle/_state/button-rectangle_state_disabled.css);
 
-/*TEST Заголовок и стелка для прямоугольной кнопки*/
-@import url(../blocks/button-rectangle/__content/button-rectangle__content.css);
-@import url(../blocks/button-rectangle/__name/button-rectangle__name.css);
+/*Стелка для прямоугольной кнопки*/
 @import url(../blocks/button-rectangle/__arrow/button-rectangle__arrow.css);
 
 /*Кнопки круглые*/
@@ -72,7 +82,6 @@
 @import url(../blocks/button-circular/_state/button-circular_state_disabled.css);
 
 /*Стрелки влево-вправо*/
-@import url(../blocks/button-arrow/button-arrow.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 @import url(../blocks/button-arrow/_style/button-arrow_style_circle.css);

@@ -1,0 +1,7 @@
+.special-projects__card {
+   display: flex;
+   text-decoration: none;
+   color: #323232;
+   background-color: #F7F4F0;
+   max-width: 678px;
+}

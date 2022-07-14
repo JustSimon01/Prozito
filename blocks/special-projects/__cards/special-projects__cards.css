@@ -1,0 +1,5 @@
+.special-projects__cards {
+   display: flex;
+   justify-content: space-between;
+
+}

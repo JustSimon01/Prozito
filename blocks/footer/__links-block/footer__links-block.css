@@ -1,0 +1,30 @@
+.footer__links-block{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% auto 327px;
+    grid-template-rows: 96px;
+    grid-template-areas:
+    "logo social legal";
+    
+}
+
+@media screen and (max-width: 930px) {
+    .footer__links-block {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 84px auto;
+        grid-template-areas:
+        "logo social"
+        "legal .";
+     }
+}
+@media screen and (max-width: 440px) {
+    .footer__links-block {
+        justify-items: center;
+        grid-template-columns: 100%;
+        grid-template-rows: 76px 25px 69px;
+        grid-template-areas:
+        "social"
+        "logo"
+        "legal";
+     }
+}

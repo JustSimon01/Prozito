@@ -4,3 +4,17 @@
    line-height: 26px;
    margin: 20px 0 0;
 }
+
+@media screen and (max-width: 768px) {
+   .card-news__text {
+      font-size: 14px;
+      line-height: 18px;
+      margin: 8px 0 0;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .card-news__text {
+      margin: 8px 0;
+   }
+}

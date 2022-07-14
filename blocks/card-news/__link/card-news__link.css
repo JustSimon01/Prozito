@@ -13,3 +13,19 @@
 .card-news__link:hover {
    opacity: .8;
 }
+
+@media screen and (max-width: 768px) {
+   .card-news__link {
+      grid-template-columns: 1fr 102px;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .card-news__link {
+      grid-template-areas: 
+      "img"
+      "text"
+      "data";
+      grid-template-columns: none;
+   }
+}

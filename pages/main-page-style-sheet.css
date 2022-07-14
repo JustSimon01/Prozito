@@ -35,13 +35,16 @@
 @import url(../blocks/media/media.css);
 @import url(../blocks/media/__content-buttons/media__content-buttons.css);
 @import url(../blocks/media/__content-cards/media__content-cards.css);
+@import url(../blocks/media/__content-cards/_news/media__content-cards_news.css);
 @import url(../blocks/media/__content-header/media__content-header.css);
 @import url(../blocks/media/__title-block/media__title-block.css);
 @import url(../blocks/media/__title-header/media__title-header.css);
+@import url(../blocks/media/_news/media_news.css);
 
 
 /*карточка-пустышка и кнопка-пустышка, удаляем импорт и блок после добавления карточки и кнопки*/
 @import url(../blocks/media/dummy-card.css);
+@import url(../blocks/media/dummy-card_news.css);
 @import url(../blocks/media/dummy-button.css);
 
 @import url(../blocks/special-projects/special-projects.css);

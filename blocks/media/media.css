@@ -1,9 +1,10 @@
 .media{
     margin-top: 76px;
     display: grid;
-    grid-template-columns: 477px 827px 136px;
+    grid-template-columns: minmax(253px, 477px) minmax(515px, 827px) minmax(94px,136px);
     grid-template-rows: 71px 609px;
     grid-template-areas:
     "title header buttons"
     "title cards cards";
 }
+

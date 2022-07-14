@@ -5,12 +5,13 @@
     grid-auto-flow: column;
     overflow-x: scroll;
     gap: 20px;
-    max-height: 573px;
-    height: 100%;
+    height: fit-content;
+    padding-bottom: 16px;
 }
 
 .media__content-cards::-webkit-scrollbar {
     height: 4px;
+    
   }
   
   .media__content-cards::-webkit-scrollbar-track {

@@ -1,0 +1,15 @@
+.card-news__link {
+   color: #323232;
+   display: grid;
+   grid-template-areas: 
+   "data img"
+   "text text";
+   grid-template-columns: 1fr 212px;
+   text-decoration: none;
+   transition: opacity .2s linear;
+   font-family: 'PT Sans', sans-serif;
+}
+
+.card-news__link:hover {
+   opacity: .8;
+}

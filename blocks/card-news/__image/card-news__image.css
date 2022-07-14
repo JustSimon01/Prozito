@@ -1,0 +1,7 @@
+.card-news__image {
+   width: 100%;
+   min-height: 223px;
+   max-height: 223px;
+   object-fit: cover;
+   grid-area: img;
+}

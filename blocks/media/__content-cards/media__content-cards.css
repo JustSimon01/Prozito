@@ -1,0 +1,23 @@
+.media__content-cards{
+    grid-area: cards;
+    margin: 24px 0 0 20px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    gap: 20px;
+    max-height: 573px;
+    height: 100%;
+}
+
+.media__content-cards::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .media__content-cards::-webkit-scrollbar-track {
+    background: #E7E4DE;
+    width: 90%;
+  }
+  
+  .media__content-cards::-webkit-scrollbar-thumb {
+    background: #323232;
+  }

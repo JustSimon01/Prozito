@@ -1,0 +1,14 @@
+.magazine__cards_pages_count {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+.magazine__cards_pages_count:first-of-type {
+  margin-left: 238px;
+}
+
+.magazine__cards_pages_count:last-of-type {
+    margin-right: 238px;
+  }

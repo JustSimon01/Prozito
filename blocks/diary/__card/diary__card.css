@@ -1,0 +1,9 @@
+.diary__card {
+	width: 328px;
+	height: 428px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	background-color: #E7E4DE;
+}

@@ -1,0 +1,13 @@
+@media  screen and (max-width: 768px) {
+    .magazine__card_tematic_text {
+        display: none;
+    }
+    
+}
+
+@media  screen and (max-width: 320px) {
+    .magazine__card_tematic_text {
+        display: block;
+    }
+    
+}

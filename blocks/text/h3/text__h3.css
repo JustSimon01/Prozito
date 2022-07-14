@@ -5,6 +5,7 @@
     font-size: 26px;
     line-height: 100%;
     color: #323232;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {

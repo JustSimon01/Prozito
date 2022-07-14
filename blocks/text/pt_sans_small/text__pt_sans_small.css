@@ -1,14 +1,15 @@
-.text__pt_sans_small{
+.text__pt_sans_small {
     font-family: 'PT Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
     color: #323232;
+    margin: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .text__pt_sans_small_italic {
+    .text__pt_sans_small {
         font-size: 12px;
         line-height: 16px;
     }

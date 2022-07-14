@@ -1,3 +1,61 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/page/page__magazine.css);
 
+@import url(../blocks/text/h1/text__h1.css);
+@import url(../blocks/text/h2/text__h2.css);
+@import url(../blocks/text/h3/text__h3.css);
+@import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
+@import url(../blocks/text/pt_sans_small/text__pt_sans_small.css);
+@import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
+@import url(../blocks/text/color/text__color_white.css);
+
+@import url(../blocks/route/route.css);
+@import url(../blocks/route/route__link.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_header/logo_header.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/network-logo/network-logo.css);
+@import url(../blocks/pop-up/pop-up.css);
+@import url(../blocks/pop-up/pop-up_opend/pop-up_opend.css);
+@import url(../blocks/pop-up/pop-up_menu/pop-up_menu.css);
+
+@import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
+@import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
+
+@import url(../blocks/magazine/__title/magazine__title.css);
+
+@import url(../blocks/magazine/__sort/magazine__sort.css);
+@import url(../blocks/magazine/__sort_items/magazine__sort_items.css);
+@import url(../blocks/magazine/__sort_item/magazine__sort_item.css);
+@import url(../blocks/magazine/__sort_item/__sort_item_active/magazine__sort_item_active.css);
+
+
+/* для вставки карточек добавлять вот эти классы */
+
+@import url(../blocks/magazine/__cards/magazine__cards.css);
+@import url(../blocks/magazine/__card_exp/magazine__card_exp.css);
+@import url(../blocks/magazine/__card_exp_title/magazine__card_exp_title.css);
+@import url(../blocks/magazine/__card_exp_img/magazine__card_exp_img.css);
+@import url(../blocks/magazine/__card_exp_name/magazine__card_exp_name.css);
+@import url(../blocks/magazine/__card_tematic/magazine__card_tematic.css);
+@import url(../blocks/magazine/__card_tematic_img/magazine__card_tematic_img.css);
+@import url(../blocks/magazine/__card_tematic_name/magazine__card_tematic_name.css);
+@import url(../blocks/magazine/__card_tematic_text_container/magazine__card_tematic_text_container.css);
+@import url(../blocks/magazine/__card_tematic_text/magazine__card_tematic_text.css);
+
+/* счетчик страниц */
+
+@import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);
+@import url(../blocks/magazine/__cards_pages_count/magazine__cards_pages_count.css);
+@import url(../blocks/magazine/__cards_pages_count/__cards_pages_count_active/magazine__cards_pages_count_active.css);

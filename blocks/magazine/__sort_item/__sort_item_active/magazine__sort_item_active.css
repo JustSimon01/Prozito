@@ -1,4 +1,4 @@
 .magazine__sort_item_active {
-    border: 1px;
-    border-color: #323232;
+    padding: 0px 10px 16px ;
+    border-bottom: 1px solid #323232;
 }

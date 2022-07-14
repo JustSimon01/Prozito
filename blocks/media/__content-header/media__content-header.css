@@ -1,0 +1,15 @@
+.media__content-header{
+grid-area: header;
+display: flex;
+align-items: center;
+padding:16px 0 0 20px;
+margin: 0;
+box-sizing: border-box;
+
+font-family: 'WF';
+font-style: normal;
+font-weight: 400;
+font-size: 46px;
+line-height: 120%;
+color: #323232;
+}

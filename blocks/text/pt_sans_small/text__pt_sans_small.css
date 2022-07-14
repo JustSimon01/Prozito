@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .text__pt_sans_small_italic {
+    .text__pt_sans_small {
         font-size: 12px;
         line-height: 16px;
     }

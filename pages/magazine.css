@@ -10,7 +10,22 @@
 @import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
 @import url(../blocks/text/color/text__color_white.css);
 
+@import url(../blocks/route/route.css);
 @import url(../blocks/route/route__link.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_header/logo_header.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/network-logo/network-logo.css);
 
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
@@ -24,12 +39,13 @@
 
 @import url(../blocks/magazine/__cards/magazine__cards.css);
 @import url(../blocks/magazine/__card_exp/magazine__card_exp.css);
-@import url(../blocks/magazine/__card_title/magazine__card_exp_title.css);
+@import url(../blocks/magazine/__card_exp_title/magazine__card_exp_title.css);
 @import url(../blocks/magazine/__card_exp_img/magazine__card_exp_img.css);
 @import url(../blocks/magazine/__card_exp_name/magazine__card_exp_name.css);
 @import url(../blocks/magazine/__card_tematic/magazine__card_tematic.css);
 @import url(../blocks/magazine/__card_tematic_img/magazine__card_tematic_img.css);
 @import url(../blocks/magazine/__card_tematic_name/magazine__card_tematic_name.css);
+@import url(../blocks/magazine/__card_tematic_text_container/magazine__card_tematic_text_container.css);
 @import url(../blocks/magazine/__card_tematic_text/magazine__card_tematic_text.css);
 
 @import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);

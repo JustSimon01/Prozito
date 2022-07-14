@@ -8,3 +8,10 @@
     column-gap: 80px;
     row-gap: 62px;
 }
+
+@media screen and (max-width: 768px) {
+    .magazine__cards {
+        column-gap: 40px;
+    }
+    
+}

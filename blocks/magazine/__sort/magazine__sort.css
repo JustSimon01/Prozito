@@ -2,3 +2,9 @@
 margin: 62px auto auto;
 text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .magazine__sort {
+        margin-top: 24px;
+    }
+}

@@ -3,3 +3,17 @@
     border-radius: 50%;
     margin: 20px auto;
 }
+
+@media screen and (max-width: 768px) {
+    .magazine__card_exp_img {
+        max-width: 86px;
+        margin: 4px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .magazine__card_exp_img {
+        max-width: 160px;
+        margin: 12px auto;
+    }
+}

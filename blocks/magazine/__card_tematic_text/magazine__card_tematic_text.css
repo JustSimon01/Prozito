@@ -1,6 +1,13 @@
-.magazine__card_tematic_text {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    margin: 0 16px 24px
+@media  screen and (max-width: 768px) {
+    .magazine__card_tematic_text {
+        display: none;
+    }
+    
+}
+
+@media  screen and (max-width: 320px) {
+    .magazine__card_tematic_text {
+        display: block;
+    }
+    
 }

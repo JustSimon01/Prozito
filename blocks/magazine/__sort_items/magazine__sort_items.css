@@ -5,3 +5,9 @@
     justify-content: center;
     gap: 52px;
 }
+
+@media screen and (max-width: 768px) {
+    .magazine__sort_items {
+        margin-top: 16px;
+    }
+}

@@ -40,6 +40,9 @@
 @import url(../blocks/magazine/__sort_item/magazine__sort_item.css);
 @import url(../blocks/magazine/__sort_item/__sort_item_active/magazine__sort_item_active.css);
 
+
+/* для вставки карточек добавлять вот эти классы */
+
 @import url(../blocks/magazine/__cards/magazine__cards.css);
 @import url(../blocks/magazine/__card_exp/magazine__card_exp.css);
 @import url(../blocks/magazine/__card_exp_title/magazine__card_exp_title.css);
@@ -50,6 +53,8 @@
 @import url(../blocks/magazine/__card_tematic_name/magazine__card_tematic_name.css);
 @import url(../blocks/magazine/__card_tematic_text_container/magazine__card_tematic_text_container.css);
 @import url(../blocks/magazine/__card_tematic_text/magazine__card_tematic_text.css);
+
+/* счетчик страниц */
 
 @import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);
 @import url(../blocks/magazine/__cards_pages_count/magazine__cards_pages_count.css);

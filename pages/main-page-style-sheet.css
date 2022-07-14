@@ -69,9 +69,9 @@
 
 /*Прямоугольные кнопки*/
 @import url(../blocks/button-rectangle/button-rectangle.css);
-@import url(../blocks/button-rectangle/_color/button-rectangle_color_green.css);
-@import url(../blocks/button-rectangle/_color/button-rectangle_color_black.css);
-@import url(../blocks/button-rectangle/_color/button-rectangle_color_white.css);
+@import url(../blocks/button-rectangle/_style/button-rectangle_style_green.css);
+@import url(../blocks/button-rectangle/_style/button-rectangle_style_border-white.css);
+@import url(../blocks/button-rectangle/_style/button-rectangle_style_border-green.css);
 @import url(../blocks/button-rectangle/_state/button-rectangle_state_disabled.css);
 
 /*Стелка для прямоугольной кнопки*/

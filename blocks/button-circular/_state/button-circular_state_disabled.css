@@ -1,4 +1,0 @@
-.button-circular_state_disabled {
-	pointer-events: none; /*убирает эффекты :hover, :active и pointer...*/
-	opacity: 0.5;
-}

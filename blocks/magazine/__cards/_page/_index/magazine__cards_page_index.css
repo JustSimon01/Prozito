@@ -1,0 +1,4 @@
+.magazine__cards_page_index {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

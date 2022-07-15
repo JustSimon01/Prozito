@@ -19,6 +19,7 @@
        <li>Корпус</li>
        <li id="aboutProject" type="button">О проекте</li>
      </ul>
+
      <button class="header__menu-icon" type="button" id="menuButton"></button>
      <ul class="pop-up header__menu">
       <li>О прожито</li>
@@ -65,7 +66,7 @@
             </div>
             <div class="document-card__link-container">
                <p class="document-card__link-description">Подробнее</p>
-               <button class="button-circular"></button>
+               <button class="button-arrow_direction_right button-arrow_style_green"></button>
             </div>
          </div>
          <div class="document-card">
@@ -77,7 +78,7 @@
             </div>
             <div class="document-card__link-container">
                <p class="document-card__link-description">Узнать больше</p>
-               <button class="button-circular"></button>
+               <button class="button-arrow_direction_right button-arrow_style_green"></button>
             </div>
          </div>
          <div class="document-card">
@@ -88,7 +89,7 @@
             </div>
             <div class="document-card__link-container">
                <p class="document-card__link-description">Ознакомиться</p>
-               <button class="button-circular"></button>
+               <button class="button-arrow_direction_right button-arrow_style_green"></button>
             </div>
          </div>
          <div class="document-card">
@@ -99,10 +100,21 @@
             </div>
             <div class="document-card__link-container">
                <p class="document-card__link-description">Перейти к архиву</p>
-               <button class="button-circular"></button>
+               <button class="button-arrow_direction_right button-arrow_style_green"></button>
             </div>
          </div>
       </div>
+      
+      <a class="pop-up pop-up__mini pop-up_opened mini-pop-up__link" href="#">
+         <button class="button-close mini-pop-up__close-button" type="button"></button>
+         
+         <div class="mini-pop-up__container">
+            <h3 class="mini-pop-up__title">СПЕЦПРОЕКТ
+                  БЛОКАДА</h3>
+            <p class="mini-pop-up__text">Исследование блокадных дневников</p>
+         </div>
+      </a>
+      
    </section>
    <main>
       <section class="media media_news">
@@ -117,7 +129,7 @@
 
              <h3 class="media__content-header">Новые материалы</h3>
              <div class="media__content-buttons">
-               <button class="button-arrow_direction_left button-arrow_style_circle button-circular_state_disabled"></button>
+               <button class="button-arrow_direction_left button-arrow_style_circle button-arrow_state_disabled"></button>
                <button class="button-arrow_direction_right button-arrow_style_circle"></button>
              </div>    
 
@@ -197,18 +209,89 @@
 
              <h3 class="media__content-header">Новые материалы</h3>
              <div class="media__content-buttons">
-               <button class="dummy-button"></button>
-               <button class="dummy-button"></button>
+               <button class="button-arrow_direction_left button-arrow_style_circle button-arrow_state_disabled"></button>
+               <button class="button-arrow_direction_right button-arrow_style_circle"></button>
              </div>    
 
 
-            <div class="media__content-cards">
-              <div class="dummy-card"></div>
-              <div class="dummy-card"></div>
-             <div class="dummy-card"></div>
-             <div class="dummy-card"></div>
-             <div class="dummy-card"></div>
-            </div>   
+             <ul class="magazine__cards_page_index media__content-cards media__content-cards_news">
+               <li class="magazine__card_exp">
+                 <h3 class="text__h3 magazine__card_exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
+                 <img
+                   src="./images/magazine-news/magazine-news-zelenina.jpg"
+                   alt="картинка новости"
+                   srcset=""
+                   class="magazine__card_exp_img"
+                 />
+                 <p class="text__pt_sans_small">
+                   историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+                   РГГУ и ст. н. с. ШАГИ РАНХиГС
+                 </p>
+                 <p class="text__pt_sans_small magazine__card_exp_name">ОПЫТ ЧИТАТЕЛЯ</p>
+               </li>
+               <li class="magazine__card_tematic">
+                   <img src="./images/magazine-news/magazine-news-stalin.jpg" alt="" class="magazine__card_tematic_img">
+                 <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Тематическая подборка</p>
+                 <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Сталин умер</h3>
+                 <p class="text__pt_sans_middle text__color_white">
+                   Что теперь будет?! Как нам жить без него?
+                 </p>
+                 <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
+                   Все газеты впервые опубликовали портреты т.Сталина и многочисленные
+                   статьи. В них т.Сталин именуется вождём мирового пролетариата.
+                 </p>
+               </div>
+               </li>
+               <li class="magazine__card_tematic">
+                   <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card_tematic_img">
+                 <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
+                 <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Блокада</h3>
+                 <p class="text__pt_sans_middle text__color_white">Исследование блокадных дневников</p>
+                 <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
+                   В условиях катастрофического голода, холода, вражеских бомбардировок
+                   и обстрелов сотни тысяч людей оказались заперты в городе. У многих
+                   из них был доступ к бумаге и чернилам, и некоторые начали вести
+                   дневники.
+                 </p></div>
+               </li>
+               <li class="magazine__card_tematic">
+                   <img src="./images/magazine-news/magazine-news-stalin.jpg" alt="" class="magazine__card_tematic_img">
+                 <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Тематическая подборка</p>
+                 <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Сталин умер</h3>
+                 <p class="text__pt_sans_middle text__color_white">
+                   Что теперь будет?! Как нам жить без него?
+                 </p>
+                 <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
+                   Все газеты впервые опубликовали портреты т.Сталина и многочисленные
+                   статьи. В них т.Сталин именуется вождём мирового пролетариата.
+                 </p>
+               </div>
+               </li>
+               <li class="magazine__card_exp">
+                   <h3 class="text__h3 magazine__card_exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
+                   <img
+                     src="./images/magazine-news/magazine-news-zelenina.jpg"
+                     alt="картинка новости"
+                     class="magazine__card_exp_img"
+                   />
+                   <p class="text__pt_sans_small">
+                     историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+                     РГГУ и ст. н. с. ШАГИ РАНХиГС
+                   </p>
+                   <p class="text__pt_sans_small magazine__card_exp_name">ОПЫТ ЧИТАТЕЛЯ</p>
+                 </li>
+                 <li class="magazine__card_tematic">
+                   <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card_tematic_img">
+                 <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
+                 <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Блокада</h3>
+                 <p class="text__pt_sans_middle text__color_white">Исследование блокадных дневников</p>
+                 <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
+                   В условиях катастрофического голода, холода, вражеских бомбардировок
+                   и обстрелов сотни тысяч людей оказались заперты в городе. У многих
+                   из них был доступ к бумаге и чернилам, и некоторые начали вести
+                   дневники.
+                 </p></div>
+               </li>  
 
       </section>
 
@@ -271,7 +354,7 @@
       </ul>
     </div>
   </footer>
- 
+
  <script src="./scripts/index.js"></script>
 </body>
 

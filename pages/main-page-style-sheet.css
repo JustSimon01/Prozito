@@ -28,17 +28,26 @@
 @import url(../blocks/document-card/__paragraph/document-card__paragraph.css);
 @import url(../blocks/document-card/__link-description/document-card__link-description.css);
 
+/*текстовые переменные */
+@import url(../blocks/text/h1/text__h1.css);
+@import url(../blocks/text/h2/text__h2.css);
+@import url(../blocks/text/h3/text__h3.css);
+@import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
+@import url(../blocks/text/pt_sans_small/text__pt_sans_small.css);
+@import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
+@import url(../blocks/text/color/text__color_white.css);
+
+
 
 @import url(../blocks/news/news.css);
 
-@import url(../blocks/diary/diary.css);
+
 
 @import url(../blocks/search-banner/search-banner.css);
 @import url(../blocks/search-banner/__image/search-banner__image.css);
 @import url(../blocks/search-banner/__column-text/search-banner__column-text.css);
 @import url(../blocks/search-banner/__column-text/__text/search-banner__text.css);
 @import url(../blocks/search-banner/__column-text/__title/search-banner__title.css);
-@import url(../blocks/search-banner/search-banner__button.css);
 @import url(../blocks/search-banner/__buttons/search-banner__buttons.css);
 
 @import url(../blocks/media/media.css);
@@ -75,9 +84,14 @@
 @import url(../blocks/footer/__menu-block/footer__menu-block.css);
 @import url(../blocks/network-logo/network-logo.css);
 
+/*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
-@import url(../blocks/pop-up/pop-up_opend/pop-up_opend.css);
-/*dairy block*/
+
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
+
+@import url(../blocks/pop-up/__mini/pop-up__mini.css);
+
+/*dairy блок*/
 @import url(../blocks/diary/diary.css);
 @import url(../blocks/diary/__header/diary__header.css);
 @import url(../blocks/diary/__card-container/diary__card-container.css);
@@ -98,11 +112,33 @@
 /*Стелка для прямоугольной кнопки*/
 @import url(../blocks/button-rectangle/__arrow/button-rectangle__arrow.css);
 
-/*Кнопки круглые*/
-@import url(../blocks/button-circular/button-circular.css);
-@import url(../blocks/button-circular/_state/button-circular_state_disabled.css);
-
-/*Стрелки влево-вправо*/
+/*Стрелки влево-вправо и стили для них*/
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 @import url(../blocks/button-arrow/_style/button-arrow_style_circle.css);
+@import url(../blocks/button-arrow/_style/button-arrow_style_green.css);
+@import url(../blocks/button-arrow/_state/button-arrow_state_disabled.css);
+
+/* для вставки карточек добавлять вот эти классы */
+
+@import url(../blocks/magazine/__cards/magazine__cards.css);
+@import url(../blocks/magazine/__cards/_page/_index/magazine__cards_page_index.css);
+@import url(../blocks/magazine/__card_exp/magazine__card_exp.css);
+@import url(../blocks/magazine/__card_exp_title/magazine__card_exp_title.css);
+@import url(../blocks/magazine/__card_exp_img/magazine__card_exp_img.css);
+@import url(../blocks/magazine/__card_exp_name/magazine__card_exp_name.css);
+@import url(../blocks/magazine/__card_tematic/magazine__card_tematic.css);
+@import url(../blocks/magazine/__card_tematic_img/magazine__card_tematic_img.css);
+@import url(../blocks/magazine/__card_tematic_name/magazine__card_tematic_name.css);
+@import url(../blocks/magazine/__card_tematic_text_container/magazine__card_tematic_text_container.css);
+@import url(../blocks/magazine/__card_tematic_text/magazine__card_tematic_text.css);
+
+/*Кнопка закрыть(крестик)*/
+@import url(../blocks/button-close/button-close.css);
+
+/*mini-pop-up*/
+@import url(../blocks/mini-pop-up/__link/mini-pop-up__link.css);
+@import url(../blocks/mini-pop-up/__container/mini-pop-up__container.css);
+@import url(../blocks/mini-pop-up/__title/mini-pop-up__title.css);
+@import url(../blocks/mini-pop-up/__text/mini-pop-up__text.css);
+@import url(../blocks/mini-pop-up/__close-button/mini-pop-up__close-button.css);

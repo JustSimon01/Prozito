@@ -1,0 +1,15 @@
+.pop-up__menu{
+    position:absolute;
+    bottom: -38px;
+    right: 0;
+    padding: 0;
+    margin:0 10px 0 0;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    font-family: PT Sans, Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+}

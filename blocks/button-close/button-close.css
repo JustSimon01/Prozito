@@ -1,0 +1,14 @@
+.button-close {
+	width: 24px;
+	height: 24px;
+	background-image: url(../../../images/buttons/close_button.svg);
+	background-color: transparent;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	border: none;
+}
+
+.button-close:hover {
+	transform: scale(1.1);
+	transition: 0.2s ease-in;
+}

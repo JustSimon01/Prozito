@@ -53,10 +53,13 @@
 @import url(../blocks/footer/__menu-block/footer__menu-block.css);
 @import url(../blocks/network-logo/network-logo.css);
 
+/*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
 @import url(../blocks/pop-up/pop-up_opened/pop-up_opened.css);
-@import url(../blocks/pop-up/pop-up_menu/pop-up_menu.css);
-/*dairy block*/
+@import url(../blocks/pop-up/__menu/pop-up__menu.css);
+@import url(../blocks/pop-up/__mini/pop-up__mini.css);
+
+/*dairy блок*/
 @import url(../blocks/diary/diary.css);
 @import url(../blocks/diary/__header/diary__header.css);
 @import url(../blocks/diary/__card-container/diary__card-container.css);

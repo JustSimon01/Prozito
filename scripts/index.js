@@ -20,8 +20,8 @@ button.addEventListener('click', function(){
 });
 
 //мини-попап на заглавной (закрытие. поумолчанию открыт)
-const popupMini = document.querySelector('popup-sticky');
-const buttonMiniPopupClose = document.querySelector('popup-sticky__button-close');
+const popupMini = document.querySelector('.popup-sticky');
+const buttonMiniPopupClose = document.querySelector('.popup-sticky__button-close');
 
 buttonMiniPopupClose.addEventListener('click', function() {
     popupMini.classList.remove('pop-up_opened');

@@ -1,4 +1,4 @@
-.popup-sticky__button-close {
+.button-close {
 	width: 24px;
 	height: 24px;
 	background-image: url(../../../images/buttons/close_button.svg);
@@ -8,6 +8,7 @@
 	top: 0;
 	left: -24px;
 	cursor: pointer;
+	border: none;
 }
 
 .popup-sticky__button-close:hover {

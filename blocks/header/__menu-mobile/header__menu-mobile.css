@@ -1,5 +1,6 @@
 .header__menu-mobile{
     position: fixed;
+    z-index: 3;
     top: 0px;
     display: grid;
     grid-template-columns: minmax(310px, 615px);

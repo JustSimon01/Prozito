@@ -7,7 +7,7 @@
     margin:0 10px 0 0;
     flex-direction: row;
     gap: 40px;
-
+    z-index: 1;
     list-style: none;
     font-family: PT Sans, Sans;
     font-style: normal;

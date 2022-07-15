@@ -3,5 +3,10 @@
 	height: 36px;
 	border: 1px solid #323232;
 	border-radius: 50px;
-	margin-top: 100px;
+	cursor: pointer;
+}
+
+.button-arrow_style_circle:hover {
+	transform: scale(1.1);
+	transition: 0.2s ease-in-out;
 }

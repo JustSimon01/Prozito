@@ -6,25 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Журнал "Прожито"</title>
     <link rel="stylesheet" href="./pages/magazine.css" />
+    <link rel="stylesheet" href="./pages/header.css">
   </head>
   <body class="page__magazine">
     <header class="header">
       <div class="header__line">
-       <img class="logo logo_header" src="./images/logot/logo.svg">
+       <img class="logo" src="./images/logot/logo.svg">
        <ul class="header__navigation">
          <li>Архив</li>
          <li>Корпус</li>
          <li id="aboutProject" type="button">О проекте</li>
        </ul>
-       <ul class="pop-up pop-up__menu">
+  
+       <button class="header__menu-icon" type="button" id="menuButton"></button>
+       <ul class="pop-up header__menu">
         <li>О прожито</li>
         <li>Как работать?</li>
         <li>Медиа</li>
         <li>Новости</li>
         <li>Спецпроекты</li>
        </ul>
-    </div>
-    </header>
+      </div>
+      <div class="header__menu-mobile pop-up">
+        <div class="header">
+         <div class="header__line_menu-mobile">
+          <img class="logo" src="./images/logot/logo.svg">
+          <button class="header__menu-icon header__menu-icon_close" type="button" id="menuButton"></button>
+         </div>
+        </div>
+       <ul class="header__menu-mobile-blocks">
+         <li>Архив</li>
+         <li>Корпус</li>
+         <li>О проекте</li>
+       </ul>
+       <ul class="header__menu-mobile-blocks">
+         <li>О прожито</li>
+         <li>Как работать?</li>
+         <li>Медиа</li>
+         <li>Новости</li>
+         <li>Спецпроекты</li>
+        </ul>
+     </div>
+     </header>
     <main>
       <nav class="route">
         <a href="index.html" class="route__link text__pt_sans_middle"

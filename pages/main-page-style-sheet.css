@@ -3,19 +3,6 @@
 
 @import url(../blocks/main-page/main-page.css);
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/_color/_beige/header_color_beige.css);
-@import url(../blocks/header/__line/header__line.css);
-@import url(../blocks/header/__line/_menu-mobile/header__line_menu-mobile.css);
-@import url(../blocks/header/__navigation/header__navigation.css);
-@import url(../blocks/header/__menu-icon/header__menu-icon.css);
-@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
-@import url(../blocks/header/__menu-mobile-blocks/header__menu-mobile-blocks.css);
-@import url(../blocks/header/__menu-mobile/header__menu-mobile.css);
-@import url(../blocks/header/__menu/header_menu.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_header/logo_header.css);
-@import url(../blocks/logo/_footer/logo_footer.css);
 
 /*открытие и закрытие попапа с меню*/
 

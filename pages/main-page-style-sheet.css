@@ -4,11 +4,20 @@
 @import url(../blocks/main-page/main-page.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/_color/_none/header_color_none.css);
 @import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__line/_menu-mobile/header__line_menu-mobile.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
+@import url(../blocks/header/__menu-mobile-blocks/header__menu-mobile-blocks.css);
+@import url(../blocks/header/__menu-mobile/header__menu-mobile.css);
+@import url(../blocks/header/__menu/header_menu.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_header/logo_header.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
+
+/*открытие и закрытие попапа с меню*/
 
 @import url(../blocks/about-project/about-project.css);
 @import url(../blocks/about-project/__paragraph/about-project__paragraph.css);
@@ -68,7 +77,6 @@
 
 @import url(../blocks/pop-up/pop-up.css);
 @import url(../blocks/pop-up/pop-up_opend/pop-up_opend.css);
-@import url(../blocks/pop-up/pop-up_menu/pop-up_menu.css);
 /*dairy block*/
 @import url(../blocks/diary/diary.css);
 @import url(../blocks/diary/__header/diary__header.css);

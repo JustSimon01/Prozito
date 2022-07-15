@@ -1,12 +1,24 @@
 .header__line{
     position: relative;
     width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px;
     height: 50px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
     border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .header__line {
+        margin: 0 16px;
+     }
+}
+@media screen and (max-width: 615px) {
+    .header__line{
+        border-bottom: none;
+        height: 48px;
+        margin: 0 12px;
+        }
 }

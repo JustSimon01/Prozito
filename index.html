@@ -13,13 +13,36 @@
 
   <header class="header">
     <div class="header__line">
-     <img class="logo logo_header" src="./images/logot/logo.svg">
+     <img class="logo" src="./images/logot/logo.svg">
      <ul class="header__navigation">
        <li>Архив</li>
        <li>Корпус</li>
        <li id="aboutProject" type="button">О проекте</li>
      </ul>
-     <ul class="pop-up pop-up_menu">
+     <button class="header__menu-icon" type="button" id="menuButton"></button>
+     <ul class="pop-up header__menu">
+      <li>О прожито</li>
+      <li>Как работать?</li>
+      <li>Медиа</li>
+      <li>Новости</li>
+      <li>Спецпроекты</li>
+     </ul>
+    </div>
+   </header>
+
+  <div class="header__menu-mobile pop-up">
+     <div class="header header_color_none">
+      <div class="header__line_menu-mobile">
+       <img class="logo" src="./images/logot/logo.svg">
+       <button class="header__menu-icon header__menu-icon_close" type="button" id="menuButton"></button>
+      </div>
+     </div>
+    <ul class="header__menu-mobile-blocks">
+      <li>Архив</li>
+      <li>Корпус</li>
+      <li>О проекте</li>
+    </ul>
+    <ul class="header__menu-mobile-blocks">
       <li>О прожито</li>
       <li>Как работать?</li>
       <li>Медиа</li>
@@ -27,8 +50,8 @@
       <li>Спецпроекты</li>
      </ul>
   </div>
-  </header>
-  
+ 
+
    <section class="about-project">
       <p class="about-project__paragraph">Центр «Прожито» собирает, описывает и публикует документы личного
          происхождения и разрабатывает исследовательские инструменты для работы с ними. Материалы публикуются и
@@ -224,7 +247,7 @@
          <button class="special-projects__button button-rectangle button-rectangle_style_green">Все спецпроекты<img class="button-rectangle__arrow" src="images/buttons/arrow-right.svg"></button>
       </section>
    </main>
-   
+  
   <footer class="footer">
     <div class="footer__menu-block">
       <ul class="footer__menu text__pt_sans_middle">
@@ -248,6 +271,7 @@
       </ul>
     </div>
   </footer>
+ 
  <script src="./scripts/index.js"></script>
 </body>
 

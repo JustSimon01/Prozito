@@ -88,13 +88,3 @@
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 @import url(../blocks/button-arrow/_style/button-arrow_style_circle.css);
-
-/*Кнопка закрыть(крестик)*/
-@import url(../blocks/button-close/button-close.css);
-
-/*mini-pop-up*/
-@import url(../blocks/mini-pop-up/__link/mini-pop-up__link.css);
-@import url(../blocks/mini-pop-up/__container/mini-pop-up__container.css);
-@import url(../blocks/mini-pop-up/__title/mini-pop-up__title.css);
-@import url(../blocks/mini-pop-up/__text/mini-pop-up__text.css);
-@import url(../blocks/mini-pop-up/__close-button/mini-pop-up__close-button.css);

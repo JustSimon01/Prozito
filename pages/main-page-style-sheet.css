@@ -48,8 +48,14 @@
 
 
 /*карточка-пустышка и кнопка-пустышка, удаляем импорт и блок после добавления карточки и кнопки*/
-@import url(../blocks/media/dummy-card.css);
-@import url(../blocks/media/dummy-card_news.css);
+/* карточки */
+@import url(../blocks/card-news/card-news.css);
+@import url(../blocks/card-news/__data/card-news__data.css);
+@import url(../blocks/card-news/__image/card-news__image.css);
+@import url(../blocks/card-news/__tag/card-news__tag.css);
+@import url(../blocks/card-news/__text/card-news__text.css);
+@import url(../blocks/card-news/__time/card-news__time.css);
+@import url(../blocks/card-news/__link/card-news__link.css);
 @import url(../blocks/media/dummy-button.css);
 
 @import url(../blocks/special-projects/special-projects.css);

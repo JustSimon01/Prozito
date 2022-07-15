@@ -21,7 +21,7 @@
 @import url(../blocks/network-logo/network-logo.css);
 @import url(../blocks/pop-up/pop-up.css);
 @import url(../blocks/pop-up/pop-up_opend/pop-up_opend.css);
-@import url(../blocks/pop-up/pop-up_menu/pop-up_menu.css);
+@import url(../blocks/pop-up/pop-up_menu/pop-up__menu.css);
 
 @import url(../blocks/news-page/news-page.css);
 @import url(../blocks/news-page/__cards/news-page__cards.css);

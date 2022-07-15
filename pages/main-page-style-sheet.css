@@ -78,7 +78,7 @@
 
 /*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
-@import url(../blocks/pop-up/pop-up_opened/pop-up_opened.css);
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
 @import url(../blocks/pop-up/__menu/pop-up__menu.css);
 @import url(../blocks/pop-up/__mini/pop-up__mini.css);
 
@@ -103,14 +103,12 @@
 /*Стелка для прямоугольной кнопки*/
 @import url(../blocks/button-rectangle/__arrow/button-rectangle__arrow.css);
 
-/*Кнопки круглые*/
-@import url(../blocks/button-circular/button-circular.css);
-@import url(../blocks/button-circular/_state/button-circular_state_disabled.css);
-
-/*Стрелки влево-вправо*/
+/*Стрелки влево-вправо и стили для них*/
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 @import url(../blocks/button-arrow/_style/button-arrow_style_circle.css);
+@import url(../blocks/button-arrow/_style/button-arrow_style_green.css);
+@import url(../blocks/button-arrow/_state/button-arrow_state_disabled.css);
 
 /* для вставки карточек добавлять вот эти классы */
 

@@ -1,0 +1,10 @@
+.card-news__data {
+   grid-area: data;
+}
+
+@media screen and (max-width: 360px) {
+   .card-news__data {
+      display: flex;
+      justify-content: space-between;
+   }
+}

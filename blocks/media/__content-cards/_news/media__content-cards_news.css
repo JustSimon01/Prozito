@@ -1,0 +1,10 @@
+.media__content-cards_news{
+    padding: 0;
+    padding-bottom: 47px;
+}
+
+@media screen and (max-width:768px) {
+    .media__content-cards_news {
+        padding-bottom: 16px;
+    }
+}

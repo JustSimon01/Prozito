@@ -19,6 +19,16 @@
 @import url(../blocks/document-card/__paragraph/document-card__paragraph.css);
 @import url(../blocks/document-card/__link-description/document-card__link-description.css);
 
+/*текстовые переменные */
+@import url(../blocks/text/h1/text__h1.css);
+@import url(../blocks/text/h2/text__h2.css);
+@import url(../blocks/text/h3/text__h3.css);
+@import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
+@import url(../blocks/text/pt_sans_small/text__pt_sans_small.css);
+@import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
+@import url(../blocks/text/color/text__color_white.css);
+
+
 
 @import url(../blocks/news/news.css);
 
@@ -33,6 +43,19 @@
 @import url(../blocks/search-banner/__buttons/search-banner__buttons.css);
 
 @import url(../blocks/media/media.css);
+@import url(../blocks/media/__content-buttons/media__content-buttons.css);
+@import url(../blocks/media/__content-cards/media__content-cards.css);
+@import url(../blocks/media/__content-cards/_news/media__content-cards_news.css);
+@import url(../blocks/media/__content-header/media__content-header.css);
+@import url(../blocks/media/__title-block/media__title-block.css);
+@import url(../blocks/media/__title-header/media__title-header.css);
+@import url(../blocks/media/_news/media_news.css);
+
+
+/*карточка-пустышка и кнопка-пустышка, удаляем импорт и блок после добавления карточки и кнопки*/
+@import url(../blocks/media/dummy-card.css);
+@import url(../blocks/media/dummy-card_news.css);
+@import url(../blocks/media/dummy-button.css);
 
 @import url(../blocks/special-projects/special-projects.css);
 @import url(../blocks/special-projects/__title/special-projects__title.css);
@@ -88,3 +111,17 @@
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 @import url(../blocks/button-arrow/_style/button-arrow_style_circle.css);
+
+/* для вставки карточек добавлять вот эти классы */
+
+@import url(../blocks/magazine/__cards/magazine__cards.css);
+@import url(../blocks/magazine/__cards/_page/_index/magazine__cards_page_index.css);
+@import url(../blocks/magazine/__card_exp/magazine__card_exp.css);
+@import url(../blocks/magazine/__card_exp_title/magazine__card_exp_title.css);
+@import url(../blocks/magazine/__card_exp_img/magazine__card_exp_img.css);
+@import url(../blocks/magazine/__card_exp_name/magazine__card_exp_name.css);
+@import url(../blocks/magazine/__card_tematic/magazine__card_tematic.css);
+@import url(../blocks/magazine/__card_tematic_img/magazine__card_tematic_img.css);
+@import url(../blocks/magazine/__card_tematic_name/magazine__card_tematic_name.css);
+@import url(../blocks/magazine/__card_tematic_text_container/magazine__card_tematic_text_container.css);
+@import url(../blocks/magazine/__card_tematic_text/magazine__card_tematic_text.css);

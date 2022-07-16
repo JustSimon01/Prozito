@@ -23,35 +23,69 @@ button.addEventListener('click', function(){
 
 // Слайдер 
 
-const btnRigth = document.querySelectorAll('.button-arrow_direction_right')
-const btnLeft = document.querySelectorAll('.button-arrow_direction_left')
-const mediaCards = document.querySelectorAll('.media_content_cards')
+// Блок Новости
 
-let position = 0
+const newsBtnRigth = document.querySelector('.button_news_rigth');
+const newsBtnLeft = document.querySelector('.button_news_left');
+const newsCards = document.querySelector('.news_cards_index');
 
-btnRigth.forEach((btn) => {
-    
-    btn.addEventListener('click', () => {
-        if (position < document.querySelector('.magazine__cards_page_index').offsetWidth) {
-        position = position + 348;
-        document.querySelector('.magazine__cards_page_index').scrollTo(position, 0)
-        btnLeft.forEach((btn) => {
-            btn.classList.remove('button-circular_state_disabled');
-        });
+let positionNewsCards = 0
+let positionNewsShift = newsCards.offsetWidth / 2
+
+newsBtnRigth.addEventListener("click", () => {
+    if (positionNewsCards < newsCards.offsetWidth) {
+      positionNewsCards = positionNewsCards + positionNewsShift;
+      newsCards.scrollTo(positionNewsCards, 0);
+      newsBtnLeft.classList.remove("button-circular_state_disabled");
+    } else if ((positionNewsCards = newsCards.offsetWidth)) {
+      positionNewsCards = positionNewsCards + positionNewsShift;
+      newsCards.scrollTo(positionNewsCards, 0);
+      newsBtnRigth.classList.add("button-circular_state_disabled");
     }
+  });
+  
+ newsBtnLeft.addEventListener("click", () => {
+    if (positionNewsCards > positionNewsShift) {
+      positionNewsCards = positionNewsCards - positionNewsShift;
+      newsCards.scrollTo(positionNewsCards, 0);
+      newsBtnRigth.classList.remove("button-circular_state_disabled");
+    } else if (positionNewsCards <= positionNewsShift) {
+      positionNewsCards = positionNewsCards - positionNewsShift;
+      newsCards.scrollTo(positionNewsCards, 0);
+      newsBtnLeft.classList.add("button-circular_state_disabled");
+    }
+  });
 
-        else {
-            btn.closest.classList.add('button-circular_state_disabled')}
-    })
-    
-    })
 
+// Блок Журнал
 
-btnLeft.forEach((btn) => {
-    btn.addEventListener('click', () => {
-        if (position > 0) {
-        position = position - 348;
-        console.log(position);
-        document.querySelector('.magazine__cards_page_index').scrollTo(position, 0);}
-    })
-})
+const magazineBtnRigth = document.querySelector(".button_magazine_right");
+const magazineBtnLeft = document.querySelector(".button_magazine_left");
+const magazineCards = document.querySelector(".magazine__cards_page_index");
+
+let positionMagazineCards = 0;
+let positionMagazineShift = magazineCards.offsetWidth / 2;
+
+magazineBtnRigth.addEventListener("click", () => {
+  if (positionMagazineCards < magazineCards.offsetWidth) {
+    positionMagazineCards = positionMagazineCards + positionMagazineShift;
+    magazineCards.scrollTo(positionMagazineCards, 0);
+    magazineBtnLeft.classList.remove("button-circular_state_disabled");
+  } else if ((positionMagazineCards = magazineCards.offsetWidth)) {
+    positionMagazineCards = positionMagazineCards + positionMagazineShift;
+    magazineCards.scrollTo(positionMagazineCards, 0);
+    magazineBtnRigth.classList.add("button-circular_state_disabled");
+  }
+});
+
+magazineBtnLeft.addEventListener("click", () => {
+  if (positionMagazineCards > positionMagazineShift) {
+    positionMagazineCards = positionMagazineCards - positionMagazineShift;
+    magazineCards.scrollTo(positionMagazineCards, 0);
+    magazineBtnRigth.classList.remove("button-circular_state_disabled");
+  } else if (positionMagazineCards <= positionMagazineShift) {
+    positionMagazineCards = positionMagazineCards - positionMagazineShift;
+    magazineCards.scrollTo(positionMagazineCards, 0);
+    magazineBtnLeft.classList.add("button-circular_state_disabled");
+  }
+});

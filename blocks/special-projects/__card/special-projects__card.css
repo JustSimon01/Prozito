@@ -5,3 +5,15 @@
    background-color: #F7F4F0;
    max-width: 678px;
 }
+
+@media screen and (max-width: 768px) {
+   .special-projects__card {
+      flex-direction: column;
+   }
+}
+
+@media screen and (max-width:360px) {
+   .special-projects__card {
+      background: none;
+   }
+}

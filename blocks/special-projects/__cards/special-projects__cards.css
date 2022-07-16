@@ -1,5 +1,18 @@
 .special-projects__cards {
    display: flex;
-   justify-content: space-between;
+   gap: 20px;
+}
 
+@media screen and (max-width: 768px) {
+   .special-projects__cards {
+      gap: 14px;
+   }   
+}
+
+@media screen and (max-width: 360px) {
+   .special-projects__cards {
+      gap: 24px;
+      flex-direction: column;
+      align-items: baseline;
+   }   
 }

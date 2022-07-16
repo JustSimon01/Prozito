@@ -8,6 +8,8 @@
     height: fit-content;
     padding-bottom: 16px;
     list-style: none;
+    transition: all ease-in-out 0.2s;
+    scroll-behavior: smooth
 }
 
 .media__content-cards::-webkit-scrollbar {

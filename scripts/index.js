@@ -58,11 +58,11 @@ newsBtnRigth.addEventListener("click", () => {
     if (positionNewsCards < newsCards.offsetWidth) {
       positionNewsCards = positionNewsCards + positionNewsShift;
       newsCards.scrollTo(positionNewsCards, 0);
-      newsBtnLeft.classList.remove("button-circular_state_disabled");
+      newsBtnLeft.classList.remove("button-arrow_state_disabled");
     } else if ((positionNewsCards = newsCards.offsetWidth)) {
       positionNewsCards = positionNewsCards + positionNewsShift;
       newsCards.scrollTo(positionNewsCards, 0);
-      newsBtnRigth.classList.add("button-circular_state_disabled");
+      newsBtnRigth.classList.add("button-arrow_state_disabled");
     }
   });
   
@@ -70,11 +70,11 @@ newsBtnRigth.addEventListener("click", () => {
     if (positionNewsCards > positionNewsShift) {
       positionNewsCards = positionNewsCards - positionNewsShift;
       newsCards.scrollTo(positionNewsCards, 0);
-      newsBtnRigth.classList.remove("button-circular_state_disabled");
+      newsBtnRigth.classList.remove("button-arrow_state_disabled");
     } else if (positionNewsCards <= positionNewsShift) {
       positionNewsCards = positionNewsCards - positionNewsShift;
       newsCards.scrollTo(positionNewsCards, 0);
-      newsBtnLeft.classList.add("button-circular_state_disabled");
+      newsBtnLeft.classList.add("button-arrow_state_disabled");
     }
   });
 
@@ -92,11 +92,11 @@ magazineBtnRigth.addEventListener("click", () => {
   if (positionMagazineCards < magazineCards.offsetWidth) {
     positionMagazineCards = positionMagazineCards + positionMagazineShift;
     magazineCards.scrollTo(positionMagazineCards, 0);
-    magazineBtnLeft.classList.remove("button-circular_state_disabled");
+    magazineBtnLeft.classList.remove("button-arrow_state_disabled");
   } else if ((positionMagazineCards = magazineCards.offsetWidth)) {
     positionMagazineCards = positionMagazineCards + positionMagazineShift;
     magazineCards.scrollTo(positionMagazineCards, 0);
-    magazineBtnRigth.classList.add("button-circular_state_disabled");
+    magazineBtnRigth.classList.add("button-arrow_state_disabled");
   }
 });
 
@@ -104,10 +104,10 @@ magazineBtnLeft.addEventListener("click", () => {
   if (positionMagazineCards > positionMagazineShift) {
     positionMagazineCards = positionMagazineCards - positionMagazineShift;
     magazineCards.scrollTo(positionMagazineCards, 0);
-    magazineBtnRigth.classList.remove("button-circular_state_disabled");
+    magazineBtnRigth.classList.remove("button-arrow_state_disabled");
   } else if (positionMagazineCards <= positionMagazineShift) {
     positionMagazineCards = positionMagazineCards - positionMagazineShift;
     magazineCards.scrollTo(positionMagazineCards, 0);
-    magazineBtnLeft.classList.add("button-circular_state_disabled");
+    magazineBtnLeft.classList.add("button-arrow_state_disabled");
   }
 });

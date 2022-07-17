@@ -4,9 +4,9 @@
 	border: 1px solid #323232;
 	border-radius: 50px;
 	cursor: pointer;
+	transition: 0.2s ease-in-out;
 }
 
 .button-arrow_style_circle:hover {
 	transform: scale(1.1);
-	transition: 0.2s ease-in-out;
 }

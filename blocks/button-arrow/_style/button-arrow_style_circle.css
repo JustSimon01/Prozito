@@ -10,3 +10,10 @@
 	transform: scale(1.1);
 	transition: 0.2s ease-in-out;
 }
+
+@media screen and (max-width: 1087px) {
+    .button-arrow_style_circle{
+		width: 32px;
+		height: 32px;
+        }
+}

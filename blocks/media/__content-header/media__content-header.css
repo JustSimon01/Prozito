@@ -13,3 +13,19 @@ font-size: 46px;
 line-height: 120%;
 color: #323232;
 }
+
+@media screen and (max-width: 806px) {
+    .media__content-header{
+        font-size: 30px;
+        line-height: 37px;
+        padding:16px 0 0 15px;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .media__content-header{
+        display: none;
+    }
+    
+  }

@@ -53,7 +53,7 @@
    </header>
 
 
- 
+
 
    <section class="about-project">
       <p class="about-project__paragraph">Центр «Прожито» собирает, описывает и публикует документы личного
@@ -120,12 +120,23 @@
    </section>
    <main>
       <section class="media media_news">
-         <div class="media__title-block">
-            <h2 class="media__title-header">Новости<br> и события</h2>
-            <button class="button-rectangle button-rectangle_style_border-white">
-              Ко всем новостям
-              <img class="button-rectangle__arrow" src="./images/buttons/arrow-right-white.svg">
-            </button>
+
+         <div class="media__title-block media__title-block_news">
+            <h2 class="media__title-header media__title-header_news">Новости и&nbsp;события</h2>
+            <div class="media__title-button-desktop">
+             <button class="button-rectangle button-rectangle_style_border-white">
+               Ко всем новостям
+               <img class="button-rectangle__arrow" src="./images/buttons/arrow-right-white.svg">
+             </button>
+            </div>
+            <p class="media__title-button-tablet">
+               Ко всем новостям
+               <button class="button-arrow_direction_right button-arrow_style_green"></button>
+            </p>
+            <p class="media__title-button-mobile">
+               Ко всем новостям
+               <button class="button-arrow_direction_right"></button>
+            </p>
          </div>
        
 
@@ -157,8 +168,8 @@
                      <img src="./images/card-news/card-news_redbook.jpg" alt="" class="card-news__image">
                      <p class="card-news__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
                         лабораторию, посвящённую работе с дембельскими альбомами</p>
-                  </a>
-               </li>
+                  </a>                
+               </li>   
                <li class="card-news">
                   <a href="#" class="card-news__link">
                      <div class="card-news__data">
@@ -259,24 +270,36 @@
             </div>
          </div>
       </section>
-   
+
       <section class="media">
          <div class="media__title-block">
             <h2 class="media__title-header">Журнал "Прожито"</h2>
-            <button class="button-rectangle button-rectangle button-rectangle_style_border-white">
-              Перейти к журналу
-              <img class="button-rectangle__arrow" src="./images/buttons/arrow-right-white.svg">
-            </button>
+            <div class="media__title-button-desktop">
+              <button class="button-rectangle button-rectangle_style_border-white">
+                Перейти к журналу
+                <img class="button-rectangle__arrow" src="./images/buttons/arrow-right-white.svg">
+              </button>
+            </div>
+            
+               <p class="media__title-button-tablet">
+                  Посмотреть всю подборку
+                  <button class="button-arrow_direction_right button-arrow_style_green"></button>
+               </p>
+               <p class="media__title-button-mobile">
+                  Посмотреть всю подборку
+                  <button class="button-arrow_direction_right"></button>
+               </p>
+            </div>
+               
          </div>
-       
-
              <h3 class="media__content-header">Новые материалы</h3>
              <div class="media__content-buttons">
                <button class="button_magazine_left button-arrow_direction_left button-arrow_style_circle button-arrow_state_disabled"></button>
                <button class="button_magazine_right button-arrow_direction_right button-arrow_style_circle"></button>
              </div>    
 
-             <ul class="magazine__cards_page_index media__content-cards media__content-cards_news">
+
+             <ul class="media__content-cards">
                <li class="magazine__card_exp">
                  <h3 class="text__h3 magazine__card_exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
                  <img
@@ -302,8 +325,8 @@
                    Все газеты впервые опубликовали портреты т.Сталина и многочисленные
                    статьи. В них т.Сталин именуется вождём мирового пролетариата.
                  </p>
-               </div>
-               </li>
+               </div>   
+               </li>      
                <li class="magazine__card_tematic">
                    <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card_tematic_img">
                  <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
@@ -353,8 +376,9 @@
                    из них был доступ к бумаге и чернилам, и некоторые начали вести
                    дневники.
                  </p></div>
-               </li> 
-
+               </li>  
+             </ul>
+             
       </section>
 
       <section class="special-projects">
@@ -392,7 +416,6 @@
          <button class="special-projects__button button-rectangle button-rectangle_style_green">Все спецпроекты<img class="button-rectangle__arrow" src="images/buttons/arrow-right.svg"></button>
       </section>
    </main>
-  
   <footer class="footer">
     <div class="footer__menu-block">
       <ul class="footer__menu text__pt_sans_middle">

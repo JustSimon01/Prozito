@@ -10,6 +10,11 @@
       padding: 12px 8px;
       margin: 0;
       height: 100%;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   .special-projects__column-text {
       border: 1px solid #A5CDAB;
    }
 }

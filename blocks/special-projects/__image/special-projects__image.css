@@ -7,7 +7,6 @@
 
 @media screen and (max-width: 768px) {
    .special-projects__image {
-      min-width: 359px;
       max-height: 182px;
       min-height: 182px;
       object-position: top;
@@ -16,7 +15,6 @@
 
 @media screen and (max-width: 360px) {
    .special-projects__image {
-      min-width: 336px;
       max-height: 200px;
       min-height: 200px;
       object-position: top;

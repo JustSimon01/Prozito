@@ -19,6 +19,6 @@
 	.diary__card {
 		width: 276px;
 		height: 360px;
-		scroll-snap-align: start;
+		/*padding-top: 16px;*/
 	}
 }

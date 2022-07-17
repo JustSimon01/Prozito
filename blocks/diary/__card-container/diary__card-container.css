@@ -1,11 +1,37 @@
 .diary__card-container {
 	width: 100%;
-	height: 428px;
 	display: flex;
 	justify-content: center;
-	gap: 80px;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 75px;
 	margin-top: auto;
+	gap: 80px;
+}
+
+@media (max-width: 1143px) {
+	.diary__card-container {
+		gap: 50px;
+	}
+}
+
+@media (max-width: 816px) {
+	.diary__card-container {
+		gap: 20px;
+	}
+}
+
+@media (max-width: 734px) {
+	.diary__card-container {
+		gap: 12px;
+	}
+}
+
+@media (max-width: 550px) {
+	.diary__card-container {
+		flex-direction: row;
+		min-width: 852px;
+		margin-left: 41px;
+		scroll-snap-type: y mandatory;
+	}
 }

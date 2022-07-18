@@ -1,6 +1,6 @@
 .button-rectangle {
-	width: 329px;
-	height: 60px;
+	min-width: 329px;
+	min-height: 50px;
 	border-radius: 8px;
 	border: none;
 	padding: 0;
@@ -14,4 +14,24 @@
 	font-size: 20px;
 	line-height: 26px;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+	.button-rectangle {
+		min-width: calc(237px + (329 - 237) * ((100vw - 768px) / (1000 - 768)));
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.button-rectangle {
+		min-width: 237px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.button-rectangle {
+		min-width: 335px;
+	}
 }

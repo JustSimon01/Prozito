@@ -1,0 +1,13 @@
+.header__navigation-element{
+  display: block;
+    padding: 12px 10px;
+    color: #323232;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.5s ease-in-out;
+}
+
+.header__navigation-element:hover{
+  cursor: pointer;
+  border-bottom: 1px solid #323232;
+}

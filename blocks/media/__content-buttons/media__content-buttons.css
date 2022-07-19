@@ -10,3 +10,16 @@
     gap: 12px;
     height: 100%;
 }
+
+@media screen and (max-width: 806px) {
+    .media__content-buttons{
+        padding: 16px 18px 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .media__content-buttons{
+        display: none;
+    }
+    }

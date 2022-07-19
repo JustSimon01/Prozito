@@ -6,7 +6,8 @@
     padding: 0;
     margin:0 10px 0 0;
     flex-direction: row;
-    gap: 40px;
+    width: 611px;
+    justify-content: space-between;
     z-index: 1;
     list-style: none;
     font-family: PT Sans, Sans;
@@ -14,12 +15,12 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
+    transition: all ease-in-out 0.3s;
 }
 
 @media screen and (max-width: 768px) {
     .header__menu{
-
-
+        width: 456px;
         font-size: 14px;
         line-height: 18px;
 

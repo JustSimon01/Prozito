@@ -14,3 +14,17 @@
 .button-arrow_style_green:active {
 	background-color: #7A9F80; /*И этого не было*/
 }
+
+@media screen and (max-width: 1087px) {
+    .button-arrow_style_green{
+		width: 32px;
+		height: 32px;
+        }
+}
+
+@media screen and (max-width: 1087px) {
+    .button-arrow_style_green{
+		width: 50px;
+		height: 50px;
+        }
+}

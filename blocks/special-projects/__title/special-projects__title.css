@@ -7,3 +7,17 @@
    color: #323232;
    margin: 0 0 41px;
 }
+
+@media screen and (max-width: 768px) {
+   .special-projects__title {
+      font-size: 30px;
+      line-height: 37px;
+      margin: 0 0 25px;
+   }
+}
+
+@media screen and (max-width: 360px){
+   .special-projects__title {
+      text-align: left;
+   }
+}

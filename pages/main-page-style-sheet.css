@@ -32,9 +32,8 @@
 
 @import url(../blocks/search-banner/search-banner.css);
 @import url(../blocks/search-banner/__image/search-banner__image.css);
-@import url(../blocks/search-banner/__column-text/search-banner__column-text.css);
-@import url(../blocks/search-banner/__column-text/__text/search-banner__text.css);
-@import url(../blocks/search-banner/__column-text/__title/search-banner__title.css);
+@import url(../blocks/search-banner/__text/search-banner__text.css);
+@import url(../blocks/search-banner/__title/search-banner__title.css);
 @import url(../blocks/search-banner/__buttons/search-banner__buttons.css);
 
 @import url(../blocks/media/media.css);

@@ -1,3 +1,20 @@
 .search-banner__image {
+   width: 100%;
    max-height: 440px;
+   object-fit: cover;
+   grid-area: img;
+}
+
+@media screen and (max-width: 768px) { 
+   .search-banner__image {
+      max-height: 260px;
+      width: auto;
+   }
+}
+
+@media screen and (max-width: 360px) { 
+   .search-banner__image {
+      max-width: 164px;
+      min-height: 258px;
+   }
 }

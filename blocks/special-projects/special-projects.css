@@ -1,5 +1,15 @@
 .special-projects {
-    height: 531px;
-    width: 1376px;
-    margin: 56px auto 72px;
+    margin: 56px 32px 72px;
+}
+
+@media screen and (max-width: 768px) {
+    .special-projects {
+        margin: 32px 16px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .special-projects {
+        margin: 32px 11px 28px;
+    }
 }

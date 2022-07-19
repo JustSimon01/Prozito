@@ -1,0 +1,269 @@
+/*глобальные стили*/
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/main-page/main-page.css);
+/*шапка*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_tip-color/header_tip-color.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_header/logo_header.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+/*шапка*/
+/*шапка*/
+/*шапка*/
+/*шапка*/
+/*шапка*/
+/*подвал*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/network-logo/network-logo.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+/*шапка*/
+/*шапка*/
+.main {
+    margin: 0 auto;
+    width: 678px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__subtitle {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 25px;
+}
+
+.main__title {
+    font-family: 'WF', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55px;
+    width: 674px;
+    margin: 0 auto;
+    border-bottom: 1px solid #3A543E;
+    padding-bottom: 15px;
+}
+
+.main__chapter {
+    font-family: 'WF','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    width: 125px;
+    color: #323232;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.main__text {
+    font-family: 'PT Sans', 'Arial', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 676px;
+    padding-top: 35px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main__quote {
+    font-family: 'WF','Arial', sans-serif;;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #3A543E;
+    width: 676px;
+    margin: 33px auto 0;
+    padding-left: 10px;
+    border-left: 2px solid #3A543E;;
+}
+
+.main__img {
+    width: 910px;
+    height: 520px;
+    background-color: #F7F4F0;
+    margin-top: 25px;
+    align-self: center;
+    background-image: url(../images/type-page/type_page-1938.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 235px 461px;
+}
+
+.main__img_two {
+    background-image: url(../images/type-page/type_page-1937.jpg);
+    background-size: 569px 397px;
+}
+
+.main__name {
+    font-family: 'PT Sans','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 562px;
+    border-bottom: 1px solid rgba(12, 6, 38, 0.7);;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 0 0 auto;
+}
+
+.main__video {
+    width: 678px;
+    height: 379px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 28px;
+    background-image: url(../images/type-page/type_page-video_player.svg);
+}
+
+.main__dialogs {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 678px;
+    margin: 0 auto;
+}
+
+.main__dialog {
+    margin: 0;
+}
+
+.main__messaghe {
+    display: block;
+    margin: 32px auto 0;
+}
+
+.main__gallery {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 678px;
+    border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+}
+
+.notion {
+    width: 329px;
+    height: 93px;
+    background-color: #F7F4F0;;
+    position: absolute;
+    right: 30px;
+    top: 880px;
+
+}
+
+.notion__title {
+    font-family: 'WF', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #323232;
+    margin: 0;
+    margin-top: 13px;
+    margin-left: 12px;
+}
+
+.notion__subtitle {
+    font-family: 'WF', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.notion__close {
+    display: block;
+    background-image: url(../images/type-page/closebutton.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .0);
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+
+.notion__close:hover {
+    opacity: 0.6;
+}
+
+.chapter {
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    transform: rotate(-90deg);
+    top: 389px;
+
+}
+
+.chapter__text {
+    font-family: 'WF','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #323232;
+    margin: 0;
+}
+
+.chapters {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #E7E4DE;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.chapters__title {
+    font-family: 'WF','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    width: 926px;
+    padding-bottom: 46px;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.5);
+    margin: 0 auto;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.chapters__title:first-of-type {
+    margin-top: 170px;
+}

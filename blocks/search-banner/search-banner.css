@@ -3,15 +3,35 @@
     background-color: #F7F4F0;
     padding: 56px 116px 64px;
     box-sizing: border-box;
-    display: flex;
+    display: grid;
+    grid-template-areas: 
+    "img title"
+    "img text"
+    "img btn";
     justify-content: space-between;
+    grid-template-rows: 0fr 1fr 0fr;
+    gap: 0 10px;
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1155px) {
     .search-banner {
-        margin: auto;
+        margin: auto 0;
         padding: 20px;
     }
+}
 
+@media screen and (max-width: 600px) {
+    .search-banner {
+        grid-template-areas: 
+        "title"
+        "img"
+        "text"
+        "btn";
+        grid-template-rows: auto;
+        justify-items: center;
+        padding: 20px 12px;
+        gap: 16px;
+        justify-content: center;
+    }
 }

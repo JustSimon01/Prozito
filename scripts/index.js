@@ -51,10 +51,57 @@ const newsBtnRigth = document.querySelector('.button_news_rigth');
 const newsBtnLeft = document.querySelector('.button_news_left');
 const newsCards = document.querySelector('.news_cards_index');
 
-let positionNewsCards = 0
-let positionNewsShift = newsCards.offsetWidth / 2
+let positionNewsCards = 0;
+let positionNewsShift = newsCards.offsetWidth / 2;
 
-newsBtnRigth.addEventListener("click", () => {
+const magazineBtnRigth = document.querySelector(".button_magazine_right");
+const magazineBtnLeft = document.querySelector(".button_magazine_left");
+const magazineCards = document.querySelector(".magazine__cards_page_index");
+
+let positionMagazineCards = 0;
+let positionMagazineShift = magazineCards.offsetWidth / 2;
+
+
+
+
+function cardsMoveRight(positionCards, cardsName, shift, btnLeft, btnRight) {
+    console.log(positionCards)
+  if (positionCards < cardsName.offsetWidth) {
+    positionCards = positionCards + shift;
+    console.log(positionCards)
+    cardsName.scrollTo(positionCards, 0);
+    btnLeft.classList.remove("button-arrow_state_disabled");
+    return positionCards
+  } else if (positionCards = cardsName.offsetWidth) {
+    positionCards = positionCards + shift;
+    cardsName.scrollTo(positionCards, 0);
+    btnRight.classList.add("button-arrow_state_disabled");
+    console.log("else if");
+    return positionCards
+  }
+}
+
+function cardsMoveLeft(positionCards, cardsName, shift, btnLeft, btnRight) {
+  if (positionCards > shift) {
+    positionCards = positionCards - shift;
+    cardsName.scrollTo(positionCards, 0);
+    btnRight.classList.remove("button-arrow_state_disabled");
+    return positionCards
+  } else if (positionCards <= shift) {
+    positionCards = positionCards - shift;
+    cardsName.scrollTo(positionCards, 0);
+    btnLeft.classList.add("button-arrow_state_disabled");
+    return positionCards
+  }
+}
+
+newsBtnRigth.addEventListener('click', () => cardsMoveRight(positionNewsCards, newsCards, positionNewsShift, newsBtnLeft, newsBtnRigth));
+newsBtnLeft.addEventListener('click', () => cardsMoveLeft(positionNewsCards, newsCards, positionNewsShift, newsBtnLeft, newsBtnRigth))
+
+magazineBtnRigth.addEventListener('click', () => cardsMoveRight(positionMagazineCards, magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth));
+magazineBtnLeft.addEventListener('click', () => cardsMoveLeft(positionMagazineCards, magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
+
+/*newsBtnRigth.addEventListener("click", () => {
     if (positionNewsCards < newsCards.offsetWidth) {
       positionNewsCards = positionNewsCards + positionNewsShift;
       newsCards.scrollTo(positionNewsCards, 0);
@@ -111,3 +158,4 @@ magazineBtnLeft.addEventListener("click", () => {
     magazineBtnLeft.classList.add("button-arrow_state_disabled");
   }
 });
+*/

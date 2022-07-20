@@ -10,3 +10,17 @@
 	color: #323232;
 	margin: 56px auto 40px;
 }
+
+@media (max-width: 734px) {
+	.diary__header {
+		font-size: 30px;
+		line-height: 37px;
+	}
+}
+
+@media (max-width: 550px) {
+	.diary__header { 
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+}

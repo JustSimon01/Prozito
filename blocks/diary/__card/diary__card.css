@@ -7,3 +7,18 @@
 	position: relative;
 	background-color: #E7E4DE;
 }
+
+@media (max-width: 1080px) {
+	.diary__card {
+		width: 238px;
+		height: 360px;
+	}
+}
+
+@media (max-width: 550px) {
+	.diary__card {
+		width: 276px;
+		height: 360px;
+		/*padding-top: 16px;*/
+	}
+}

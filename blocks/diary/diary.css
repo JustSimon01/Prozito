@@ -1,4 +1,18 @@
 .diary{
   height: 654px;
   width: 100%;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .diary {
+    max-width: 734px;
+  }
+}
+
+@media (max-width: 550px) {
+  .diary {
+    height: 486px;
+    margin-top: 24px;
+  }
 }

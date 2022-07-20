@@ -8,3 +8,12 @@
 	padding: 8px 32px;
 	box-sizing: border-box;
 }
+
+@media (max-width: 1080px) {
+	.diary__card-label {
+		height: 24px;
+		top: -12px;
+		border-radius: 4px;
+		padding: 4px 12px;
+	}
+}

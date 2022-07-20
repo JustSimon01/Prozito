@@ -1,5 +1,24 @@
-.search-banner__buttons {
-	width: 678px; /*Поставил ширину блока кнопок, потому что блок ужат до размера блока в котором лежат кнопки. Ширина = кнопка + кнопка + отступ 20px. По идее ширину можно задать в __column-text. Пока работает и так, как надо.*/
+.search-banner__buttons { 
 	display: flex;
-	justify-content: space-between;
+	gap: 20px;
+   grid-area: btn;
+}
+
+@media screen and (max-width: 768px) {
+	.search-banner__buttons {
+		gap: 12px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.search-banner__buttons {
+		flex-direction: column-reverse;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.search-banner__buttons {
+		
+		gap: 16px;
+	}
 }

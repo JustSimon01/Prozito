@@ -2,14 +2,9 @@
 	width: 100%;
 }
 
-.diary__card-container::-webkit-scrollbar {
-	width: 0;
-}
-
 @media (max-width: 550px) {
 	.diary__card-container {
 		padding-top: 14px;
 		overflow: scroll;
 	}
-	
 }

@@ -8,12 +8,6 @@
 	width: 0;
 }
 
-/*@media (max-width: 1080px) {
-  .diary {
-    height: 486px;
-  }
-}*/
-
 @media (max-width: 768px) {
   .diary {
     max-width: 734px;

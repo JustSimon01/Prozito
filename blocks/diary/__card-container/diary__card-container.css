@@ -3,6 +3,12 @@
 	margin-bottom: 75px;
 }
 
+@media (max-width: 768px) {
+	.diary__card-container {
+		margin-bottom: 32px;
+	}
+}
+
 @media (max-width: 550px) {
 	.diary__card-container {
 		padding-top: 14px;

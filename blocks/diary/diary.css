@@ -1,5 +1,4 @@
 .diary{
-  height: 654px;
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -9,11 +8,11 @@
 	width: 0;
 }
 
-@media (max-width: 1080px) {
+/*@media (max-width: 1080px) {
   .diary {
     height: 486px;
   }
-}
+}*/
 
 @media (max-width: 768px) {
   .diary {

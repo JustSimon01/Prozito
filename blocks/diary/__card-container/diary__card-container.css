@@ -1,5 +1,12 @@
 .diary__card-container {
 	width: 100%;
+	margin-bottom: 75px;
+}
+
+@media (max-width: 768px) {
+	.diary__card-container {
+		margin-bottom: 32px;
+	}
 }
 
 @media (max-width: 620px) {

@@ -102,6 +102,7 @@
 @import url(../blocks/diary/__card-image/diary__card-image.css);
 @import url(../blocks/diary/__card-text/diary__card-text.css);
 @import url(../blocks/diary/__navigation/diary__navigation.css);
+@import url(../blocks/diary/__navigation-item/_state/diary__navigation-item_state_active.css);
 @import url(../blocks/diary/__navigation-item/diary__navigation-item.css);
 @import url(../blocks/diary/__card-items/diary__card-items.css);
 

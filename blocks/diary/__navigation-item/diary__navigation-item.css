@@ -5,7 +5,3 @@
 	background-color: #A5CDAB;
 	cursor: pointer;
 }
-
-.diary__navigation-item:checked {
-	background-color: #3A543E;
-}

@@ -1,5 +1,5 @@
 .footer__menu-block{
-    padding: 0;
+    padding: 32px 0 35px;
     margin:0;
     display: flex;
     flex-direction: row;
@@ -8,4 +8,16 @@
     height: 100%;
     border-top: 1px solid rgba(50, 50, 50, 0.3);
     border-bottom: 1px solid rgba(50, 50, 50, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .footer__menu-block{
+        padding: 24px 0 28px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .footer__menu-block{
+        padding: 24px 0 24px;
+    }
 }

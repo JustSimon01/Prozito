@@ -2,6 +2,7 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
+@import url(../blocks/text/h1/text__h1.css);
 @import url(../blocks/news-page/__route/news-page__route.css);
 
 @import url(../blocks/route/route.css);
@@ -21,8 +22,8 @@
 @import url(../blocks/footer/__menu-block/footer__menu-block.css);
 @import url(../blocks/network-logo/network-logo.css);
 @import url(../blocks/pop-up/pop-up.css);
-@import url(../blocks/pop-up/pop-up_opened/pop-up_opened.css);
-@import url(../blocks/pop-up/pop-up_menu/pop-up__menu.css);
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
+@import url(../blocks/pop-up/__mini/pop-up__mini.css);
 
 @import url(../blocks/news-page/news-page.css);
 @import url(../blocks/news-page/__cards/news-page__cards.css);

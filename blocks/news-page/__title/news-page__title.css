@@ -1,7 +1,11 @@
 .news-page__title {
    text-align: center;
-   font-size: 46px;
-   line-height: 60px;
    margin: 42px 0 62px;
-   font-weight: 400;
+}
+
+@media screen and (max-width: 620px) {
+   .news-page__title {
+      margin: 20px 0 26px;
+   }
+   
 }

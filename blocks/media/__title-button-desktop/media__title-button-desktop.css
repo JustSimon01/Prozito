@@ -11,7 +11,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1087px) {
+@media screen and (max-width: 930px) {
     .media__title-button-desktop{
         display: none;
         }

@@ -4,7 +4,7 @@
 	height: 8px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 620px) {
 	.diary__navigation {
 		display: flex;
 		justify-content: space-between;

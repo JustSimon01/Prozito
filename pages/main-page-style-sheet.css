@@ -2,6 +2,8 @@
 @import url(../vendor/fonts.css);
 
 @import url(../blocks/main-page/main-page.css);
+@import url(../blocks/main-page/__search-banner/main-page__search-banner.css);
+@import url(../blocks/main-page/__special-projects/main-page__special-projects.css);
 
 
 /*открытие и закрытие попапа с меню*/
@@ -61,7 +63,6 @@
 @import url(../blocks/card-news/__text/card-news__text.css);
 @import url(../blocks/card-news/__time/card-news__time.css);
 @import url(../blocks/card-news/__link/card-news__link.css);
-@import url(../blocks/media/dummy-button.css);
 
 @import url(../blocks/special-projects/special-projects.css);
 @import url(../blocks/special-projects/__title/special-projects__title.css);

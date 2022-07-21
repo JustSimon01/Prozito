@@ -30,8 +30,15 @@
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:768px) and (min-width: 620px) {
 	.button-rectangle {
-		min-width: 335px;
+		min-width: calc(182px + (237 - 182) * ((100vw - 620px) / (768 - 620)));
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.button-rectangle {
+		width: 100%;
+		min-width: 0;
 	}
 }

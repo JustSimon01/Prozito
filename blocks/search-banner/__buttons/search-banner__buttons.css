@@ -10,15 +10,9 @@
 	}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 620px) {
 	.search-banner__buttons {
 		flex-direction: column-reverse;
-	}
-}
-
-@media screen and (max-width: 360px) {
-	.search-banner__buttons {
-		
 		gap: 16px;
 	}
 }

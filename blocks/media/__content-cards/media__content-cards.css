@@ -27,7 +27,7 @@
   }
 
 
-  @media screen and (max-width:1100px) {
+  @media screen and (max-width:1155px) {
     .media__content-cards {
         padding-bottom: 16px;
     }

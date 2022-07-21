@@ -15,7 +15,7 @@
 	}
 }
 
-@media (max-width: 550px) {
+@media (max-width: 620px) {
 	.diary__card {
 		width: 276px;
 		height: 360px;

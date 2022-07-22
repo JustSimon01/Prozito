@@ -1,0 +1,17 @@
+.chapters__title {
+    font-family: 'WF','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    width: 926px;
+    padding-bottom: 46px;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.5);
+    margin: 0 auto;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.chapters__title:first-of-type {
+    margin-top: 170px;
+}

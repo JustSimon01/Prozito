@@ -1,0 +1,16 @@
+.slaider__image {
+    display: block;
+    width: 569px;
+    height: 397px;
+    margin: 0 auto;
+    padding-top: 62px;
+}
+
+@media screen and (max-width: 400px) {
+    .slaider__image {
+        height: 240px;
+        width: 270px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }  
+}

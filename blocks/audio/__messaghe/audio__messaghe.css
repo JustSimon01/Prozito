@@ -1,0 +1,12 @@
+.audio__messaghe {
+    display: block;
+    margin: 32px auto 0;
+}
+
+@media screen and (max-width: 400px) {
+    .audio__messaghe {
+        width: 280px;   
+        padding-top: 32px;
+        margin: 0 auto;
+    }  
+}

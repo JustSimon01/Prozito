@@ -1,0 +1,10 @@
+.slaider__area {
+    background-color: #F7F4F0;
+    height: 520px;
+}
+
+@media screen and (max-width: 400px) {
+    .slaider__area {
+        height: 300px;
+    }
+}

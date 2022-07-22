@@ -1,0 +1,14 @@
+.chapter {
+    position: absolute;
+    width: 122px;
+    height: 26px;
+    transform: rotate(-90deg);
+    top: 389px;
+}
+
+@media screen and (max-width: 400px) {
+    .chapter {
+        top: 105px;
+        display: none;
+    }  
+}

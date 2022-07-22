@@ -40,3 +40,10 @@
   }
   
 }
+
+@media screen and (max-width: 360px) {
+  .media__content-cards{
+    display: none;
+  }
+  
+}

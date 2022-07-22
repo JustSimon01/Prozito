@@ -46,6 +46,7 @@
 @import url(../blocks/media/__title-button-mobile/media__title-button-mobile.css);
 @import url(../blocks/media/__content-cards/media__content-cards.css);
 @import url(../blocks/media/__content-cards/_news/media__content-cards_news.css);
+@import url(../blocks/media/__content-cards-block-mobile/media__content-cards-block-mobile.css);
 @import url(../blocks/media/__content-header/media__content-header.css);
 @import url(../blocks/media/__title-block/media__title-block.css);
 @import url(../blocks/media/__title-block/_news/media__title-block_news.css);

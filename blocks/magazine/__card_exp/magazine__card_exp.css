@@ -29,4 +29,8 @@
         width: 252px;
         height: 352px;
     }
+    .magazine__card_exp:hover {
+        opacity: unset;
+    }
+
 }

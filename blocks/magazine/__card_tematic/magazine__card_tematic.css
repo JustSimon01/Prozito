@@ -26,5 +26,9 @@
     .magazine__card_tematic {
         width: 252px;
         height: 352px;
+
     }
+    .magazine__card_tematic:hover {
+        opacity: unset;
+        }
 }

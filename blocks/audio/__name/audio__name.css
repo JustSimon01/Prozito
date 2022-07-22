@@ -1,0 +1,21 @@
+.audio__name {
+    font-family: 'PT Sans','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 562px;
+    border-bottom: 1px solid rgba(12, 6, 38, 0.7);;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 0 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+    .audio__name {
+        padding-top: 10px;
+        width: 280px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}

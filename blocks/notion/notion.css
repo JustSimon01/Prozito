@@ -1,0 +1,14 @@
+.notion {
+    width: 329px;
+    height: 93px;
+    background-color: #F7F4F0;;
+    position: absolute;
+    right: 30px;
+    top: 880px;
+}
+
+@media screen and (max-width: 400px) {
+    .notion {
+        display: none;
+    }  
+}

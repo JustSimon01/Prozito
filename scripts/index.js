@@ -114,3 +114,73 @@ magazineBtnLeft.addEventListener("click", () => {
     magazineBtnLeft.classList.add("button-arrow_state_disabled");
   }
 });
+
+
+//3dслайдер, свайп
+const cardsBlock = document.querySelector('.media__content-cards-block-mobile')
+//ограничиваем работу свайпа блоком слайдера
+cardsBlock.addEventListener('touchstart', handleTouchStart, false);
+cardsBlock.addEventListener('touchmove', handleTouchMove, false);
+
+let x1 = null;
+let y = null;
+//определяем точку качания
+function handleTouchStart(event) {
+const firstTouch = event.touches[0];
+x1 = firstTouch.clientX;
+y1 = firstTouch.clientY;
+}
+//определяем куда идет свайп лево или право, если пользоватяль тянет вверх\вниз, то не переключаем
+function handleTouchMove(event) {
+    if (!x1 || !y1) {
+       return false;
+    }
+    let x2 = event.touches[0].clientX;
+    let y2 = event.touches[0].clientY;
+    let xDiff = x2 - x1;
+    let yDiff = y2 - y1;
+
+    if(Math.abs(xDiff) > Math.abs(yDiff)){
+      if (xDiff>0){
+        console.log('right');
+        nextSlide();
+    }else{
+        console.log('left');
+        prevSlide();
+    }
+}
+x1=null;
+y1=null;
+}
+//находим массив карточек привязанных к радио-кнопкам
+let arrRadio = document.querySelectorAll('.radio');
+//задаем стартовую карточку
+let activeSlide = 0;
+//функция следующая карточка (свайпаем вправо, карточка уходит на позицию вправо)
+function prevSlide(){
+    activeSlide++;
+    if (activeSlide>4){
+        activeSlide=0;
+        arrRadio[activeSlide].checked = !0;
+        console.log(activeSlide);
+        return activeSlide;
+    }if (activeSlide>=0) {
+        arrRadio[activeSlide].checked = !0;
+        console.log(activeSlide);
+        return activeSlide;
+    }
+}
+//функция следующая карточка (свайпаем влево, карточка уходит на позицию влево)
+function nextSlide(){
+    activeSlide--;
+    if (activeSlide<0){
+        activeSlide=4;
+        arrRadio[activeSlide].checked = !0;
+        console.log(activeSlide);
+        return activeSlide;
+    }if (activeSlide>=0) {
+        arrRadio[activeSlide].checked = !0;
+        console.log(activeSlide);
+        return activeSlide;
+    }
+}

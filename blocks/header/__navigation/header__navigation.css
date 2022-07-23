@@ -4,8 +4,6 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
-
-    align-self: flex-end;
     list-style: none;
     font-family: PT Sans, Sans;
     font-style: normal;

@@ -1,6 +1,5 @@
 .diary__card-title {
 	max-width: 296px;
-	height: 52px;
 	margin-top: 28px;
 	margin-bottom: 12px;
 	font-family: 'WF';
@@ -12,4 +11,12 @@
 	display: flex;
 	align-items: center;
 	text-align: center;
+}
+
+@media (max-width: 1080px) {
+	.diary__card-title {
+		margin-top: 24px;
+		font-size: 18px;
+		line-height: 22px;
+	}
 }

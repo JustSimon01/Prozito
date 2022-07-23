@@ -2,3 +2,9 @@
    margin: 31px auto 0;
    display: block;
 }
+
+@media screen and (max-width: 768px) {
+   .special-projects__button {
+      margin: 24px auto 0;
+   }
+}

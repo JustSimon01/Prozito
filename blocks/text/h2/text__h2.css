@@ -16,7 +16,7 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .text__h2 {
         font-size: 26px;
         line-height: 100%;

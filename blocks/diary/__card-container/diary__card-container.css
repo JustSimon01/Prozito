@@ -1,11 +1,17 @@
 .diary__card-container {
 	width: 100%;
-	height: 428px;
-	display: flex;
-	justify-content: center;
-	gap: 80px;
-	margin-left: auto;
-	margin-right: auto;
 	margin-bottom: 75px;
-	margin-top: auto;
+}
+
+@media (max-width: 768px) {
+	.diary__card-container {
+		margin-bottom: 32px;
+	}
+}
+
+@media (max-width: 620px) {
+	.diary__card-container {
+		padding-top: 14px;
+		overflow: scroll;
+	}
 }

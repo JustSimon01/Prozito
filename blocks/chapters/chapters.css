@@ -5,5 +5,12 @@
     background-color: #E7E4DE;
     top: 0;
     left: 0;
-    display: none;
+    padding-top: 170px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 400px) {
+    .chapters {
+        padding-top: 70px;
+    }  
 }

@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .magazine__card_exp_img {
         max-width: 160px;
         margin: 12px auto;

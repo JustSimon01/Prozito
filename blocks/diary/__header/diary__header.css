@@ -1,6 +1,5 @@
 .diary__header {
 	width: 229px;
-	height: 55px;
 	font-family: 'WF';
 	font-style: normal;
 	font-weight: 400;
@@ -9,4 +8,20 @@
 	text-align: center;
 	color: #323232;
 	margin: 56px auto 40px;
+}
+
+@media (max-width: 768px) {
+	.diary__header {
+		font-size: 30px;
+		line-height: 37px;
+		margin-top: 32px;
+		margin-bottom: 24px;
+	}
+}
+
+@media (max-width: 620px) {
+	.diary__header { 
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
 }

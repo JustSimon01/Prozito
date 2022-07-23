@@ -8,7 +8,6 @@
 
 @media screen and (max-width: 400px) {
     .chapter {
-        top: 105px;
-        display: none;
+    
     }  
 }

@@ -8,6 +8,7 @@
     margin: 0 auto;
     border-bottom: 1px solid #3A543E;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 @media screen and (max-width: 400px) {
@@ -16,5 +17,12 @@
         font-size: 39px;
         line-height: 40px;
         margin: 0 auto;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .main__title {
+        min-width: 280px;
+        max-width: 400px;
     }  
 }

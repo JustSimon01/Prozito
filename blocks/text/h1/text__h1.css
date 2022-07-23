@@ -16,7 +16,7 @@
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .text__h1 {
         font-size: 32px;
         line-height: 38px;

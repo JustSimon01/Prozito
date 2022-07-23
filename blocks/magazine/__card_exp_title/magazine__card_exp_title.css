@@ -8,7 +8,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .magazine__card_exp_title {
         margin-top: 16px;
     }

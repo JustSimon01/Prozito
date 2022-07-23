@@ -1,16 +1,19 @@
 .tipical-video__play {
-    width: 678px;
-    height: 379px;
     display: block;
-    margin: 0 auto;
-    margin-top: 28px;
-    background-image: url(../../../images/type-page/type_page-video_player.svg);
+    margin: auto;
+    padding: 0;
+    background-image: url(../../../images/type-page/play.svg);
+    background-repeat: no-repeat;
     background-position: center;
+    border-radius: 50%;
+    border: none;
+    width: 110.72px;
+    height: 110px;
 }
 
 @media screen and (max-width: 400px) {
     .tipical-video__play {
-        width: 300px;
-        height: 270px;
+        width: 70px;
+        height: 70px;
     }  
 }

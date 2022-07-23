@@ -8,11 +8,20 @@
     margin: 0 auto;
 }
 
+
+@media screen and (max-width: 800px) {
+    .main__dialogs {
+        padding-top: 10px;
+        max-width: 400px;
+    }  
+}
+
 @media screen and (max-width: 400px) {
     .main__dialogs {
         padding-top: 10px;
-        width: 280px;
+        max-width: 280px;
         font-size: 18px;
         line-height: 20px;
     }  
 }
+

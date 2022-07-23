@@ -9,7 +9,7 @@
    }   
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 620px) {
    .special-projects__cards {
       gap: 24px;
       flex-direction: column;

@@ -3,7 +3,7 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     align-self: end;
     min-width: 120px;
     gap: 12px;
@@ -28,7 +28,7 @@
 
      }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 360px) {
     .footer__social {
         justify-self:unset;
         gap: 24px;

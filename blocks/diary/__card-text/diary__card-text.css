@@ -1,5 +1,5 @@
 .diary__card-text {
-	width: 296px;
+	max-width: 296px;
 	font-family: 'PT Sans';
 	font-style: normal;
 	font-weight: 400;
@@ -9,4 +9,12 @@
 	color: rgba(50, 50, 50, 0.5);
 	margin: 0;
 	margin-top: 12px;
+}
+
+@media (max-width: 1080px) {
+	.diary__card-text {
+		max-width: 214px;
+		font-size: 14px;
+		line-height: 18px;
+	}
 }

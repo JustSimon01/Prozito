@@ -6,4 +6,18 @@
     line-height: 26px;
     color: #323232;
     margin: 0;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.chapter__text:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 400px) {
+    .chapter__text {
+    
+    }  
 }

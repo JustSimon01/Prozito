@@ -11,6 +11,15 @@
     margin: 0 0 0 auto;
 }
 
+@media screen and (max-width: 800px) {
+    .audio__name {
+        padding-top: 10px;
+        max-width: 400px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}
+
 @media screen and (max-width: 400px) {
     .audio__name {
         padding-top: 10px;

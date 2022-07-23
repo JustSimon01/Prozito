@@ -42,6 +42,7 @@
 @import url(../blocks/tipical-video/tipical-video.css);
 @import url(../blocks/tipical-video/__play/tipical-video__play.css);
 @import url(../blocks/tipical-video/__name/tipical-video__name.css);
+@import url(../blocks/tipical-video/__area/tipical-video__area.css);
 /*аудио*/
 @import url(../blocks/audio/audio.css);
 @import url(../blocks/audio/__messaghe/audio__messaghe.css);
@@ -66,28 +67,18 @@
 @import url(../blocks/notion/notion.css);
 @import url(../blocks/notion/__title/notion__title.css);
 @import url(../blocks/notion/__subtitle/notion__subtitle.css);
-@import url(../blocks/notion/__close/notion__close.css);
+@import url(../blocks/notion/__close/tip-close.css);
 /*chapter*/
 @import url(../blocks/chapters/chapters.css);
 @import url(../blocks/chapters/__title/chapters__title.css);
 /*chapters*/
 @import url(../blocks/chapter/chapter.css);
 @import url(../blocks/chapter/__text/chapter__text.css);
+/*попапы*/
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
 
 
-.page-tip {
-    max-width: 1440px;
-    min-width: 360px;
-    margin: 0 auto;
-    font-family: 'PT Sans', sans-serif;
-}
 
-@media screen and (max-width: 400px) {
-    .page-tip {
-        width: 100%;
-    }  
-}
-
-* {
-    border: 1px rebeccapurple solid;
+/* {
+    border: 1px solid red;
 }

@@ -1,5 +1,4 @@
 .search-banner {
-    margin: auto 32px;
     background-color: #F7F4F0;
     padding: 56px 116px 64px;
     box-sizing: border-box;
@@ -16,12 +15,11 @@
 
 @media screen and (max-width: 1155px) {
     .search-banner {
-        margin: auto 0;
         padding: 20px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .search-banner {
         grid-template-areas: 
         "title"
@@ -29,7 +27,6 @@
         "text"
         "btn";
         grid-template-rows: auto;
-        justify-items: center;
         padding: 20px 12px;
         gap: 16px;
         justify-content: center;

@@ -11,11 +11,23 @@
     margin: 0 0 0 235px;
 }
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 800px) {
     .tipical-img__name {
         padding-top: 0;
-        width: 300px;
+        max-width: 400px;
         margin: 0;
         margin-top: 20px;
     }  
 }
+
+
+@media screen and (max-width: 400px) {
+    .tipical-img__name {
+        padding-top: 0;
+        max-width: 300px;
+        margin: 0;
+        margin-top: 20px;
+    }  
+}
+

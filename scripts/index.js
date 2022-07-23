@@ -48,7 +48,7 @@ buttonMiniPopupClose.addEventListener('click', function() {
 
 // Слайдер 
 
-// Блок Новости
+//Блок Новости и Журнал, прокрутка по кнопкам
 
 const newsBtnRigth = document.querySelector('.button_news_rigth');
 const newsBtnLeft = document.querySelector('.button_news_left');

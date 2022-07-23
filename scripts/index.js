@@ -108,64 +108,6 @@ newsBtnLeft.addEventListener('click', () => positionNewsCardsOuterLeft(newsCards
 magazineBtnRigth.addEventListener('click', () => positionMagazineCardsOuterRight(magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
 magazineBtnLeft.addEventListener('click', () => positionMagazineCardsOuterLeft(magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
 
-/*newsBtnRigth.addEventListener("click", () => {
-    if (positionNewsCards < newsCards.offsetWidth) {
-      positionNewsCards = positionNewsCards + positionNewsShift;
-      newsCards.scrollTo(positionNewsCards, 0);
-      newsBtnLeft.classList.remove("button-arrow_state_disabled");
-    } else if ((positionNewsCards = newsCards.offsetWidth)) {
-      positionNewsCards = positionNewsCards + positionNewsShift;
-      newsCards.scrollTo(positionNewsCards, 0);
-      newsBtnRigth.classList.add("button-arrow_state_disabled");
-    }
-  });
-  
- newsBtnLeft.addEventListener("click", () => {
-    if (positionNewsCards > positionNewsShift) {
-      positionNewsCards = positionNewsCards - positionNewsShift;
-      newsCards.scrollTo(positionNewsCards, 0);
-      newsBtnRigth.classList.remove("button-arrow_state_disabled");
-    } else if (positionNewsCards <= positionNewsShift) {
-      positionNewsCards = positionNewsCards - positionNewsShift;
-      newsCards.scrollTo(positionNewsCards, 0);
-      newsBtnLeft.classList.add("button-arrow_state_disabled");
-    }
-  });
-
-
-// Блок Журнал
-
-const magazineBtnRigth = document.querySelector(".button_magazine_right");
-const magazineBtnLeft = document.querySelector(".button_magazine_left");
-const magazineCards = document.querySelector(".magazine__cards_page_index");
-
-let positionMagazineCards = 0;
-let positionMagazineShift = magazineCards.offsetWidth / 2;
-
-magazineBtnRigth.addEventListener("click", () => {
-  if (positionMagazineCards < magazineCards.offsetWidth) {
-    positionMagazineCards = positionMagazineCards + positionMagazineShift;
-    magazineCards.scrollTo(positionMagazineCards, 0);
-    magazineBtnLeft.classList.remove("button-arrow_state_disabled");
-  } else if ((positionMagazineCards = magazineCards.offsetWidth)) {
-    positionMagazineCards = positionMagazineCards + positionMagazineShift;
-    magazineCards.scrollTo(positionMagazineCards, 0);
-    magazineBtnRigth.classList.add("button-arrow_state_disabled");
-  }
-});
-
-magazineBtnLeft.addEventListener("click", () => {
-  if (positionMagazineCards > positionMagazineShift) {
-    positionMagazineCards = positionMagazineCards - positionMagazineShift;
-    magazineCards.scrollTo(positionMagazineCards, 0);
-    magazineBtnRigth.classList.remove("button-arrow_state_disabled");
-  } else if (positionMagazineCards <= positionMagazineShift) {
-    positionMagazineCards = positionMagazineCards - positionMagazineShift;
-    magazineCards.scrollTo(positionMagazineCards, 0);
-    magazineBtnLeft.classList.add("button-arrow_state_disabled");
-  }
-});
-*/
 
 
 //3dслайдер, свайп

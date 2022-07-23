@@ -51,26 +51,27 @@ const newsBtnRigth = document.querySelector('.button_news_rigth');
 const newsBtnLeft = document.querySelector('.button_news_left');
 const newsCards = document.querySelector('.news_cards_index');
 
-let positionNewsCards = 0;
+//let positionNewsCards = 0;
 let positionNewsShift = newsCards.offsetWidth / 2;
 
 const magazineBtnRigth = document.querySelector(".button_magazine_right");
 const magazineBtnLeft = document.querySelector(".button_magazine_left");
 const magazineCards = document.querySelector(".magazine__cards_page_index");
 
-let positionMagazineCards = 0;
+//let positionMagazineCards = 0;
 let positionMagazineShift = magazineCards.offsetWidth / 2;
 
 
 
+function positionCard (pos) {
+
 
 function cardsMoveRight(positionCards, cardsName, shift, btnLeft, btnRight) {
-    console.log(positionCards)
   if (positionCards < cardsName.offsetWidth) {
     positionCards = positionCards + shift;
-    console.log(positionCards)
     cardsName.scrollTo(positionCards, 0);
     btnLeft.classList.remove("button-arrow_state_disabled");
+    console.log(positionCards)
     return positionCards
   } else if (positionCards = cardsName.offsetWidth) {
     positionCards = positionCards + shift;
@@ -95,11 +96,13 @@ function cardsMoveLeft(positionCards, cardsName, shift, btnLeft, btnRight) {
   }
 }
 
-newsBtnRigth.addEventListener('click', () => cardsMoveRight(positionNewsCards, newsCards, positionNewsShift, newsBtnLeft, newsBtnRigth));
-newsBtnLeft.addEventListener('click', () => cardsMoveLeft(positionNewsCards, newsCards, positionNewsShift, newsBtnLeft, newsBtnRigth))
+}
 
-magazineBtnRigth.addEventListener('click', () => cardsMoveRight(positionMagazineCards, magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth));
-magazineBtnLeft.addEventListener('click', () => cardsMoveLeft(positionMagazineCards, magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
+newsBtnRigth.addEventListener('click', () => cardsMoveRight(positionCard.news, newsCards, positionNewsShift, newsBtnLeft, newsBtnRigth));
+newsBtnLeft.addEventListener('click', () => cardsMoveLeft(positionCard.news, newsCards, positionNewsShift, newsBtnLeft, newsBtnRigth))
+
+magazineBtnRigth.addEventListener('click', () => cardsMoveRight(positionCard.magazine, magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth));
+magazineBtnLeft.addEventListener('click', () => cardsMoveLeft(positionCard.magazine, magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
 
 /*newsBtnRigth.addEventListener("click", () => {
     if (positionNewsCards < newsCards.offsetWidth) {

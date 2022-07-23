@@ -1,0 +1,13 @@
+.slaider {
+    width: 910px;
+    margin-top: 25px;
+    align-self: center;
+}
+
+@media screen and (max-width: 400px) {
+    .slaider {
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}

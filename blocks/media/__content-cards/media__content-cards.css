@@ -27,7 +27,7 @@
   }
 
 
-  @media screen and (max-width:1100px) {
+  @media screen and (max-width:1155px) {
     .media__content-cards {
         padding-bottom: 16px;
     }
@@ -37,6 +37,13 @@
   .media__content-cards{
     margin: 0;
     padding: 0;
+  }
+  
+}
+
+@media screen and (max-width: 360px) {
+  .media__content-cards{
+    display: none;
   }
   
 }

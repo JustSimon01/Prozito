@@ -11,7 +11,7 @@
     height: 100%;
 }
 
-@media screen and (max-width: 806px) {
+@media screen and (max-width: 930px) {
     .media__content-buttons{
         padding: 16px 18px 0 0;
     }

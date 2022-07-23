@@ -11,9 +11,8 @@
     color: #323232;
 }
 
-@media screen and (max-width: 900px ) {
+@media screen and (max-width: 930px ) {
     .about-project__paragraph{
-        font-weight: 400;
         font-size: 30px;
         line-height: 37px;
     }
@@ -22,9 +21,6 @@
 
 @media screen and (max-width: 768px ) {
     .about-project__paragraph{
-        font-weight: 400;
-        font-size: 30px;
-        line-height: 37px;
         max-width: 676px;
         padding: 0 16px;
     }
@@ -32,7 +28,6 @@
 
 @media screen and (max-width: 620px ) {
     .about-project__paragraph{
-        font-weight: 400;
         font-size: 26px;
         line-height: 100%;
         padding: 0 12px;

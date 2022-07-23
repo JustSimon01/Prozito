@@ -27,7 +27,7 @@
     }
 
 }
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 620px) {
     .header__menu{
         display: none;
         font-size: 14px;

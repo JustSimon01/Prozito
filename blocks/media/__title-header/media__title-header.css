@@ -8,9 +8,8 @@ line-height: 120%;
 color: #F5F5F5;
 }
 
-@media screen and (max-width: 806px) {
+@media screen and (max-width: 768px) {
     .media__title-header{
-        font-weight: 400;
         font-size: 30px;
         line-height: 37px;
     }

@@ -1,0 +1,21 @@
+.slaider__gallery {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    width: 678px;
+    border-bottom: 1px solid rgba(12, 6, 38, 0.7);
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 400px) {
+    .slaider__gallery {
+        font-size: 12px;
+        line-height: 14px;
+        width: 300px;
+        margin-top: 10px;
+    }  
+}

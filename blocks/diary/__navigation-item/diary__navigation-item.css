@@ -1,0 +1,7 @@
+.diary__navigation-item {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #A5CDAB;
+	cursor: pointer;
+}

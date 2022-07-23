@@ -1,0 +1,18 @@
+.main__chapter {
+    font-family: 'WF','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    width: 125px;
+    color: #323232;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .main__chapter {
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}

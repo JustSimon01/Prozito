@@ -10,11 +10,47 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_header/logo_header.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
-/*шапка*/
-/*шапка*/
-/*шапка*/
-/*шапка*/
-/*шапка*/
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_color/_beige/header_color_beige.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__line/_menu-mobile/header__line_menu-mobile.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
+@import url(../blocks/header/__menu-mobile-blocks/header__menu-mobile-blocks.css);
+@import url(../blocks/header/__menu-mobile/header__menu-mobile.css);
+@import url(../blocks/header/__menu/header_menu.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_header/logo_header.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+/*основной контент*/
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__chapter/main__chapter.css);
+@import url(../blocks/main/__dialog/main__dialog.css);
+@import url(../blocks/main/__dialogs/main__dialogs.css);
+@import url(../blocks/main/__quote/main__quote.css);
+@import url(../blocks/main/__subtitle/main__subtitle.css);
+@import url(../blocks/main/__text/main__text.css);
+@import url(../blocks/main/__title/main__title.css);
+/*картина*/
+@import url(../blocks/tipical-img/tipical-img.css);
+@import url(../blocks/tipical-img/__area/tipical-img__area.css);
+@import url(../blocks/tipical-img/__name/tipical-img__name.css);
+@import url(../blocks/tipical-img/__picture/tipical-img__picture.css);
+/*видео*/
+@import url(../blocks/tipical-video/tipical-video.css);
+@import url(../blocks/tipical-video/__play/tipical-video__play.css);
+@import url(../blocks/tipical-video/__name/tipical-video__name.css);
+/*аудио*/
+@import url(../blocks/audio/audio.css);
+@import url(../blocks/audio/__messaghe/audio__messaghe.css);
+@import url(../blocks/audio/__name/audio__name.css);
+/*слайдер*/
+@import url(../blocks/slaider/slaider.css);
+@import url(../blocks/slaider/__area/slaider__area.css);
+@import url(../blocks/slaider/__gallery/slaider__gallery.css);
+@import url(../blocks/slaider/__image/slaider__image.css);
 /*подвал*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__legal-info/footer__legal-info.css);
@@ -26,244 +62,32 @@
 @import url(../blocks/logo/_footer/logo_footer.css);
 @import url(../blocks/network-logo/network-logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
-/*шапка*/
-/*шапка*/
-.main {
+/*notion*/
+@import url(../blocks/notion/notion.css);
+@import url(../blocks/notion/__title/notion__title.css);
+@import url(../blocks/notion/__subtitle/notion__subtitle.css);
+@import url(../blocks/notion/__close/notion__close.css);
+/*chapter*/
+@import url(../blocks/chapters/chapters.css);
+@import url(../blocks/chapters/__title/chapters__title.css);
+/*chapters*/
+@import url(../blocks/chapter/chapter.css);
+@import url(../blocks/chapter/__text/chapter__text.css);
+
+
+.page-tip {
+    max-width: 1440px;
+    min-width: 360px;
     margin: 0 auto;
-    width: 678px;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    display: flex;
-    flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
 }
 
-.main__subtitle {
-    font-family: 'PT Sans', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0 auto;
-    width: 200px;
-    padding-bottom: 25px;
+@media screen and (max-width: 400px) {
+    .page-tip {
+        width: 100%;
+    }  
 }
 
-.main__title {
-    font-family: 'WF', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 46px;
-    line-height: 55px;
-    width: 674px;
-    margin: 0 auto;
-    border-bottom: 1px solid #3A543E;
-    padding-bottom: 15px;
-}
-
-.main__chapter {
-    font-family: 'WF','Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
-    width: 125px;
-    color: #323232;
-    margin: 0 auto;
-    padding-top: 30px;
-}
-
-.main__text {
-    font-family: 'PT Sans', 'Arial', sans-serif;;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    width: 676px;
-    padding-top: 35px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-.main__quote {
-    font-family: 'WF','Arial', sans-serif;;;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
-    color: #3A543E;
-    width: 676px;
-    margin: 33px auto 0;
-    padding-left: 10px;
-    border-left: 2px solid #3A543E;;
-}
-
-.main__img {
-    width: 910px;
-    height: 520px;
-    background-color: #F7F4F0;
-    margin-top: 25px;
-    align-self: center;
-    background-image: url(../images/type-page/type_page-1938.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 235px 461px;
-}
-
-.main__img_two {
-    background-image: url(../images/type-page/type_page-1937.jpg);
-    background-size: 569px 397px;
-}
-
-.main__name {
-    font-family: 'PT Sans','Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    width: 562px;
-    border-bottom: 1px solid rgba(12, 6, 38, 0.7);;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin: 0 0 0 auto;
-}
-
-.main__video {
-    width: 678px;
-    height: 379px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 28px;
-    background-image: url(../images/type-page/type_page-video_player.svg);
-}
-
-.main__dialogs {
-    font-family: 'PT Sans', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    width: 678px;
-    margin: 0 auto;
-}
-
-.main__dialog {
-    margin: 0;
-}
-
-.main__messaghe {
-    display: block;
-    margin: 32px auto 0;
-}
-
-.main__gallery {
-    font-family: 'PT Sans', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    display: flex;
-    justify-content: space-between;
-    width: 678px;
-    border-bottom: 1px solid rgba(12, 6, 38, 0.7);
-}
-
-.notion {
-    width: 329px;
-    height: 93px;
-    background-color: #F7F4F0;;
-    position: absolute;
-    right: 30px;
-    top: 880px;
-
-}
-
-.notion__title {
-    font-family: 'WF', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
-    color: #323232;
-    margin: 0;
-    margin-top: 13px;
-    margin-left: 12px;
-}
-
-.notion__subtitle {
-    font-family: 'WF', 'Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #323232;
-    margin: 0;
-    margin-top: 10px;
-    margin-left: 12px;
-}
-
-.notion__close {
-    display: block;
-    background-image: url(../images/type-page/closebutton.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgba(0, 0, 0, .0);
-    background-size: 16px;
-    width: 16px;
-    height: 16px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    right: 15px;
-    top: 13px;
-}
-
-.notion__close:hover {
-    opacity: 0.6;
-}
-
-.chapter {
-    position: absolute;
-    width: 122px;
-    height: 26px;
-    transform: rotate(-90deg);
-    top: 389px;
-
-}
-
-.chapter__text {
-    font-family: 'WF','Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 26px;
-    color: #323232;
-    margin: 0;
-}
-
-.chapters {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: #E7E4DE;
-    top: 0;
-    left: 0;
-    display: none;
-}
-
-.chapters__title {
-    font-family: 'WF','Arial', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 100%;
-    width: 926px;
-    padding-bottom: 46px;
-    border-bottom: 1px solid rgba(50, 50, 50, 0.5);
-    margin: 0 auto;
-    margin-top: 36px;
-    text-align: center;
-}
-
-.chapters__title:first-of-type {
-    margin-top: 170px;
+* {
+    border: 1px rebeccapurple solid;
 }

@@ -1,20 +1,19 @@
 .footer{
     display: flex;
     flex-direction: column;
-    height: 181px;
     max-width: 1375px;
-    margin: auto;
+    margin: 0 auto 32px;
     padding: 0 17px;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 768px) {
     .footer{
-        height: 207px;
+        margin: 0 auto 20px;
     }
 }
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 620px) {
     .footer {
         padding: 0 12px;
-        height: 276px;
+        margin: 0 auto 16px;
      }
 }

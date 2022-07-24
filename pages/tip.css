@@ -20,13 +20,6 @@
 @import url(../blocks/logo/_footer/logo_footer.css);
 /*основной контент*/
 @import url(../blocks/main/main.css);
-@import url(../blocks/main/__chapter/main__chapter.css);
-@import url(../blocks/main/__dialog/main__dialog.css);
-@import url(../blocks/main/__dialogs/main__dialogs.css);
-@import url(../blocks/main/__quote/main__quote.css);
-@import url(../blocks/main/__subtitle/main__subtitle.css);
-@import url(../blocks/main/__text/main__text.css);
-@import url(../blocks/main/__title/main__title.css);
 /*картина*/
 @import url(../blocks/tipical-img/tipical-img.css);
 @import url(../blocks/tipical-img/__area/tipical-img__area.css);
@@ -46,6 +39,7 @@
 @import url(../blocks/slaider/__area/slaider__area.css);
 @import url(../blocks/slaider/__gallery/slaider__gallery.css);
 @import url(../blocks/slaider/__image/slaider__image.css);
+@import url(../blocks/slaider/__text/slaider__text.css);
 @import url(../blocks/slaider/__text/slaider__text.css);
 /*подвал*/
 @import url(../blocks/footer/footer.css);
@@ -70,6 +64,7 @@
 @import url(../blocks/chapter/chapter.css);
 /*попапы*/
 @import url(../blocks/pop-up/_opened/pop-up_opened.css);
+/*селектры осноговного контента*/
 .main h1 {
     font-family: 'WF', 'Arial', sans-serif;
     font-style: normal;

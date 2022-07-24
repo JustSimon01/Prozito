@@ -19,9 +19,10 @@
 
 @media screen and (max-width: 400px) {
     .slaider__image {
-        height: 240px;
+        height: 220px;
         width: 270px;
         margin: 0 auto;
-        padding-top: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }  
 }

@@ -1,21 +1,8 @@
 .about-project__paragraph{
     max-width: 1163px;
-
-    font-family: WF, serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 46px;
-    line-height: 120%;
     margin: 0 auto 0 0;
     padding: 0 32px;
     color: #323232;
-}
-
-@media screen and (max-width: 930px ) {
-    .about-project__paragraph{
-        font-size: 30px;
-        line-height: 37px;
-    }
 }
 
 
@@ -28,8 +15,6 @@
 
 @media screen and (max-width: 620px ) {
     .about-project__paragraph{
-        font-size: 26px;
-        line-height: 100%;
         padding: 0 12px;
     }
 }

@@ -7,7 +7,6 @@
 
 
 /*открытие и закрытие попапа с меню*/
-
 @import url(../blocks/about-project/about-project.css);
 @import url(../blocks/about-project/__paragraph/about-project__paragraph.css);
 @import url(../blocks/documents/documents.css);
@@ -26,6 +25,16 @@
 @import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
 @import url(../blocks/text/color/text__color_white.css);
 
+/*текстовые переменные новые */
+@import url(../blocks/textNew/text.css);
+@import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
+@import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
+@import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
+@import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
+@import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
+@import url(../blocks/textNew/__WF-h3-26px/text__WF-h3-26px.css);
+@import url(../blocks/textNew/_color/_white/text_color_white.css);
+@import url(../blocks/textNew/_italic/text_italic.css);
 
 
 @import url(../blocks/news/news.css);
@@ -54,8 +63,6 @@
 @import url(../blocks/media/__title-header/_news/media__title-header_news.css);
 
 
-
-/*карточка-пустышка и кнопка-пустышка, удаляем импорт и блок после добавления карточки и кнопки*/
 /* карточки */
 @import url(../blocks/card-news/card-news.css);
 @import url(../blocks/card-news/__data/card-news__data.css);
@@ -89,8 +96,6 @@
 @import url(../blocks/pop-up/pop-up.css);
 
 @import url(../blocks/pop-up/_opened/pop-up_opened.css);
-
-@import url(../blocks/pop-up/__mini/pop-up__mini.css);
 
 /*dairy блок*/
 @import url(../blocks/diary/diary.css);
@@ -144,7 +149,8 @@
 /*Кнопка закрыть(крестик)*/
 @import url(../blocks/button-close/button-close.css);
 
-/*mini-pop-up*/
+/*mini-pop-up*/ 
+@import url(../blocks/mini-pop-up/mini-pop-up.css);
 @import url(../blocks/mini-pop-up/__link/mini-pop-up__link.css);
 @import url(../blocks/mini-pop-up/__container/mini-pop-up__container.css);
 @import url(../blocks/mini-pop-up/__title/mini-pop-up__title.css);

@@ -4,10 +4,25 @@
     padding-top: 26px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 911px) {
     .tipical-img {
-        width: 300px;
+        max-width: 600px;
         margin: 0 auto;
         padding-top: 10px;
     }  
 }
+
+@media screen and (max-width: 610px) {
+    .tipical-img {
+        max-width: 400px;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .tipical-img {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}
+

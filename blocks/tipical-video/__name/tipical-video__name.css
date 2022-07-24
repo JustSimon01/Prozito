@@ -4,7 +4,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    width: 562px;
+    max-width: 562px;
     border-bottom: 1px solid rgba(12, 6, 38, 0.7);;
     padding-top: 18px;
     padding-bottom: 15px;
@@ -15,5 +15,12 @@
     .tipical-video__name {
         margin: 0 auto;
         width: 300px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .tipical-video__name {
+        margin: 0 auto;
+        max-width: 400px;
     }  
 }

@@ -1,0 +1,19 @@
+.tip-close {
+    display: block;
+    background-image: url(../../../images/type-page/closebutton.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, .0);
+    background-size: 16px;
+    width: 16px;
+    height: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 13px;
+}
+
+.tip-close:hover {
+    opacity: 0.6;
+}

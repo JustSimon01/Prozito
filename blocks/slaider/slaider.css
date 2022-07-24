@@ -1,7 +1,22 @@
 .slaider {
-    width: 910px;
-    margin-top: 25px;
+    padding-top: 26px;
+    width: 910px;  
     align-self: center;
+    max-height: 554px;
+}
+
+@media screen and (max-width: 930px) {
+    .slaider {
+        max-width: 800px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .slaider {
+        width: 400px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
 }
 
 @media screen and (max-width: 400px) {

@@ -5,10 +5,17 @@
     position: absolute;
     right: 30px;
     top: 880px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .notion {
+        width: 270px;
+    }  
 }
 
 @media screen and (max-width: 400px) {
     .notion {
-        display: none;
+        width: 250px;
     }  
 }

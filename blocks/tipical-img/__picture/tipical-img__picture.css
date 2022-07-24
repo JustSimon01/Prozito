@@ -11,3 +11,9 @@
         height: 240px;
     }  
 }
+
+@media screen and (max-width: 800px) {
+    .tipical-img__picture {
+        height: 350px;
+    }  
+}

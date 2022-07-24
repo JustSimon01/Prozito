@@ -1,14 +1,47 @@
 .chapter {
     position: absolute;
-    width: 122px;
+    width: 140px;
     height: 26px;
     transform: rotate(-90deg);
+    padding: 0;
     top: 389px;
+    left: -40px;
+    font-family: 'WF','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #323232;
+    margin: 0;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.0);
+    text-align: center;
+}
+
+.chapter:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 800px) {
+    .chapter {
+        top: 140px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        transform: none;
+    }  
 }
 
 @media screen and (max-width: 400px) {
     .chapter {
-        top: 105px;
-        display: none;
+        top: 110px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 19px;
+        line-height: 14px;
+        transform: none;
     }  
 }

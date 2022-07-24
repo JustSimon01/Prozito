@@ -2,14 +2,8 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/main-page/main-page.css);
+@import url(../blocks/page-tip/page-tip.css);
 /*шапка*/
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/_tip-color/header_tip-color.css);
-@import url(../blocks/header/__line/header__line.css);
-@import url(../blocks/header/__navigation/header__navigation.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_header/logo_header.css);
-@import url(../blocks/logo/_footer/logo_footer.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_color/_beige/header_color_beige.css);
@@ -26,13 +20,6 @@
 @import url(../blocks/logo/_footer/logo_footer.css);
 /*основной контент*/
 @import url(../blocks/main/main.css);
-@import url(../blocks/main/__chapter/main__chapter.css);
-@import url(../blocks/main/__dialog/main__dialog.css);
-@import url(../blocks/main/__dialogs/main__dialogs.css);
-@import url(../blocks/main/__quote/main__quote.css);
-@import url(../blocks/main/__subtitle/main__subtitle.css);
-@import url(../blocks/main/__text/main__text.css);
-@import url(../blocks/main/__title/main__title.css);
 /*картина*/
 @import url(../blocks/tipical-img/tipical-img.css);
 @import url(../blocks/tipical-img/__area/tipical-img__area.css);
@@ -42,6 +29,7 @@
 @import url(../blocks/tipical-video/tipical-video.css);
 @import url(../blocks/tipical-video/__play/tipical-video__play.css);
 @import url(../blocks/tipical-video/__name/tipical-video__name.css);
+@import url(../blocks/tipical-video/__area/tipical-video__area.css);
 /*аудио*/
 @import url(../blocks/audio/audio.css);
 @import url(../blocks/audio/__messaghe/audio__messaghe.css);
@@ -51,6 +39,8 @@
 @import url(../blocks/slaider/__area/slaider__area.css);
 @import url(../blocks/slaider/__gallery/slaider__gallery.css);
 @import url(../blocks/slaider/__image/slaider__image.css);
+@import url(../blocks/slaider/__text/slaider__text.css);
+@import url(../blocks/slaider/__text/slaider__text.css);
 /*подвал*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__legal-info/footer__legal-info.css);
@@ -66,28 +56,161 @@
 @import url(../blocks/notion/notion.css);
 @import url(../blocks/notion/__title/notion__title.css);
 @import url(../blocks/notion/__subtitle/notion__subtitle.css);
-@import url(../blocks/notion/__close/notion__close.css);
-/*chapter*/
+@import url(../blocks/notion/__close/tip-close.css);
+/*chapters*/
 @import url(../blocks/chapters/chapters.css);
 @import url(../blocks/chapters/__title/chapters__title.css);
-/*chapters*/
+/*chapter*/
 @import url(../blocks/chapter/chapter.css);
-@import url(../blocks/chapter/__text/chapter__text.css);
-
-
-.page-tip {
-    max-width: 1440px;
-    min-width: 360px;
+/*попапы*/
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
+/*селектры осноговного контента*/
+.main h1 {
+    font-family: 'WF', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55px;
+    width: 674px;
     margin: 0 auto;
-    font-family: 'PT Sans', sans-serif;
+    border-bottom: 1px solid #3A543E;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 @media screen and (max-width: 400px) {
-    .page-tip {
-        width: 100%;
+    .main h1 {
+        width: 280px;
+        font-size: 39px;
+        line-height: 40px;
+        margin: 0 auto;
     }  
 }
 
-* {
-    border: 1px rebeccapurple solid;
+@media screen and (max-width: 800px) {
+    .main h1 {
+        min-width: 280px;
+        max-width: 400px;
+    }  
+}
+
+.main h2 {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.main h3 {
+    font-family: 'WF','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    width: 125px;
+    color: #323232;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .main h3 {
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}
+
+.main p {
+    font-family: 'PT Sans', 'Arial', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 676px;
+    margin: 0 auto;
+    padding-top: 35px;
+    text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+    .main p {
+        min-width: 280px;
+        max-width: 400px;
+        margin: 0  auto;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .main p {
+        width: 280px;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 auto;
+    }  
+}
+
+.main blockquote {
+    font-family: 'WF','Arial', sans-serif;;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #3A543E;
+    width: 676px;
+    margin: 33px auto 0;
+    padding-left: 10px;
+    border-left: 2px solid #3A543E;;
+}
+
+@media screen and (max-width: 400px) {
+    .main blockquote {
+        width: 280px;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 auto;
+        margin-top: 15px;
+        padding-left: 5px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .main blockquote {
+        min-width: 280px;
+        max-width: 393px;
+        margin: 0 auto;
+        margin-top: 15px;
+        padding-left: 5px;
+    }  
+}
+
+.main br {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 678px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 800px) {
+    .main br {
+        padding-top: 10px;
+        max-width: 400px;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .main br {
+        padding-top: 10px;
+        max-width: 280px;
+        font-size: 18px;
+        line-height: 20px;
+    }  
 }

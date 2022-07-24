@@ -1,12 +1,12 @@
 @media  screen and (max-width: 768px) {
-    .magazine__card-tematic_text {
+    .card-magazine-tematic__text {
         display: none;
     }
     
 }
 
 @media  screen and (max-width: 360px) {
-    .magazine__card-tematic_text {
+    .card-magazine-tematic__text {
         display: block;
     }
     

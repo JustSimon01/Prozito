@@ -1,4 +1,4 @@
-.magazine__card-tematic_text_container {
+.card-magazine-tematic__text_container {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -6,13 +6,13 @@
 }
 
 @media screen and (max-width: 768px) {
-    .magazine__card-tematic_text_container {
+    .card-magazine-tematic__text_container {
         margin: 0 8px 12px
     }
 }
 
 @media screen and (max-width: 360px) {
-    .magazine__card-tematic_text_container {
+    .card-magazine-tematic__text_container {
         margin: 0 8px 25px
     }
 }

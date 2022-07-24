@@ -44,15 +44,17 @@
 /* для вставки карточек добавлять вот эти классы */
 
 @import url(../blocks/magazine/__cards/magazine__cards.css);
-@import url(../blocks/magazine/__card-exp/magazine__card-exp.css);
-@import url(../blocks/magazine/__card-exp_title/magazine__card-exp_title.css);
-@import url(../blocks/magazine/__card-exp_img/magazine__card-exp_img.css);
-@import url(../blocks/magazine/__card-exp_name/magazine__card-exp_name.css);
-@import url(../blocks/magazine/__card-tematic/magazine__card-tematic.css);
-@import url(../blocks/magazine/__card-tematic_img/magazine__card-tematic_img.css);
-@import url(../blocks/magazine/__card-tematic_name/magazine__card-tematic_name.css);
-@import url(../blocks/magazine/__card-tematic_text_container/magazine__card-tematic_text_container.css);
-@import url(../blocks/magazine/__card-tematic_text/magazine__card-tematic_text.css);
+
+@import url(../blocks/card-magazine-exp/card-magazine-exp.css);
+@import url(../blocks/card-magazine-exp/__img/card-magazine-exp__img.css);
+@import url(../blocks/card-magazine-exp/__name/card-magazine-exp__name.css);
+@import url(../blocks/card-magazine-exp/__title/card-magazine-exp__title.css);
+
+@import url(../blocks/card-magazine-tematic/card-magazine-tematic.css);
+@import url(../blocks/card-magazine-tematic/__name/card-magazine-tematic__name.css);
+@import url(../blocks/card-magazine-tematic/__img/card-magazine-tematic__img.css);
+@import url(../blocks/card-magazine-tematic/__text/card-magazine-tematic__text.css);
+@import url(../blocks/card-magazine-tematic/__text_container/card-magazine-tematic__text_container.css);
 
 /* счетчик страниц */
 

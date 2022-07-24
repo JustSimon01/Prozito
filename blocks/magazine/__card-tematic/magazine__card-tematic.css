@@ -1,0 +1,34 @@
+.magazine__card-tematic {
+    position: relative;
+    overflow: hidden;
+    width: 328px;
+    height: 528px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all ease-in-out 0.25s;
+    border-radius: 8px;
+}
+
+.magazine__card-tematic:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .magazine__card-tematic {
+        width: 180px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .magazine__card-tematic {
+        width: 252px;
+        height: 352px;
+
+    }
+    .magazine__card-tematic:hover {
+        opacity: unset;
+        }
+}

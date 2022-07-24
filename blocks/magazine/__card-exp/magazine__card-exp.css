@@ -1,0 +1,36 @@
+.magazine__card-exp {
+    box-sizing: border-box;
+    background-color: #E7E4DE;
+    width: 328px;
+    height: 526px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    cursor: pointer;
+    transition: all ease-in-out 0.25s;
+    border-radius: 8px;
+}
+
+.magazine__card-exp:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+    .magazine__card-exp {
+        width: 180px;
+        height: 280px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .magazine__card-exp {
+        width: 252px;
+        height: 352px;
+    }
+    .magazine__card-exp:hover {
+        opacity: unset;
+    }
+
+}

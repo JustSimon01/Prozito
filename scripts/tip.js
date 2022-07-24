@@ -1,4 +1,4 @@
-// закрытие мини попапа
+// закрытие мини попапа типовая страница
 const miniPopup = document.querySelector('.notion')
 const popupTip = document.querySelector('.chapters')
 const popupTipOpen = document.querySelector('.chapter')

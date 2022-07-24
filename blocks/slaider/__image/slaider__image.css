@@ -1,9 +1,20 @@
 .slaider__image {
     display: block;
-    width: 569px;
-    height: 397px;
+    max-width: 569px;
+    max-height: 397px;
     margin: 0 auto;
-    padding-top: 62px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+@media screen and (max-width: 800px) {
+    .slaider__image {
+        max-height: 370px;
+        max-width: 370px;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }  
 }
 
 @media screen and (max-width: 400px) {

@@ -1,6 +1,12 @@
 .slaider__area {
     background-color: #F7F4F0;
-    height: 520px;
+    max-height: 520px;
+}
+
+@media screen and (max-width: 800px) {
+    .slaider__area {
+        max-height: 400px;
+    }
 }
 
 @media screen and (max-width: 400px) {

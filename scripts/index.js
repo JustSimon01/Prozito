@@ -111,3 +111,4 @@ magazineBtnLeft.addEventListener("click", () => {
     magazineBtnLeft.classList.add("button-arrow_state_disabled");
   }
 });
+

@@ -1,7 +1,21 @@
 .tipical-img {
-    max-width: 910px;
+    width: 910px;
     align-self: center;
     padding-top: 26px;
+}
+
+@media screen and (max-width: 911px) {
+    .tipical-img {
+        max-width: 600px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}
+
+@media screen and (max-width: 610px) {
+    .tipical-img {
+        max-width: 400px;
+    }  
 }
 
 @media screen and (max-width: 400px) {
@@ -12,16 +26,3 @@
     }  
 }
 
-@media screen and (max-width: 500px) {
-    .tipical-img {
-        max-width: 400px;
-    }  
-}
-
-@media screen and (max-width: 800px) {
-    .tipical-img {
-        max-width: 500px;
-        margin: 0 auto;
-        padding-top: 10px;
-    }  
-}

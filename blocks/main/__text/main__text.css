@@ -1,4 +1,4 @@
-.main__text {
+/*.main__text {
     font-family: 'PT Sans', 'Arial', sans-serif;;
     font-style: normal;
     font-weight: 400;
@@ -10,6 +10,14 @@
     text-align: left;
 }
 
+@media screen and (max-width: 800px) {
+    .main__text {
+        min-width: 280px;
+        max-width: 400px;
+        margin: 0 auto;
+    }  
+}
+
 @media screen and (max-width: 400px) {
     .main__text {
         width: 280px;
@@ -19,10 +27,3 @@
     }  
 }
 
-@media screen and (max-width: 800px) {
-    .main__text {
-        min-width: 280px;
-        max-width: 400px;
-        margin: 0 auto;
-    }  
-}

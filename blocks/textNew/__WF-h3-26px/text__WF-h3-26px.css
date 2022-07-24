@@ -5,3 +5,11 @@
     font-size: 26px;
     line-height: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .text__WF-h3-26px {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    
+}

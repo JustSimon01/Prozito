@@ -1,16 +1,4 @@
 .document-card__paragraph{
 margin: 12px 0 0;
-font-family: 'PT Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 26px;
-color: #323232;
-}
 
-@media screen and (max-width: 768px ) {
-    .document-card__paragraph{
-        font-size: 14px;
-        line-height: 18px;
-    }
 }

@@ -38,7 +38,7 @@ menuPopupCloseButton.addEventListener('click', function(){
 
 
 //мини-попап на заглавной (закрытие. поумолчанию открыт)
-const popupMini = document.querySelector('.pop-up__mini');
+const popupMini = document.querySelector('.mini-pop-up');
 const buttonMiniPopupClose = document.querySelector('.button-close');
 
 buttonMiniPopupClose.addEventListener('click', function() {

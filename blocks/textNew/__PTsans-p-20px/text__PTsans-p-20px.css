@@ -5,3 +5,11 @@
     font-size: 20px;
     line-height: 26px;
 }
+
+@media screen and (max-width: 768px) {
+    .text__PTsans-p-20px {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+}

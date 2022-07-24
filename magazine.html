@@ -1,235 +1,230 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Журнал "Прожито"</title>
-    <link rel="stylesheet" href="./pages/magazine.css" />
-    <link rel="stylesheet" href="./pages/header.css">
-  </head>
-  <body class="page__magazine">
-    <header class="header header_color_beige">
-      <div class="header__line">
-       <img class="logo" src="./images/logot/logo.svg" alt="логотип">
-       <ul class="header__navigation">
-         <li><a class="header__navigation-element" href="https://prozhito.org/page/archive">Архив</a></li>
-         <li><a class="header__navigation-element" href="https://prozhito.org/persons">Корпус</a></li>
-         <li class="header__navigation-element" id="aboutProject">О проекте</li>
-       </ul>
-       <button class="header__menu-icon" type="button" id="menuButton"></button>
-       <ul class="pop-up header__menu">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Журнал "Прожито"</title>
+  <link rel="stylesheet" href="./pages/magazine.css" />
+  <link rel="stylesheet" href="./pages/header.css">
+</head>
+
+<body class="page__magazine">
+  <header class="header header_color_beige">
+    <div class="header__line">
+      <img class="logo" src="./images/logot/logo.svg" alt="логотип">
+      <ul class="header__navigation">
+        <li><a class="header__navigation-element" href="https://prozhito.org/page/archive">Архив</a></li>
+        <li><a class="header__navigation-element" href="https://prozhito.org/persons">Корпус</a></li>
+        <li class="header__navigation-element" id="aboutProject">О проекте</li>
+      </ul>
+      <button class="header__menu-icon" type="button" id="menuButton"></button>
+      <ul class="pop-up header__menu">
         <li><a class="header__menu-element" href="#">О прожито</a></li>
         <li><a class="header__menu-element" href="#">Как работать?</a></li>
         <li><a class="header__menu-element" href="#">Медиа</a></li>
         <li><a class="header__menu-element" href="#">Новости</a></li>
         <li><a class="header__menu-element" href="#">Спецпроекты</a></li>
-       </ul>
-      </div>
-      <div class="header__menu-mobile pop-up">
-        <div class="header">
-         <div class="header__line_menu-mobile">
+      </ul>
+    </div>
+    <div class="header__menu-mobile pop-up">
+      <div class="header">
+        <div class="header__line_menu-mobile">
           <img class="logo" src="./images/logot/logo.svg" alt="логотип">
           <button class="header__menu-icon header__menu-icon_close" type="button" id="menuButton"></button>
-         </div>
         </div>
-           <ul class="header__menu-mobile-blocks">
-              <li>Архив</li>
-              <li>Корпус</li>
-              <li>О проекте</li>
-           </ul>
-           <ul class="header__menu-mobile-blocks">
-              <li>О прожито</li>
-              <li>Как работать?</li>
-              <li>Медиа</li>
-              <li>Новости</li>
-              <li>Спецпроекты</li>
-           </ul>
-        </div>
-     </header>
-  
-    <main>
-      <nav class="route">
-        <a href="index.html" class="route__link text__pt_sans_middle"
-          >Главная страница / </a
-        ><a href="" class="route__link text__pt_sans_middle"
-          >Журнал «Прожито»
-        </a>
-      </nav>
-      <h1 class="text__h1 magazine__title">Журнал «Прожито»</h1>
-      <nav class="magazine__sort text__pt_sans_middle">
-        Сортировать :
-        <ul class="magazine__sort_items">
-          <li>
-            <button class="magazine__sort_item magazine__sort_item_active text__pt_sans_small"
-              >ВСЕ</button
-            >
-          </li>
-          <li>
-            <button class="magazine__sort_item text__pt_sans_small"
-              >ТЕМАТИЧЕСКАЯ ПОДБОРКА</button
-            >
-          </li>
-          <li>
-            <button class="magazine__sort_item text__pt_sans_small"
-              >СПЕЦПРОЕКТЫ</button
-            >
-          </li>
-          <li>
-            <button class="magazine__sort_item text__pt_sans_small"
-              >ОПЫТ ЧИТАТЕЛЯ</button
-            >
-          </li>
-        </ul>
-      </nav>
-      <ul class="magazine__cards">
-        <li class="magazine__card_exp">
-          <h3 class="text__h3 magazine__card_exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
-          <img
-            src="./images/magazine-news/magazine-news-zelenina.jpg"
-            alt="картинка новости"
-            class="magazine__card_exp_img"
-          />
-          <p class="text__pt_sans_small">
-            историк, доцент кафедры теологии иудаизма, библеистики и иудаики
-            РГГУ и ст. н. с. ШАГИ РАНХиГС
-          </p>
-          <p class="text__pt_sans_small magazine__card_exp_name">ОПЫТ ЧИТАТЕЛЯ</p>
+      </div>
+      <ul class="header__menu-mobile-blocks">
+        <li>Архив</li>
+        <li>Корпус</li>
+        <li>О проекте</li>
+      </ul>
+      <ul class="header__menu-mobile-blocks">
+        <li>О прожито</li>
+        <li>Как работать?</li>
+        <li>Медиа</li>
+        <li>Новости</li>
+        <li>Спецпроекты</li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <nav class="route">
+      <a href="index.html" class="route__link text__pt_sans_middle">Главная страница / </a><a href=""
+        class="route__link text__pt_sans_middle">Журнал «Прожито»
+      </a>
+    </nav>
+    <h1 class="text__h1 magazine__title">Журнал «Прожито»</h1>
+    <nav class="magazine__sort text__pt_sans_middle">
+      Сортировать :
+      <ul class="magazine__sort_items">
+        <li>
+          <button class="magazine__sort_item magazine__sort_item_active text__pt_sans_small">ВСЕ</button>
         </li>
-        <li class="magazine__card_tematic">
-            <img src="./images/magazine-news/magazine-news-stalin.jpg" alt="" class="magazine__card_tematic_img">
-          <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Тематическая подборка</p>
-          <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Сталин умер</h3>
-          <p class="text__pt_sans_middle text__color_white">
-            Что теперь будет?! Как нам жить без него?
-          </p>
-          <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
-            Все газеты впервые опубликовали портреты т.Сталина и многочисленные
-            статьи. В них т.Сталин именуется вождём мирового пролетариата.
-          </p>
-        </div>
+        <li>
+          <button class="magazine__sort_item text__pt_sans_small">ТЕМАТИЧЕСКАЯ ПОДБОРКА</button>
         </li>
-        <li class="magazine__card_tematic">
-            <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card_tematic_img">
-          <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
-          <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Блокада</h3>
-          <p class="text__pt_sans_middle text__color_white">Исследование блокадных дневников</p>
-          <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
-            В условиях катастрофического голода, холода, вражеских бомбардировок
-            и обстрелов сотни тысяч людей оказались заперты в городе. У многих
-            из них был доступ к бумаге и чернилам, и некоторые начали вести
-            дневники.
-          </p></div>
+        <li>
+          <button class="magazine__sort_item text__pt_sans_small">СПЕЦПРОЕКТЫ</button>
         </li>
-        <li class="magazine__card_tematic">
-            <img src="./images/magazine-news/magazine-news-stalin.jpg" alt="" class="magazine__card_tematic_img">
-          <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Тематическая подборка</p>
-          <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Сталин умер</h3>
-          <p class="text__pt_sans_middle text__color_white">
-            Что теперь будет?! Как нам жить без него?
-          </p>
-          <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
-            Все газеты впервые опубликовали портреты т.Сталина и многочисленные
-            статьи. В них т.Сталин именуется вождём мирового пролетариата.
-          </p>
-        </div>
-        </li>
-        <li class="magazine__card_exp">
-            <h3 class="text__h3 magazine__card_exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
-            <img
-              src="./images/magazine-news/magazine-news-zelenina.jpg"
-              alt="картинка новости"
-              class="magazine__card_exp_img"
-            />
-            <p class="text__pt_sans_small">
-              историк, доцент кафедры теологии иудаизма, библеистики и иудаики
-              РГГУ и ст. н. с. ШАГИ РАНХиГС
-            </p>
-            <p class="text__pt_sans_small magazine__card_exp_name">ОПЫТ ЧИТАТЕЛЯ</p>
-          </li>
-          <li class="magazine__card_tematic">
-            <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card_tematic_img">
-          <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
-          <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Блокада</h3>
-          <p class="text__pt_sans_middle text__color_white">Исследование блокадных дневников</p>
-          <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
-            В условиях катастрофического голода, холода, вражеских бомбардировок
-            и обстрелов сотни тысяч людей оказались заперты в городе. У многих
-            из них был доступ к бумаге и чернилам, и некоторые начали вести
-            дневники.
-          </p></div>
-        </li>
-        <li class="magazine__card_exp">
-            <h3 class="text__h3 magazine__card_exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
-            <img
-              src="./images/magazine-news/magazine-news-zelenina.jpg"
-              alt="картинка новости"
-              class="magazine__card_exp_img"
-            />
-            <p class="text__pt_sans_small">
-              историк, доцент кафедры теологии иудаизма, библеистики и иудаики
-              РГГУ и ст. н. с. ШАГИ РАНХиГС
-            </p>
-            <p class="text__pt_sans_small magazine__card_exp_name">ОПЫТ ЧИТАТЕЛЯ</p>
-          </li>
-          <li class="magazine__card_tematic">
-            <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card_tematic_img">
-          <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
-          <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Блокада</h3>
-          <p class="text__pt_sans_middle text__color_white">Исследование блокадных дневников</p>
-          <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
-            В условиях катастрофического голода, холода, вражеских бомбардировок
-            и обстрелов сотни тысяч людей оказались заперты в городе. У многих
-            из них был доступ к бумаге и чернилам, и некоторые начали вести
-            дневники.
-          </p></div>
-        </li>
-        <li class="magazine__card_tematic">
-            <img src="./images/magazine-news/magazine-news-stalin.jpg" alt="" class="magazine__card_tematic_img">
-          <p class="magazine__card_tematic_name text__pt_sans_small_italic text__color_white">Тематическая подборка</p>
-          <div class="magazine__card_tematic_text_container"><h3 class="text__h3 text__color_white">Сталин умер</h3>
-          <p class="text__pt_sans_middle text__color_white">
-            Что теперь будет?! Как нам жить без него?
-          </p>
-          <p class="magazine__card_tematic_text text__pt_sans_small text__color_white">
-            Все газеты впервые опубликовали портреты т.Сталина и многочисленные
-            статьи. В них т.Сталин именуется вождём мирового пролетариата.
-          </p>
-        </div>
+        <li>
+          <button class="magazine__sort_item text__pt_sans_small">ОПЫТ ЧИТАТЕЛЯ</button>
         </li>
       </ul>
-      <div class="magazine__cards_pages">
-        <button class="button-arrow_direction_left"></button>
-        <button class="magazine__cards_pages_count magazine__cards_pages_count_active text__pt_sans_small">1</button>
-        <button class="magazine__cards_pages_count text__pt_sans_small">2</button>
-        <button class="magazine__cards_pages_count text__pt_sans_small">...</button>
-        <button class="magazine__cards_pages_count text__pt_sans_small">5</button>
-        <button class="button-arrow_direction_right"></button>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="footer__menu-block">
-        <ul class="footer__menu text__pt_sans_middle">
-          <li><a class="footer__link-element" href="#"> О команде</a></li>
-          <li><a class="footer__link-element" href="#"> Благодарности</a></li>
-          <li><a class="footer__link-element" href="#"> Партнёры</a></li>
-          <li><a class="footer__link-element" href="#"> FAQ</a></li>
-          <li><a class="footer__link-element" href="#"> Инструкции</a></li>
-        </ul>
-      </div>
-      <div class="footer__links-block">
-        <img class="logo logo_footer" src="./images/logot/logo.svg" alt="логотип">
-  
-        <ul class="footer__social">
-          <li><a class="footer__link-element" href="https://t.me/prozhito"><img class="network-logo" src="./images/logot/logo_telegram.svg" alt="Телеграмм">Телеграмм</a></li>
-          <li><a class="footer__link-element" href="https://vk.com/prozhito"><img class="network-logo" src="./images/logot/logo_VK.svg" alt="Вконтакте">Вконтакте</a></li>
-        </ul>
-        <ul class="footer__legal-info">
-          <li><a class="footer__link-element" href="#">Юридическая информация</a></li>
-          <li><a class="footer__link-element" href="#">Политика конфиденциальности</a></li>
-        </ul>
-      </div>
-    </footer>
-    <script src="./scripts/magazine.js"></script>
-  </body>
+    </nav>
+    <ul class="magazine__cards">
+      <li class="magazine__card-exp">
+        <h3 class="text__h3 magazine__card-exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
+        <img src="./images/magazine-news/magazine-news-zelenina.jpg" alt="картинка новости"
+          class="magazine__card-exp_img" />
+        <p class="text__pt_sans_small">
+          историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+          РГГУ и ст. н. с. ШАГИ РАНХиГС
+        </p>
+        <p class="text__pt_sans_small magazine__card-exp_name">ОПЫТ ЧИТАТЕЛЯ</p>
+      </li>
+      <li class="magazine__card-tematic">
+        <img src="./images/magazine-news/magazine-news-stalin.jpg" alt="" class="magazine__card-tematic_img">
+        <p class="magazine__card-tematic_name text__pt_sans_small_italic text__color_white">Тематическая подборка</p>
+        <div class="magazine__card-tematic_text_container">
+          <h3 class="text__h3 text__color_white">Сталин умер</h3>
+          <p class="text__pt_sans_middle text__color_white">
+            Что теперь будет?! Как нам жить без него?
+          </p>
+          <p class="magazine__card-tematic_text text__pt_sans_small text__color_white">
+            Все газеты впервые опубликовали портреты т.Сталина и многочисленные
+            статьи. В них т.Сталин именуется вождём мирового пролетариата.
+          </p>
+        </div>
+      </li>
+      <li class="magazine__card-tematic">
+        <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card-tematic_img">
+        <p class="magazine__card-tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
+        <div class="magazine__card-tematic_text_container">
+          <h3 class="text__h3 text__color_white">Блокада</h3>
+          <p class="text__pt_sans_middle text__color_white">Исследование блокадных дневников</p>
+          <p class="magazine__card-tematic_text text__pt_sans_small text__color_white">
+            В условиях катастрофического голода, холода, вражеских бомбардировок
+            и обстрелов сотни тысяч людей оказались заперты в городе. У многих
+            из них был доступ к бумаге и чернилам, и некоторые начали вести
+            дневники.
+          </p>
+        </div>
+      </li>
+      <li class="magazine__card-tematic">
+        <img src="./images/magazine-news/magazine-news-stalin.jpg" alt="" class="magazine__card-tematic_img">
+        <p class="magazine__card-tematic_name text__pt_sans_small_italic text__color_white">Тематическая подборка</p>
+        <div class="magazine__card-tematic_text_container">
+          <h3 class="text__h3 text__color_white">Сталин умер</h3>
+          <p class="text__pt_sans_middle text__color_white">
+            Что теперь будет?! Как нам жить без него?
+          </p>
+          <p class="magazine__card-tematic_text text__pt_sans_small text__color_white">
+            Все газеты впервые опубликовали портреты т.Сталина и многочисленные
+            статьи. В них т.Сталин именуется вождём мирового пролетариата.
+          </p>
+        </div>
+      </li>
+      <li class="magazine__card-exp">
+        <h3 class="text__h3 magazine__card-exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
+        <img src="./images/magazine-news/magazine-news-zelenina.jpg" alt="картинка новости"
+          class="magazine__card-exp_img" />
+        <p class="text__pt_sans_small">
+          историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+          РГГУ и ст. н. с. ШАГИ РАНХиГС
+        </p>
+        <p class="text__pt_sans_small magazine__card-exp_name">ОПЫТ ЧИТАТЕЛЯ</p>
+      </li>
+      <li class="magazine__card-tematic">
+        <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card-tematic_img">
+        <p class="magazine__card-tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
+        <div class="magazine__card-tematic_text_container">
+          <h3 class="text__h3 text__color_white">Блокада</h3>
+          <p class="text__pt_sans_middle text__color_white">Исследование блокадных дневников</p>
+          <p class="magazine__card-tematic_text text__pt_sans_small text__color_white">
+            В условиях катастрофического голода, холода, вражеских бомбардировок
+            и обстрелов сотни тысяч людей оказались заперты в городе. У многих
+            из них был доступ к бумаге и чернилам, и некоторые начали вести
+            дневники.
+          </p>
+        </div>
+      </li>
+      <li class="magazine__card-exp">
+        <h3 class="text__h3 magazine__card-exp_title">Галина Зеленина о дневниках Леонида Липкина</h3>
+        <img src="./images/magazine-news/magazine-news-zelenina.jpg" alt="картинка новости"
+          class="magazine__card-exp_img" />
+        <p class="text__pt_sans_small">
+          историк, доцент кафедры теологии иудаизма, библеистики и иудаики
+          РГГУ и ст. н. с. ШАГИ РАНХиГС
+        </p>
+        <p class="text__pt_sans_small magazine__card-exp_name">ОПЫТ ЧИТАТЕЛЯ</p>
+      </li>
+      <li class="magazine__card-tematic">
+        <img src="./images/magazine-news/magazine-news-blokada.jpg" alt="" class="magazine__card-tematic_img">
+        <p class="magazine__card-tematic_name text__pt_sans_small_italic text__color_white">Спецпроект</p>
+        <div class="magazine__card-tematic_text_container">
+          <h3 class="text__h3 text__color_white">Блокада</h3>
+          <p class="text__pt_sans_middle text__color_white">Исследование блокадных дневников</p>
+          <p class="magazine__card-tematic_text text__pt_sans_small text__color_white">
+            В условиях катастрофического голода, холода, вражеских бомбардировок
+            и обстрелов сотни тысяч людей оказались заперты в городе. У многих
+            из них был доступ к бумаге и чернилам, и некоторые начали вести
+            дневники.
+          </p>
+        </div>
+      </li>
+      <li class="magazine__card-tematic">
+        <img src="./images/magazine-news/magazine-news-stalin.jpg" alt="" class="magazine__card-tematic_img">
+        <p class="magazine__card-tematic_name text__pt_sans_small_italic text__color_white">Тематическая подборка</p>
+        <div class="magazine__card-tematic_text_container">
+          <h3 class="text__h3 text__color_white">Сталин умер</h3>
+          <p class="text__pt_sans_middle text__color_white">
+            Что теперь будет?! Как нам жить без него?
+          </p>
+          <p class="magazine__card-tematic_text text__pt_sans_small text__color_white">
+            Все газеты впервые опубликовали портреты т.Сталина и многочисленные
+            статьи. В них т.Сталин именуется вождём мирового пролетариата.
+          </p>
+        </div>
+      </li>
+    </ul>
+    <div class="magazine__cards_pages">
+      <button class="button-arrow_direction_left"></button>
+      <button class="magazine__cards_pages_count magazine__cards_pages_count_active text__pt_sans_small">1</button>
+      <button class="magazine__cards_pages_count text__pt_sans_small">2</button>
+      <button class="magazine__cards_pages_count text__pt_sans_small">...</button>
+      <button class="magazine__cards_pages_count text__pt_sans_small">5</button>
+      <button class="button-arrow_direction_right"></button>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__menu-block">
+      <ul class="footer__menu text__pt_sans_middle">
+        <li><a class="footer__link-element" href="#"> О команде</a></li>
+        <li><a class="footer__link-element" href="#"> Благодарности</a></li>
+        <li><a class="footer__link-element" href="#"> Партнёры</a></li>
+        <li><a class="footer__link-element" href="#"> FAQ</a></li>
+        <li><a class="footer__link-element" href="#"> Инструкции</a></li>
+      </ul>
+    </div>
+    <div class="footer__links-block">
+      <img class="logo logo_footer" src="./images/logot/logo.svg" alt="логотип">
+
+      <ul class="footer__social">
+        <li><a class="footer__link-element" href="https://t.me/prozhito"><img class="network-logo"
+              src="./images/logot/logo_telegram.svg" alt="Телеграмм">Телеграмм</a></li>
+        <li><a class="footer__link-element" href="https://vk.com/prozhito"><img class="network-logo"
+              src="./images/logot/logo_VK.svg" alt="Вконтакте">Вконтакте</a></li>
+      </ul>
+      <ul class="footer__legal-info">
+        <li><a class="footer__link-element" href="#">Юридическая информация</a></li>
+        <li><a class="footer__link-element" href="#">Политика конфиденциальности</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="./scripts/magazine.js"></script>
+</body>
+
 </html>

@@ -1,6 +1,17 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+/*текстовые переменные новые */
+@import url(../blocks/textNew/text.css);
+@import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
+@import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
+@import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
+@import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
+@import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
+@import url(../blocks/textNew/__WF-h3-26px/text__WF-h3-26px.css);
+@import url(../blocks/textNew/_color/_white/text_color_white.css);
+@import url(../blocks/textNew/_italic/text_italic.css);
+
 @import url(../blocks/main-page/main-page.css);
 @import url(../blocks/main-page/__search-banner/main-page__search-banner.css);
 @import url(../blocks/main-page/__special-projects/main-page__special-projects.css);
@@ -25,16 +36,7 @@
 @import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
 @import url(../blocks/text/color/text__color_white.css);
 
-/*текстовые переменные новые */
-@import url(../blocks/textNew/text.css);
-@import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
-@import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
-@import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
-@import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
-@import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
-@import url(../blocks/textNew/__WF-h3-26px/text__WF-h3-26px.css);
-@import url(../blocks/textNew/_color/_white/text_color_white.css);
-@import url(../blocks/textNew/_italic/text_italic.css);
+
 
 
 @import url(../blocks/news/news.css);

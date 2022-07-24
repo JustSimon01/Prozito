@@ -1,9 +1,5 @@
 .search-banner__text {
    max-width: 660px;
-   font-family: 'PT Sans';
-   font-size: 20px;
-   line-height: 26px;
-   color: #323232;
    margin: 0 0 16px;
    grid-area: text;
 

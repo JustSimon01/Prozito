@@ -5,7 +5,6 @@
 @import url(../blocks/page-tip/page-tip.css);
 
 /*текстовые переменные новые */
-@import url(../blocks/textNew/text.css);
 @import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
 @import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
 @import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
@@ -28,7 +27,6 @@
 @import url(../blocks/header/__menu/header_menu.css);
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_header/logo_header.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
 /*основной контент*/
 @import url(../blocks/main/main.css);
@@ -43,9 +41,24 @@
 @import url(../blocks/tipical-video/__name/tipical-video__name.css);
 @import url(../blocks/tipical-video/__area/tipical-video__area.css);
 /*аудио*/
-@import url(../blocks/audio/audio.css);
-@import url(../blocks/audio/__messaghe/audio__messaghe.css);
-@import url(../blocks/audio/__name/audio__name.css);
+@import url(../blocks/audio-block/audio-block.css);
+@import url(../blocks/audio-block/__name/audio-block__name.css);
+
+/*плеер*/
+@import url(../blocks/player/player.css);
+@import url(../blocks/player/__back-button/player__back-button.css);
+@import url(../blocks/player/__controls/player__controls.css);
+@import url(../blocks/player/__forward-button/player__forward-button.css);
+@import url(../blocks/player/__play-button/player__play-button.css);
+@import url(../blocks/player/__play-button/_pause/player__play-button_pause.css);
+@import url(../blocks/player/__progress-bar/player__progress-bar.css);
+@import url(../blocks/player/__progress-container/player__progress-container.css);
+@import url(../blocks/player/__time-volume/player__time-volume.css);
+@import url(../blocks/player/__time/player__time.css);
+@import url(../blocks/player/__volume-bar-progress/player__volume-bar-progress.css);
+@import url(../blocks/player/__volume-bar/player__volume-bar.css);
+@import url(../blocks/player/__volume-bar/_opend/player__volume-bar_opend.css);
+@import url(../blocks/player/__volume-button/player__volume-button.css);
 /*слайдер*/
 @import url(../blocks/slaider/slaider.css);
 @import url(../blocks/slaider/__area/slaider__area.css);
@@ -76,10 +89,8 @@
 @import url(../blocks/chapter/chapter.css);
 /*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
-
 @import url(../blocks/pop-up/_opened/pop-up_opened.css);
 
-@import url(../blocks/pop-up/__mini/pop-up__mini.css);
 /*футер*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__links-block/footer__links-block.css);

@@ -80,9 +80,24 @@
             <br>
             - Мне.
         </p>
-        <div class="audio">
-            <img src="././images/type-page/type_page-audio_player.svg" alt="аудиплеер" class="audio__messaghe">
-            <h4 class="audio__name">Запись разговора Юры и Вени Аронвальда, 1937 год</h4>
+        <div class="audio-block">
+          <div class="player">
+            <div class="player__controls">
+              <button class="player__play-button"></button>
+              <button class="player__back-button"></button>
+              <button class="player__forward-button"></button>
+            </div>
+            <div class="player__progress-container">
+                <div class="player__progress-bar"></div>
+            </div>
+            <audio class="audio" src="./audio/1564_Rodoman.mp3"></audio>
+            <div class="player__time-volume">
+              <span class="player__time text__PTsans-p-20px">00:00</span>
+              <button class="player__volume-button"></button>
+              <input class="player__volume-bar" type="range" id="volume-slider" max="100" value="100">
+            </div>
+        </div>
+            <h4 class="audio-block__name">Запись разговора Юры и Вени Аронвальда, 1937 год</h4>
         </div> 
         <p>Но вскоре подростки дают читать друг другу свои дневники. Дружба продлиться до самой войны, становясь то теснее, то прохладней.
                 Юра хорошо учится и это видно не по отметкам (их он не приводит), а потому, как растет его грамотность. Много читает. Но есть предмет, который дается ему с трудом – немецкий язык. В старших классах он увлечен героями Джека Лондона. Любит кино и мечтает стать кинооператором. А еще влюблен в заслуженную артистку республики Любовь Орлову: собирает ее фотографии и не пропускает ни одного фильма.

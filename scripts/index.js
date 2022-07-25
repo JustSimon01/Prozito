@@ -111,7 +111,7 @@ magazineBtnLeft.addEventListener('click', () => positionMagazineCardsOuterLeft(m
 
 
 //3dслайдер, свайп
-const cardsBlock = document.querySelector('.media__content-cards-block-mobile')
+const cardsBlock = document.querySelector('.slider-3d')
 //ограничиваем работу свайпа блоком слайдера
 cardsBlock.addEventListener('touchstart', handleTouchStart, false);
 cardsBlock.addEventListener('touchmove', handleTouchMove, false);
@@ -136,45 +136,167 @@ function handleTouchMove(event) {
 
     if(Math.abs(xDiff) > Math.abs(yDiff)){
       if (xDiff>0){
-        console.log('right');
-        nextSlide();
+        changeRight();
     }else{
-        console.log('left');
-        prevSlide();
+        changeLeft();
     }
 }
 x1=null;
 y1=null;
 }
-//находим массив карточек привязанных к радио-кнопкам
-let arrRadio = document.querySelectorAll('.radio');
-//задаем стартовую карточку
-let activeSlide = 0;
-//функция следующая карточка (свайпаем вправо, карточка уходит на позицию вправо)
-function prevSlide(){
-    activeSlide++;
-    if (activeSlide>4){
-        activeSlide=0;
-        arrRadio[activeSlide].checked = !0;
-        console.log(activeSlide);
-        return activeSlide;
-    }if (activeSlide>=0) {
-        arrRadio[activeSlide].checked = !0;
-        console.log(activeSlide);
-        return activeSlide;
-    }
+
+//новый свайп карточек, как уменьшить - не знаю=(
+
+const card1 = document.querySelector('.slider-3d__card-1')
+const card2 = document.querySelector('.slider-3d__card-2')
+const card3 = document.querySelector('.slider-3d__card-3')
+const card4 = document.querySelector('.slider-3d__card-4')
+const card5 = document.querySelector('.slider-3d__card-5')
+//отступы карточек по оси x
+let n = [0, 15, 30, -30, -15];
+//отступы карточек по оси z
+let k = [0, -100, -250, -250, -100];
+
+count=0;
+
+function changeRight(){
+    let i1 = 0;
+    count++;
+if (count>4){
+    count=0;
+    i1=0;
+    i2=1;
+    i3=2;
+    i4=3;
+    i5=4;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
+}if (count<=1){
+    i1=1;
+    i2=2;
+    i3=3;
+    i4=4;
+    i5=0;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
 }
-//функция следующая карточка (свайпаем влево, карточка уходит на позицию влево)
-function nextSlide(){
-    activeSlide--;
-    if (activeSlide<0){
-        activeSlide=4;
-        arrRadio[activeSlide].checked = !0;
-        console.log(activeSlide);
-        return activeSlide;
-    }if (activeSlide>=0) {
-        arrRadio[activeSlide].checked = !0;
-        console.log(activeSlide);
-        return activeSlide;
-    }
+if (count<=2){
+    i1=2;
+    i2=3;
+    i3=4;
+    i4=0;
+    i5=1;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
 }
+if (count<=3){
+    i1=3;
+    i2=4;
+    i3=0;
+    i4=1;
+    i5=2;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
+}
+if (count<=4){
+    i1=4;
+    i2=0;
+    i3=1;
+    i4=2;
+    i5=3;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
+}
+};
+
+
+function changeLeft(){
+    let i1 = 0;
+    count--;
+if (count<0){
+    count=4;
+    i1=4;
+    i2=0;
+    i3=1;
+    i4=2;
+    i5=3;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
+}
+if (count<=0){
+    i1=0;
+    i2=1;
+    i3=2;
+    i4=3;
+    i5=4;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
+}
+if (count<=1){
+    i1=1;
+    i2=2;
+    i3=3;
+    i4=4;
+    i5=0;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
+}
+if (count<=2){
+    i1=2;
+    i2=3;
+    i3=4;
+    i4=0;
+    i5=1;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
+}
+if (count<=3){
+    i1=3;
+    i2=4;
+    i3=0;
+    i4=1;
+    i5=2;
+    card1.style.transform = `translate3d(${n[i1]}%, 0, ${k[i1]}px)`;
+    card2.style.transform = `translate3d(${n[i2]}%, 0, ${k[i2]}px)`;
+    card3.style.transform = `translate3d(${n[i3]}%, 0, ${k[i3]}px)`;
+    card4.style.transform = `translate3d(${n[i4]}%, 0, ${k[i4]}px)`;
+    card5.style.transform = `translate3d(${n[i5]}%, 0, ${k[i5]}px)`;
+    return i1, i2, i3, i4, i5;
+}
+};

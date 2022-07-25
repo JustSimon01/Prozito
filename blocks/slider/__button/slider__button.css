@@ -5,9 +5,16 @@
    border: 0;
    cursor: pointer;
    background: none;
-   margin-right: 30px;
 }
 
-.slider__button:last-child {
-   margin-right: 0;
+
+
+@media screen and (max-width: 927px) {
+   .slider__button {
+      margin-right: 30px;
+   }
+
+   .slider__button:last-child {
+      margin-right: 0;
+   }
 }

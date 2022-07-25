@@ -172,8 +172,10 @@ audio.addEventListener('timeupdate', (e) => {
 function slider() {
     const images = document.querySelectorAll('.slider__image');
     const sliderLine = document.querySelector('.slider__line');
-    const sliderNext = document.querySelector('.slider__button_route_next');
-    const sliderPrev = document.querySelector('.slider__button_route_prev');
+    const sliderMobileNext = document.querySelector('.slider__button_type_mobile-next');
+    const sliderMobilePrev = document.querySelector('.slider__button_type_mobile-prev');
+    const sliderDesktopNext = document.querySelector('.slider__button_type_desktop-next');
+    const sliderDesktopPrev = document.querySelector('.slider__button_type_desktop-prev');
     const sliderCounter = document.querySelector('.slider__counter');
 
     let count = 0;
@@ -199,32 +201,37 @@ function slider() {
     window.addEventListener('resize', init)
     init();
 
-    sliderNext.addEventListener('click', () => {
+    function nextSlide() {
         count++;
-        if (count >= images.length - 1) {
-            sliderNext.setAttribute('disabled', 'disabled');
-            sliderNext.style.opacity = '.4';
-        }
-        if (count >= 1) {
-            sliderPrev.removeAttribute('disabled');
-            sliderPrev.style.opacity = '1';
+        if (count >= images.length) {
+            count = 0;
         }
         rollSlider();
         countText();
+    }
+
+    function prevSlide() {
+        count--;
+        if (count < 0) {
+            count = images.length - 1;
+        }
+        rollSlider();
+        countText();
+    }
+    sliderMobileNext.addEventListener('click', () => {
+        nextSlide();
     });
 
-    sliderPrev.addEventListener('click', () => {
-        count--;
-        if (count === 0) {
-            sliderPrev.setAttribute('disabled', 'disabled');
-            sliderPrev.style.opacity = '.4';
-        }
-        if (count >= 1) {
-            sliderNext.removeAttribute('disabled');
-            sliderNext.style.opacity = '1';
-        }
-        rollSlider();
-        countText();
+    sliderMobilePrev.addEventListener('click', () => {
+        prevSlide();
+    });
+
+    sliderDesktopNext.addEventListener('click', () => {
+        nextSlide();
+    });
+
+    sliderDesktopPrev.addEventListener('click', () => {
+        prevSlide();
     });
 
     function rollSlider() {

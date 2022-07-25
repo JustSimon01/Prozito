@@ -1,3 +1,9 @@
 .slider__button_route_prev {
-   opacity: .4;
+   margin-right: 36px;
+}
+
+@media screen and (max-width: 927px) {
+   .slider__button_route_prev {
+      margin-right: 0;
+   }
 }

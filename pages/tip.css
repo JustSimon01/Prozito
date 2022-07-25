@@ -73,6 +73,7 @@
 @import url(../blocks/slider/__button/slider__button.css);
 @import url(../blocks/slider/__button/_route/slider__button_route_next.css);
 @import url(../blocks/slider/__button/_route/slider__button_route_prev.css);
+@import url(../blocks/slider/__button/_type/slider__button_type_desktop.css);
 /*подвал*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__legal-info/footer__legal-info.css);

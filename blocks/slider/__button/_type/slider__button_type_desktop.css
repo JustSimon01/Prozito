@@ -1,0 +1,9 @@
+.slider__button_type_desktop {
+   display: block;
+}
+
+@media screen and (max-width: 927px) {
+   .slider__button_type_desktop {
+      display: none;
+   }
+}

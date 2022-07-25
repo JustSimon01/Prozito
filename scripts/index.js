@@ -108,6 +108,7 @@ newsBtnLeft.addEventListener('click', () => positionNewsCardsOuterLeft(newsCards
 magazineBtnRigth.addEventListener('click', () => positionMagazineCardsOuterRight(magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
 magazineBtnLeft.addEventListener('click', () => positionMagazineCardsOuterLeft(magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
 
+const cards = document.querySelector('media__content-cards');
 
 
 //3dслайдер, свайп

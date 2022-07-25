@@ -1,7 +1,5 @@
 .card-news__text {
    grid-area: text;
-   font-size: 20px;
-   line-height: 26px;
    margin: 20px 0 0;
 }
 

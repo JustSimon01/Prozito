@@ -1,5 +1,14 @@
+//открыть попап
+function openPopup(popup) {
+    popup.classList.add('pop-up_opened');
+  } 
+  
+  //закрыть попап
+  function closePopup(popup) {
+      popup.classList.remove('pop-up_opened');
+  } 
 
-//открытие-закрытие попапа меню через функции
+//меню хедера, открытие-закрытие попапа меню через функции
 const button = document.querySelector('#aboutProject');
 
 const menuList = document.querySelector('.header__menu');

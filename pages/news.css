@@ -1,6 +1,34 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+/*текстовые переменные новые */
+@import url(../blocks/textNew/text.css);
+@import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
+@import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
+@import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
+@import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
+@import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
+@import url(../blocks/textNew/__WF-h3-26px/text__WF-h3-26px.css);
+@import url(../blocks/textNew/_color/_white/text_color_white.css);
+@import url(../blocks/textNew/_italic/text_italic.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_color/_beige/header_color_beige.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__line/_menu-mobile/header__line_menu-mobile.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__navigation-element/header__navigation-element.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
+@import url(../blocks/header/__menu-mobile-blocks/header__menu-mobile-blocks.css);
+@import url(../blocks/header/__menu-mobile/header__menu-mobile.css);
+@import url(../blocks/header/__menu/header_menu.css);
+@import url(../blocks/header/__menu-element/header__menu-element.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_header/logo_header.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+
 @import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
 @import url(../blocks/text/h1/text__h1.css);
 @import url(../blocks/news-page/__route/news-page__route.css);
@@ -43,3 +71,13 @@
 @import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);
 @import url(../blocks/magazine/__cards_pages_count/magazine__cards_pages_count.css);
 @import url(../blocks/magazine/__cards_pages_count/__cards_pages_count_active/magazine__cards_pages_count_active.css);
+
+/*футер*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__link-element/footer__link-element.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/network-logo/network-logo.css);

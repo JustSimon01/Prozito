@@ -14,12 +14,29 @@
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/route__link.css);
 
+/*header*/
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/_color/_beige/header_color_beige.css);
 @import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__line/_menu-mobile/header__line_menu-mobile.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__navigation-element/header__navigation-element.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
+@import url(../blocks/header/__menu-mobile-blocks/header__menu-mobile-blocks.css);
+@import url(../blocks/header/__menu-mobile/header__menu-mobile.css);
+@import url(../blocks/header/__menu/header_menu.css);
+@import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_header/logo_header.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
+
+/*Попапы*/
+@import url(../blocks/pop-up/pop-up.css);
+
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
+
+@import url(../blocks/pop-up/__mini/pop-up__mini.css);
 
 /* Footer */
 @import url(../blocks/footer/footer.css);

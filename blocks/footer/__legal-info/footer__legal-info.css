@@ -8,11 +8,6 @@
     gap: 12px;
     margin: 0;
     padding: 0 0 0 20px;
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
 }
 
 @media screen and (max-width: 930px) {

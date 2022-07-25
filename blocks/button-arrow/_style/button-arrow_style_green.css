@@ -5,6 +5,7 @@
 	border-radius: 50%;
 	background-color: #A5CDAB;
 	cursor: pointer;
+	transition: 0.2s ease-in-out;
 }
 
 .button-arrow_style_green:hover {

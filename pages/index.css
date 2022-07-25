@@ -98,8 +98,9 @@
 
 /*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
-
 @import url(../blocks/pop-up/_opened/pop-up_opened.css);
+/*Поле для попапов скролящихся по странице*/
+@import url(../blocks/info-line/info-line.css);
 
 /*dairy блок*/
 @import url(../blocks/diary/diary.css);

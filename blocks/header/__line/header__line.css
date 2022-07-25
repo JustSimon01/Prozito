@@ -15,7 +15,7 @@
         margin: 0 16px;
      }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 700px) {
     .header__line{
         border-bottom: none;
         height: 48px;

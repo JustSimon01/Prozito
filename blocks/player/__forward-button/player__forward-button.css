@@ -5,21 +5,13 @@
     background-repeat: no-repeat;
     background-size: contain ;
     border: none;
-    padding: 0.5px 4.7px 4.7px 4.7px;
-    width: 32px;
-    height: 32px;
+    margin: 0.5px 4.7px 4.7px 4.7px;
+    width: 23px;
+    height: 26px;
     cursor: pointer;
     transition: ease-in-out 0.2s;
 }
 
 .player__forward-button:active{
     transform: scale(1.2);
-}
-
-@media screen and (max-width:800px) {
-    .player__forward-button{
-        width: 28px;
-        height: 28px;
-
-    }
 }

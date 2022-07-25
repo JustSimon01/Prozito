@@ -1,0 +1,4 @@
+.slider__line {
+   display: flex;
+   transition: all .5s linear;
+}

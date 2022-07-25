@@ -5,11 +5,11 @@ const popupTipOpen = document.querySelector('.chapter')
 const miniPopupClose = document.querySelector('.tip-close')
 const popupTipClose = document.querySelector('#popup-close')
 
-miniPopupClose.addEventListener('click', function() {
+miniPopupClose.addEventListener('click', function () {
     miniPopup.classList.remove('pop-up_opened');
 });
 
-popupTipClose.addEventListener('click', function() {
+popupTipClose.addEventListener('click', function () {
     popupTip.classList.remove('pop-up_opened');
 });
 
@@ -26,10 +26,10 @@ popupTipOpen.addEventListener('click', evt => {
 const button = document.querySelector('#aboutProject');
 
 const menuList = document.querySelector('.header__menu');
-button.addEventListener('click', function(){
-    if (menuList.classList.contains('pop-up_opened')){
+button.addEventListener('click', function () {
+    if (menuList.classList.contains('pop-up_opened')) {
         menuList.classList.remove('pop-up_opened');
-    }else{
+    } else {
         menuList.classList.add('pop-up_opened');
     }
 });
@@ -39,11 +39,11 @@ const menuBurgerButton = document.querySelector('.header__menu-icon');
 const menuPopup = document.querySelector('.header__menu-mobile');
 const menuPopupCloseButton = document.querySelector('.header__menu-icon_close');
 
-menuBurgerButton.addEventListener('click', function(){
+menuBurgerButton.addEventListener('click', function () {
     menuPopup.classList.add('pop-up_opened');
 });
 
-menuPopupCloseButton.addEventListener('click', function(){
+menuPopupCloseButton.addEventListener('click', function () {
     menuPopup.classList.remove('pop-up_opened');
 });
 //Плеер
@@ -69,29 +69,29 @@ loadAudio(tracks[trackIndex]);
 //Play
 function playAudio() {
     palyer.classList.add('play');
-    playButton.classList.add("player__play-button_pause") ;
+    playButton.classList.add("player__play-button_pause");
     audio.play();
 }
 //Pause
 function pauseAudio() {
     palyer.classList.remove('play');
-    playButton.classList.remove("player__play-button_pause") ;
+    playButton.classList.remove("player__play-button_pause");
     audio.pause();
 }
 //событие на кнопку Play-Pause
-playButton.addEventListener('click',() => {
+playButton.addEventListener('click', () => {
     const isPlaying = palyer.classList.contains('play');
     if (isPlaying) {
         pauseAudio()
-    } else{
+    } else {
         playAudio();
     }
 })
 
 //кнопка переключения на следующий трек
-function nextTrack(){
+function nextTrack() {
     trackIndex++
-    if (trackIndex >tracks.length - 1){
+    if (trackIndex > tracks.length - 1) {
         trackIndex = 0
     }
     loadAudio(tracks[trackIndex])
@@ -100,9 +100,9 @@ function nextTrack(){
 forward.addEventListener('click', nextTrack)
 
 //кнопка переключения на предыдущий трек
-function prevTrack(){
+function prevTrack() {
     trackIndex--
-    if (trackIndex < 0){
+    if (trackIndex < 0) {
         trackIndex = tracks.length - 1
     }
     loadAudio(tracks[trackIndex])
@@ -111,22 +111,25 @@ function prevTrack(){
 back.addEventListener('click', prevTrack)
 
 //подвязываем прогресс бар к длинне трека
-function updateProgress (e) {
-    const {duration, currentTime} = e.srcElement;
+function updateProgress(e) {
+    const {
+        duration,
+        currentTime
+    } = e.srcElement;
     const progressPercent = (currentTime / duration) * 100;
     progressBar.style.width = `${progressPercent}%`;
-    if (progressPercent === 100){
-    pauseAudio()
-}
+    if (progressPercent === 100) {
+        pauseAudio()
+    }
 }
 audio.addEventListener('timeupdate', updateProgress);
 
 //изменение прогресс бара
-function setProgress (e){
-  const width = this.clientWidth
-  const clickX = e.offsetX
-  const duration = audio.duration
-  audio.currentTime = (clickX / width) * duration
+function setProgress(e) {
+    const width = this.clientWidth
+    const clickX = e.offsetX
+    const duration = audio.duration
+    audio.currentTime = (clickX / width) * duration
 }
 progressContainer.addEventListener('click', setProgress)
 
@@ -134,34 +137,99 @@ progressContainer.addEventListener('click', setProgress)
 const volume = document.querySelector('.player__volume-bar');
 const volumeButton = document.querySelector('.player__volume-button');
 
-volume.addEventListener('input', function(){
+volume.addEventListener('input', function () {
     let volumeValue = volume.value;
-    let color = 'linear-gradient(90deg, rgb(50, 50, 50)' + volumeValue +'%, rgb(50, 50, 50, 0.4)' + volumeValue +'%)';
+    let color = 'linear-gradient(90deg, rgb(50, 50, 50)' + volumeValue + '%, rgb(50, 50, 50, 0.4)' + volumeValue + '%)';
     volume.style.background = color;
     audio.volume = volumeValue / 100;
 })
 
 //открытие-закрытие ползунка громкости
-volumeButton.addEventListener('click', function(){
-    if (volume.classList.contains('player__volume-bar_opend') === true){
+volumeButton.addEventListener('click', function () {
+    if (volume.classList.contains('player__volume-bar_opend') === true) {
         volume.classList.remove('player__volume-bar_opend');
-    }else{    
-    volume.classList.add('player__volume-bar_opend');
+    } else {
+        volume.classList.add('player__volume-bar_opend');
     }
 })
 
 //время проигрывания трека
 
-audio.addEventListener('timeupdate', (e)=>{
+audio.addEventListener('timeupdate', (e) => {
     const currentTime = e.target.currentTime;
     let audioTime = document.querySelector('.player__time');
     let currentMin = Math.floor(currentTime / 60);
     let currentSec = Math.floor(currentTime % 60);
-    if (currentSec <10){
+    if (currentSec < 10) {
         currentSec = `0${currentSec}`
     }
-    if (currentMin <10){
+    if (currentMin < 10) {
         currentMin = `0${currentMin}`
     }
     audioTime.innerText = `${currentMin}:${currentSec}`;
 })
+// Слайдер
+function slider() {
+    const images = document.querySelectorAll('.slider__image');
+    const sliderLine = document.querySelector('.slider__line');
+    const sliderNext = document.querySelector('.slider__button_route_next');
+    const sliderPrev = document.querySelector('.slider__button_route_prev');
+    const sliderCounter = document.querySelector('.slider__counter');
+
+    let count = 0;
+    let width;
+
+    function countText() {
+        sliderCounter.textContent = `${count + 1} / ${images.length}`;
+    }
+
+    countText();
+
+    function init() {
+        width = document.querySelector('.slider__area').offsetWidth + 1;
+        sliderLine.style.width = width * images.length + 'px';
+        images.forEach(item => {
+            item.style.width = width + 'px';
+            item.style.height = 'auto';
+        })
+
+        rollSlider();
+    }
+
+    window.addEventListener('resize', init)
+    init();
+
+    sliderNext.addEventListener('click', () => {
+        count++;
+        if (count >= images.length - 1) {
+            sliderNext.setAttribute('disabled', 'disabled');
+            sliderNext.style.opacity = '.4';
+        }
+        if (count >= 1) {
+            sliderPrev.removeAttribute('disabled');
+            sliderPrev.style.opacity = '1';
+        }
+        rollSlider();
+        countText();
+    });
+
+    sliderPrev.addEventListener('click', () => {
+        count--;
+        if (count === 0) {
+            sliderPrev.setAttribute('disabled', 'disabled');
+            sliderPrev.style.opacity = '.4';
+        }
+        if (count >= 1) {
+            sliderNext.removeAttribute('disabled');
+            sliderNext.style.opacity = '1';
+        }
+        rollSlider();
+        countText();
+    });
+
+    function rollSlider() {
+        sliderLine.style.transform = 'translate(-' + count * width + 'px)';
+    }
+}
+
+slider();

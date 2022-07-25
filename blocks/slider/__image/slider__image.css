@@ -1,16 +1,10 @@
-.slaider__image {
-    display: block;
-    max-width: 569px;
-    max-height: 397px;
-    margin: 0 auto;
-    padding-top: 31px;
-    padding-bottom: 31px;
+.slider__image {
+    object-fit: contain;
 }
 
 @media screen and (max-width: 800px) {
-    .slaider__image {
+    .slider__image {
         max-height: 370px;
-        max-width: 370px;
         margin: 0 auto;
         padding-top: 15px;
         padding-bottom: 15px;
@@ -18,9 +12,8 @@
 }
 
 @media screen and (max-width: 400px) {
-    .slaider__image {
+    .slider__image {
         height: 220px;
-        width: 270px;
         margin: 0 auto;
         padding-top: 15px;
         padding-bottom: 15px;

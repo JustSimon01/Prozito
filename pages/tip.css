@@ -30,6 +30,7 @@
 @import url(../blocks/logo/_footer/logo_footer.css);
 /*основной контент*/
 @import url(../blocks/main/main.css);
+@import url(../blocks/main/__slider/main__slider.css);
 /*картина*/
 @import url(../blocks/tipical-img/tipical-img.css);
 @import url(../blocks/tipical-img/__area/tipical-img__area.css);
@@ -60,12 +61,18 @@
 @import url(../blocks/player/__volume-bar/_opend/player__volume-bar_opend.css);
 @import url(../blocks/player/__volume-button/player__volume-button.css);
 /*слайдер*/
-@import url(../blocks/slaider/slaider.css);
-@import url(../blocks/slaider/__area/slaider__area.css);
-@import url(../blocks/slaider/__gallery/slaider__gallery.css);
-@import url(../blocks/slaider/__image/slaider__image.css);
-@import url(../blocks/slaider/__text/slaider__text.css);
-@import url(../blocks/slaider/__text/slaider__text.css);
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__area/slider__area.css);
+@import url(../blocks/slider/__gallery/slider__gallery.css);
+@import url(../blocks/slider/__image/slider__image.css);
+@import url(../blocks/slider/__text/slider__text.css);
+@import url(../blocks/slider/__text/slider__text.css);
+@import url(../blocks/slider/__counter/slider__counter.css);
+@import url(../blocks/slider/__line/slider__line.css);
+@import url(../blocks/slider/__buttons/slider__buttons.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_route/slider__button_route_next.css);
+@import url(../blocks/slider/__button/_route/slider__button_route_prev.css);
 /*подвал*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__legal-info/footer__legal-info.css);

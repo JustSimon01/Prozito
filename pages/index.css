@@ -68,7 +68,6 @@
 @import url(../blocks/media/__title-button-mobile/media__title-button-mobile.css);
 @import url(../blocks/media/__content-cards/media__content-cards.css);
 @import url(../blocks/media/__content-cards/_news/media__content-cards_news.css);
-@import url(../blocks/media/__content-cards-block-mobile/media__content-cards-block-mobile.css);
 @import url(../blocks/media/__content-header/media__content-header.css);
 @import url(../blocks/media/__title-block/media__title-block.css);
 @import url(../blocks/media/__title-header/media__title-header.css);
@@ -150,9 +149,18 @@
 @import url(../blocks/card-magazine-tematic/__text/card-magazine-tematic__text.css);
 @import url(../blocks/card-magazine-tematic/__text_container/card-magazine-tematic__text_container.css);
 
+/*3d слайдер*/
+@import url(../blocks/slider-3d/slider-3d.css);
+@import url(../blocks/slider-3d/__card-1/slider-3d__card-1.css);
+@import url(../blocks/slider-3d/__card-2/slider-3d__card-2.css);
+@import url(../blocks/slider-3d/__card-3/slider-3d__card-3.css);
+@import url(../blocks/slider-3d/__card-4/slider-3d__card-4.css);
+@import url(../blocks/slider-3d/__card-5/slider-3d__card-5.css);
+@import url(../blocks/slider-3d/__card-6/slider-3d__card-6.css);
 
 /*Кнопка закрыть(крестик)*/
 @import url(../blocks/button-close/button-close.css);
+@import url(../blocks/slider-3d);
 
 /*mini-pop-up*/ 
 @import url(../blocks/mini-pop-up/mini-pop-up.css);

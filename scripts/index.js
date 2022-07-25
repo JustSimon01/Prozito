@@ -136,10 +136,8 @@ function handleTouchMove(event) {
 
     if(Math.abs(xDiff) > Math.abs(yDiff)){
       if (xDiff>0){
-        console.log('right');
         nextSlide();
     }else{
-        console.log('left');
         prevSlide();
     }
 }
@@ -156,11 +154,9 @@ function prevSlide(){
     if (activeSlide>4){
         activeSlide=0;
         arrRadio[activeSlide].checked = !0;
-        console.log(activeSlide);
         return activeSlide;
     }if (activeSlide>=0) {
         arrRadio[activeSlide].checked = !0;
-        console.log(activeSlide);
         return activeSlide;
     }
 }
@@ -170,11 +166,9 @@ function nextSlide(){
     if (activeSlide<0){
         activeSlide=4;
         arrRadio[activeSlide].checked = !0;
-        console.log(activeSlide);
         return activeSlide;
     }if (activeSlide>=0) {
         arrRadio[activeSlide].checked = !0;
-        console.log(activeSlide);
         return activeSlide;
     }
 }

@@ -8,18 +8,15 @@ function openPopup(popup) {
       popup.classList.remove('pop-up_opened');
   } 
 
-//открытие-закрытие попапа меню через функции
+//меню хедера, открытие-закрытие попапа меню через функции
 const button = document.querySelector('#aboutProject');
 
 const menuList = document.querySelector('.header__menu');
 button.addEventListener('click', function(){
     if (menuList.classList.contains('pop-up_opened')){
         menuList.classList.remove('pop-up_opened');
-        button.style.borderBottom = '';
- 
     }else{
         menuList.classList.add('pop-up_opened');
-        button.style.borderBottom = `1px solid #323232`;
     }
 });
 

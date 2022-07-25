@@ -9,7 +9,7 @@ height: 14px;
 background-image: url(../../../images/svg/menu\ mobil.svg);
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 700px) {
     .header__menu-icon{
         display: block;
         }

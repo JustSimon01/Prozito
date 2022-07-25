@@ -36,22 +36,14 @@
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/route__link.css);
 
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__line/header__line.css);
-@import url(../blocks/header/__navigation/header__navigation.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_header/logo_header.css);
-@import url(../blocks/logo/_footer/logo_footer.css);
-@import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__links-block/footer__links-block.css);
-@import url(../blocks/footer/__menu/footer__menu.css);
-@import url(../blocks/footer/__social/footer__social.css);
-@import url(../blocks/footer/__legal-info/footer__legal-info.css);
-@import url(../blocks/footer/__menu-block/footer__menu-block.css);
-@import url(../blocks/network-logo/network-logo.css);
+
+/*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
+
 @import url(../blocks/pop-up/_opened/pop-up_opened.css);
+
 @import url(../blocks/pop-up/__mini/pop-up__mini.css);
+
 
 @import url(../blocks/news-page/news-page.css);
 @import url(../blocks/news-page/__cards/news-page__cards.css);

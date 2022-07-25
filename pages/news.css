@@ -2,7 +2,6 @@
 @import url(../vendor/fonts.css);
 
 /*текстовые переменные новые */
-@import url(../blocks/textNew/text.css);
 @import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
 @import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
 @import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
@@ -26,7 +25,6 @@
 @import url(../blocks/header/__menu/header_menu.css);
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_header/logo_header.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
 
 @import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
@@ -39,10 +37,7 @@
 
 /*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
-
 @import url(../blocks/pop-up/_opened/pop-up_opened.css);
-
-@import url(../blocks/pop-up/__mini/pop-up__mini.css);
 
 
 @import url(../blocks/news-page/news-page.css);

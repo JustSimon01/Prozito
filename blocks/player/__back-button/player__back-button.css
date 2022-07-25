@@ -1,0 +1,26 @@
+.player__back-button{
+    margin-right: 12px;
+    background: transparent;
+    background-image: url(../../../images/player/Back.svg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    box-sizing: border-box;
+    border: none;
+    padding: 0.5px 4.7px 4.7px 4.7px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.player__back-button:active{
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:800px) {
+    .player__back-button{
+        width: 28px;
+        height: 28px;
+        margin-right: 0px;
+    }
+}

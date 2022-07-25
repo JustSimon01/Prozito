@@ -1,0 +1,7 @@
+.player__progress-bar{
+    background-image: url(../../../images/player/Equalizer.svg);
+    background-position-x: left;
+    overflow: hidden;
+    height: 100%;
+
+}

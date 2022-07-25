@@ -1,0 +1,24 @@
+.audio-block{
+    padding-top: 32px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 930px) {
+    .audio-block{
+        max-width: 800px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .audio-block{
+        width: 400px;
+
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .audio-block{
+        width: 300px;
+
+    }  
+}

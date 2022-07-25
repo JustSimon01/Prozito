@@ -2,7 +2,7 @@
 @import url(../vendor/fonts.css);
 
 /*текстовые переменные новые */
-@import url(../blocks/textNew/text.css);
+
 @import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
 @import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
 @import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
@@ -52,7 +52,6 @@
 @import url(../blocks/header/__menu/header_menu.css);
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_header/logo_header.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
 
 @import url(../blocks/search-banner/search-banner.css);
@@ -72,7 +71,6 @@
 @import url(../blocks/media/__content-cards-block-mobile/media__content-cards-block-mobile.css);
 @import url(../blocks/media/__content-header/media__content-header.css);
 @import url(../blocks/media/__title-block/media__title-block.css);
-@import url(../blocks/media/__title-block/_news/media__title-block_news.css);
 @import url(../blocks/media/__title-header/media__title-header.css);
 @import url(../blocks/media/__title-header/_news/media__title-header_news.css);
 

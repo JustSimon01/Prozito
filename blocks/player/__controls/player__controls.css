@@ -1,0 +1,6 @@
+.player__controls{
+    display: flex;
+    flex-direction: row;
+    width: 132px;
+    height: 32px;
+}

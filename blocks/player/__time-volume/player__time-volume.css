@@ -1,0 +1,9 @@
+.player__time-volume{
+    position: relative;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    width: 96px;
+    height: 32px;
+
+}

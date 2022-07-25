@@ -1,0 +1,16 @@
+.player{
+        background: #BFE9D5;
+        border-radius: 35px;
+        max-width: 678px;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        padding: 30px 20px;
+        align-items: center;
+}
+
+@media screen and (max-width:800px) {
+        .player{
+                padding: 20px 10px;;
+        }
+    }

@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
     .card-magazine-exp {
         width: 252px;
         height: 352px;

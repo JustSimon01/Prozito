@@ -4,7 +4,7 @@
     height: 26px;
     transform: rotate(-90deg);
     padding: 0;
-    top: 389px;
+    top: 440px;
     left: -40px;
     font-family: 'WF','Arial', sans-serif;
     font-style: normal;
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 800px) {
     .chapter {
-        top: 140px;
+        top: 110px;
         left: 0;
         right: 0;
         margin: 0 auto;
@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 400px) {
     .chapter {
-        top: 110px;
+        top: 160px;
         left: 0;
         right: 0;
         margin: 0 auto;

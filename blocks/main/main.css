@@ -1,14 +1,11 @@
 .main {
     margin: 0 auto;
     max-width: 678px;
-    padding-top: 120px;
+    padding-top: 55px;
     display: flex;
     flex-direction: column;
     padding-bottom: 120px;
 }
-
-
-
 
 @media screen and (max-width: 400px) {
     .main {

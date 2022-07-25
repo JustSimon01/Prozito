@@ -28,6 +28,9 @@
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
+/*route*/
+@import url(../blocks/route/route.css);
+@import url(../blocks/route/route__link.css);
 /*основной контент*/
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__slider/main__slider.css);

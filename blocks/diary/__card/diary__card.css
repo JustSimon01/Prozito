@@ -15,10 +15,16 @@
 	}
 }
 
-@media (max-width: 620px) {
+@media (max-width: 530px) {
 	.diary__card {
 		width: 276px;
 		height: 360px;
 		/*padding-top: 16px;*/
+	}
+}
+
+@media (max-width: 472px) and (min-width: 361px) {
+	.diary__card:last-child {
+		scroll-margin: 0 calc(-1px + (-112 - -1) * ((100vw - 361px) / (472 - 361))) 0 0;
 	}
 }

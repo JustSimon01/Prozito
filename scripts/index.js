@@ -240,10 +240,13 @@ if (count<=3){
 }
 };
 //материалы
-const fullBlock = document.querySelector('.diary__card-container');
 const dots = document.querySelectorAll('.diary__navigation-item');
 const slides = document.querySelectorAll('.diary__card');
+const sliderContainer = document.querySelector('.diary__card-container');
 
+const startPoint = 0;
+let finishPoint = sliderContainer.offsetWidth;
+let lastScrollPosition = 0;
 let index = 0;
 
 const activeDot = n => {
@@ -255,14 +258,27 @@ const activeDot = n => {
 
 dots.forEach((item, indexDot) => {
     item.addEventListener('click', () => {
-        index = indexDot;
-        activeDot(index);
-        if (indexDot === slides.length - 1) {
-          slides[indexDot].scrollIntoView({block: "center"});
-        } else {
-          slides[indexDot].scrollIntoView({block: "center", inline: "center"});
-        }
+      index = indexDot;
+      activeDot(index);
+
+      slides[indexDot].scrollIntoView({block: "center", inline: "center"});
     })
+})
+
+sliderContainer.addEventListener('scroll', () => {
+  lastScrollPosition = sliderContainer.scrollLeft;
+
+  if(lastScrollPosition <= 44) {
+    activeDot(0)
+  }
+
+  if (lastScrollPosition >= 180 && lastScrollPosition <= 320) {
+    activeDot(1)
+  }
+  
+  if (lastScrollPosition >= 344) {
+    activeDot(2)
+  }
 })
 
 

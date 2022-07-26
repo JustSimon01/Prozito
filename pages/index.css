@@ -160,7 +160,6 @@
 
 /*Кнопка закрыть(крестик)*/
 @import url(../blocks/button-close/button-close.css);
-@import url(../blocks/slider-3d);
 
 /*mini-pop-up*/ 
 @import url(../blocks/mini-pop-up/mini-pop-up.css);

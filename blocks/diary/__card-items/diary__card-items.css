@@ -30,9 +30,10 @@
 	}
 }
 
-@media (max-width: 620px) {
+@media (max-width: 530px) {
 	.diary__card-items {
 		min-width: 852px;
 		margin-left: 41px;
+		margin-right: 42px;
 	}
 }

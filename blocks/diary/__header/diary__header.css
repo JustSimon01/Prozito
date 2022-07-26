@@ -13,7 +13,7 @@
 	}
 }
 
-@media (max-width: 620px) {
+@media (max-width: 530px) {
 	.diary__header { 
 		margin-top: 0;
 		margin-bottom: 10px;

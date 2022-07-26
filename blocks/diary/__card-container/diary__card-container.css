@@ -9,10 +9,11 @@
 	}
 }
 
-@media (max-width: 620px) {
+@media (max-width: 530px) {
 	.diary__card-container {
 		padding-top: 14px;
 		overflow: scroll;
 		scroll-behavior: smooth;
+		scroll-snap-type: x mandatory;
 	}
 }

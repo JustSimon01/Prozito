@@ -13,5 +13,6 @@
 	.diary__card-container {
 		padding-top: 14px;
 		overflow: scroll;
+		scroll-behavior: smooth;
 	}
 }

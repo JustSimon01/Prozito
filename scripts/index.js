@@ -240,7 +240,7 @@ if (count<=3){
 }
 };
 
-//Блон новости
+//Блок новости
 
 const newsBtnRigth = document.querySelector('.button_news_rigth');
 const newsBtnLeft = document.querySelector('.button_news_left');
@@ -259,6 +259,19 @@ newsBtnRigth.addEventListener("click", () => {
       newsCards.scrollTo(positionNewsCards, 0);
       newsBtnRigth.classList.add("button-arrow_state_disabled");
     }
+  });
+  
+ newsBtnLeft.addEventListener("click", () => {
+    if (positionNewsCards > positionNewsShift) {
+      positionNewsCards = positionNewsCards - positionNewsShift;
+      newsCards.scrollTo(positionNewsCards, 0);
+      newsBtnRigth.classList.remove("button-arrow_state_disabled");
+    } else if (positionNewsCards <= positionNewsShift) {
+      positionNewsCards = positionNewsCards - positionNewsShift;
+      newsCards.scrollTo(positionNewsCards, 0);
+      newsBtnLeft.classList.add("button-arrow_state_disabled");
+    }
+  });
 
 // Блок Журнал
 

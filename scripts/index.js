@@ -301,3 +301,29 @@ if (count<=3){
     return i1, i2, i3, i4, i5;
 }
 };
+
+// слайдер для материалов
+const dots = document.querySelectorAll('.diary__navigation-item');
+const slides = document.querySelectorAll('.diary__card');
+
+let index = 0;
+
+const activeDot = n => {
+    for (let dot of dots) {
+        dot.classList.remove('diary__navigation-item_state_active');
+    }
+    dots[n].classList.add('diary__navigation-item_state_active')
+}
+
+dots.forEach((item, indexDot) => {
+    item.addEventListener('click', () => {
+        index = indexDot;
+        activeDot(index);
+        
+        if (indexDot === slides.length - 1) {
+            slides[indexDot].scrollIntoView({block: "center"});
+        } else {
+            slides[indexDot].scrollIntoView({block: "center", inline: 'center'});
+        }
+    })
+})

@@ -3,7 +3,7 @@
     z-index: 3;
     top: 0px;
     display: grid;
-    grid-template-columns: minmax(310px, 700px);
+    grid-template-columns: minmax(200px, 700px);
     grid-template-rows: 49px auto auto 100vh;
     box-sizing: border-box;
     padding: 0 12px;

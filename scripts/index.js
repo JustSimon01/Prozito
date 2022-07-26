@@ -48,8 +48,8 @@ buttonMiniPopupClose.addEventListener('click', function() {
 
 // Слайдер 
 
-//Блок Новости и Журнал, прокрутка по кнопкам
-
+// Блок Новости
+/*
 const newsBtnRigth = document.querySelector('.button_news_rigth');
 const newsBtnLeft = document.querySelector('.button_news_left');
 const newsCards = document.querySelector('.news_cards_index');
@@ -57,6 +57,7 @@ const newsCards = document.querySelector('.news_cards_index');
 let positionNewsCards = 0;
 let positionNewsShift = newsCards.offsetWidth / 2;
 
+/*
 const magazineBtnRigth = document.querySelector(".button_magazine_right");
 const magazineBtnLeft = document.querySelector(".button_magazine_left");
 const magazineCards = document.querySelector(".magazine__cards_page_index");
@@ -64,7 +65,7 @@ const magazineCards = document.querySelector(".magazine__cards_page_index");
 let positionMagazineCards = 0;
 let positionMagazineShift = magazineCards.offsetWidth / 2;
 
-
+/*
 
 function cardsMoveRightOuter (pos) {
  positionCards = pos;
@@ -78,6 +79,7 @@ return function cardsMoveRight(cardsName, shift, btnLeft, btnRight) {
     cardsName.scrollTo(positionCards, 0);
     btnRight.classList.add("button-arrow_state_disabled");    
   }
+  
 }
 }
 
@@ -93,6 +95,7 @@ function cardsMoveLeftOuter (pos) {
     cardsName.scrollTo(positionCards, 0);
     btnLeft.classList.add("button-arrow_state_disabled");
   }
+  
 }
 }
 
@@ -107,6 +110,7 @@ newsBtnLeft.addEventListener('click', () => positionNewsCardsOuterLeft(newsCards
 
 magazineBtnRigth.addEventListener('click', () => positionMagazineCardsOuterRight(magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
 magazineBtnLeft.addEventListener('click', () => positionMagazineCardsOuterLeft(magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
+*/
 
 const cards = document.querySelector('media__content-cards');
 
@@ -129,7 +133,7 @@ y1 = firstTouch.clientY;
 function handleTouchMove(event) {
     if (!x1 || !y1) {
        return false;
-    }
+
     let x2 = event.touches[0].clientX;
     let y2 = event.touches[0].clientY;
     let xDiff = x2 - x1;
@@ -301,3 +305,57 @@ if (count<=3){
     return i1, i2, i3, i4, i5;
 }
 };
+
+//Блон новости
+
+const newsBtnRigth = document.querySelector('.button_news_rigth');
+const newsBtnLeft = document.querySelector('.button_news_left');
+const newsCards = document.querySelector('.news_cards_index');
+
+let positionNewsCards = 0;
+let positionNewsShift = newsCards.offsetWidth / 2;
+
+newsBtnRigth.addEventListener("click", () => {
+    if (positionNewsCards < newsCards.offsetWidth) {
+      positionNewsCards = positionNewsCards + positionNewsShift;
+      newsCards.scrollTo(positionNewsCards, 0);
+      newsBtnLeft.classList.remove("button-arrow_state_disabled");
+    } else if ((positionNewsCards >= newsCards.offsetWidth)) {
+      positionNewsCards = positionNewsCards + positionNewsShift;
+      newsCards.scrollTo(positionNewsCards, 0);
+      newsBtnRigth.classList.add("button-arrow_state_disabled");
+    }
+
+// Блок Журнал
+
+const magazineBtnRigth = document.querySelector(".button_magazine_right");
+const magazineBtnLeft = document.querySelector(".button_magazine_left");
+const magazineCards = document.querySelector(".magazine__cards_page_index");
+
+let positionMagazineCards = 0;
+let positionMagazineShift = magazineCards.offsetWidth / 2;
+
+magazineBtnRigth.addEventListener("click", () => {
+  if (positionMagazineCards < magazineCards.offsetWidth) {
+    positionMagazineCards = positionMagazineCards + positionMagazineShift;
+    magazineCards.scrollTo(positionMagazineCards, 0);
+    magazineBtnLeft.classList.remove("button-arrow_state_disabled");
+  } else if ((positionMagazineCards >= magazineCards.offsetWidth)) {
+    positionMagazineCards = positionMagazineCards + positionMagazineShift;
+    magazineCards.scrollTo(positionMagazineCards, 0);
+    magazineBtnRigth.classList.add("button-arrow_state_disabled");
+  }
+});
+
+magazineBtnLeft.addEventListener("click", () => {
+  if (positionMagazineCards > positionMagazineShift) {
+    positionMagazineCards = positionMagazineCards - positionMagazineShift;
+    magazineCards.scrollTo(positionMagazineCards, 0);
+    magazineBtnRigth.classList.remove("button-arrow_state_disabled");
+  } else if (positionMagazineCards <= positionMagazineShift) {
+    positionMagazineCards = positionMagazineCards - positionMagazineShift;
+    magazineCards.scrollTo(positionMagazineCards, 0);
+    magazineBtnLeft.classList.add("button-arrow_state_disabled");
+  }
+});
+

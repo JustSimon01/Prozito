@@ -1,0 +1,22 @@
+.media__title-header{
+margin: 0 0 auto 0;
+
+}
+
+@media screen and (max-width: 768px) {
+    .media__title-header{
+        font-size: 30px;
+        line-height: 37px;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .media__title-header{
+        margin: 0;
+        font-size: 32px;
+        line-height: 120%;
+        color: #323232;  
+    }
+    
+}

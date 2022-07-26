@@ -1,0 +1,39 @@
+.diary__card-items {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	gap: 80px;
+}
+
+.diary__card-items input {
+	position: absolute;
+	visibility: hidden;
+}
+
+@media (max-width: 1155px) {
+	.diary__card-items {
+		gap: 50px;
+	}
+}
+
+@media (max-width: 930px) {
+	.diary__card-items {
+		gap: 20px;
+	}
+}
+
+@media (max-width: 768px) {
+	.diary__card-items {
+		gap: 12px;
+	}
+}
+
+@media (max-width: 530px) {
+	.diary__card-items {
+		min-width: 852px;
+		margin-left: 41px;
+		margin-right: 42px;
+	}
+}

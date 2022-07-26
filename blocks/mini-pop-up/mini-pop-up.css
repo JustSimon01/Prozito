@@ -1,0 +1,10 @@
+.mini-pop-up {
+	width: 237px;
+	height: 132px;
+	position: sticky;
+	float: right;
+	top: 120px;
+	right: 70px;
+	z-index: 2;
+	background-color: #A5CDAB;
+}

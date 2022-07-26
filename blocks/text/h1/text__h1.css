@@ -1,0 +1,25 @@
+.text__h1 {
+    font-family: 'WF', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55px;
+    color: #323232;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .text__h1 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+    .text__h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    
+}

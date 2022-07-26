@@ -1,0 +1,16 @@
+.player__time{
+    margin: 0 16px 0 0;
+    box-sizing: border-box;
+    width: 48px;
+    height: 26px;
+}
+
+@media screen and (max-width:800px) {
+    .player__time{
+        margin: 0 5px 0 0;
+        font-size: 14px;
+        line-height: 18px;
+        width: 30px;
+        height: 26px;
+}
+}

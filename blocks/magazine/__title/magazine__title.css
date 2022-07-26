@@ -1,0 +1,10 @@
+.magazine__title {
+    margin: 42px auto auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .magazine__title {
+        margin-top: 27px;
+    }
+}

@@ -1,0 +1,21 @@
+.diary__header {
+	width: 229px;
+	text-align: center;
+	margin: 56px auto 40px;
+}
+
+@media (max-width: 768px) {
+	.diary__header {
+		font-size: 30px;
+		line-height: 37px;
+		margin-top: 32px;
+		margin-bottom: 24px;
+	}
+}
+
+@media (max-width: 530px) {
+	.diary__header { 
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+}

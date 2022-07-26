@@ -1,0 +1,266 @@
+/*глобальные стили*/
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/main-page/main-page.css);
+@import url(../blocks/page-tip/page-tip.css);
+
+/*текстовые переменные новые */
+@import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
+@import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
+@import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
+@import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
+@import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
+@import url(../blocks/textNew/__WF-h3-26px/text__WF-h3-26px.css);
+@import url(../blocks/textNew/_color/_white/text_color_white.css);
+@import url(../blocks/textNew/_italic/text_italic.css);
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_color/_beige/header_color_beige.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__line/_menu-mobile/header__line_menu-mobile.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__navigation-element/header__navigation-element.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
+@import url(../blocks/header/__menu-mobile-blocks/header__menu-mobile-blocks.css);
+@import url(../blocks/header/__menu-mobile/header__menu-mobile.css);
+@import url(../blocks/header/__menu/header_menu.css);
+@import url(../blocks/header/__menu-element/header__menu-element.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+/*route*/
+@import url(../blocks/route/route.css);
+@import url(../blocks/route/route__link.css);
+/*основной контент*/
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__slider/main__slider.css);
+/*картина*/
+@import url(../blocks/tipical-img/tipical-img.css);
+@import url(../blocks/tipical-img/__area/tipical-img__area.css);
+@import url(../blocks/tipical-img/__name/tipical-img__name.css);
+@import url(../blocks/tipical-img/__picture/tipical-img__picture.css);
+/*видео*/
+@import url(../blocks/tipical-video/tipical-video.css);
+@import url(../blocks/tipical-video/__play/tipical-video__play.css);
+@import url(../blocks/tipical-video/__name/tipical-video__name.css);
+@import url(../blocks/tipical-video/__area/tipical-video__area.css);
+/*аудио*/
+@import url(../blocks/audio-block/audio-block.css);
+@import url(../blocks/audio-block/__name/audio-block__name.css);
+
+/*плеер*/
+@import url(../blocks/player/player.css);
+@import url(../blocks/player/__back-button/player__back-button.css);
+@import url(../blocks/player/__controls/player__controls.css);
+@import url(../blocks/player/__forward-button/player__forward-button.css);
+@import url(../blocks/player/__play-button/player__play-button.css);
+@import url(../blocks/player/__play-button/_pause/player__play-button_pause.css);
+@import url(../blocks/player/__progress-bar/player__progress-bar.css);
+@import url(../blocks/player/__progress-container/player__progress-container.css);
+@import url(../blocks/player/__time-volume/player__time-volume.css);
+@import url(../blocks/player/__time/player__time.css);
+@import url(../blocks/player/__volume-bar-progress/player__volume-bar-progress.css);
+@import url(../blocks/player/__volume-bar/player__volume-bar.css);
+@import url(../blocks/player/__volume-bar/_opend/player__volume-bar_opend.css);
+@import url(../blocks/player/__volume-button/player__volume-button.css);
+/*слайдер*/
+@import url(../blocks/slider/slider.css);
+@import url(../blocks/slider/__area/slider__area.css);
+@import url(../blocks/slider/__gallery/slider__gallery.css);
+@import url(../blocks/slider/__image/slider__image.css);
+@import url(../blocks/slider/__text/slider__text.css);
+@import url(../blocks/slider/__text/slider__text.css);
+@import url(../blocks/slider/__counter/slider__counter.css);
+@import url(../blocks/slider/__line/slider__line.css);
+@import url(../blocks/slider/__buttons/slider__buttons.css);
+@import url(../blocks/slider/__button/slider__button.css);
+@import url(../blocks/slider/__button/_route/slider__button_route_next.css);
+@import url(../blocks/slider/__button/_route/slider__button_route_prev.css);
+@import url(../blocks/slider/__button/_type/slider__button_type_desktop.css);
+/*подвал*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/network-logo/network-logo.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+/*notion*/
+@import url(../blocks/notion/notion.css);
+@import url(../blocks/notion/__title/notion__title.css);
+@import url(../blocks/notion/__subtitle/notion__subtitle.css);
+@import url(../blocks/notion/__close/tip-close.css);
+/*chapters*/
+@import url(../blocks/chapters/chapters.css);
+@import url(../blocks/chapters/__title/chapters__title.css);
+/*chapter*/
+@import url(../blocks/chapter/chapter.css);
+/*Попапы*/
+@import url(../blocks/pop-up/pop-up.css);
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
+
+/*футер*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__link-element/footer__link-element.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/network-logo/network-logo.css);
+
+
+
+/*селектры осноговного контента*/
+.main h1 {
+    font-family: 'WF', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 55px;
+    width: 674px;
+    margin: 0 auto;
+    border-bottom: 1px solid #3A543E;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+    .main h1 {
+        width: 280px;
+        font-size: 39px;
+        line-height: 40px;
+        margin: 0 auto;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .main h1 {
+        min-width: 280px;
+        max-width: 400px;
+    }  
+}
+
+.main h2 {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.main h3 {
+    font-family: 'WF','Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    width: 125px;
+    color: #323232;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .main h3 {
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}
+
+.main p {
+    font-family: 'PT Sans', 'Arial', sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 676px;
+    margin: 0 auto;
+    padding-top: 35px;
+    text-align: left;
+}
+
+@media screen and (max-width: 800px) {
+    .main p {
+        min-width: 280px;
+        max-width: 400px;
+        margin: 0  auto;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .main p {
+        width: 280px;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 auto;
+    }  
+}
+
+.main blockquote {
+    font-family: 'WF','Arial', sans-serif;;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    color: #3A543E;
+    width: 676px;
+    margin: 33px auto 0;
+    padding-left: 10px;
+    border-left: 2px solid #3A543E;;
+}
+
+@media screen and (max-width: 400px) {
+    .main blockquote {
+        width: 280px;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 auto;
+        margin-top: 15px;
+        padding-left: 5px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .main blockquote {
+        min-width: 280px;
+        max-width: 393px;
+        margin: 0 auto;
+        margin-top: 15px;
+        padding-left: 5px;
+    }  
+}
+
+.main br {
+    font-family: 'PT Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 678px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 800px) {
+    .main br {
+        padding-top: 10px;
+        max-width: 400px;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .main br {
+        padding-top: 10px;
+        max-width: 280px;
+        font-size: 18px;
+        line-height: 20px;
+    }  
+}

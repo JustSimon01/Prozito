@@ -1,0 +1,18 @@
+.diary__card-image {
+	width: 200px;
+	height: 224px;
+}
+
+@media (max-width: 1080px) {
+	.diary__card-image {
+		width: 173px;
+		height: 180px;
+	}
+}
+
+@media (max-width: 530px) {
+	.diary__card-image {
+		width: 160px;
+		height: 180px;
+	}
+}

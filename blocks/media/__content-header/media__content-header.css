@@ -1,0 +1,26 @@
+.media__content-header{
+grid-area: header;
+display: flex;
+align-items: center;
+padding:16px 0 0 20px;
+margin: 0;
+box-sizing: border-box;
+
+
+}
+
+@media screen and (max-width: 930px) {
+    .media__content-header{
+        font-size: 30px;
+        line-height: 37px;
+        padding:16px 0 0 15px;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .media__content-header{
+        display: none;
+    }
+    
+  }

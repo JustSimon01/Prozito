@@ -1,0 +1,15 @@
+.card-magazine-exp__name {
+    margin: auto auto 28px;
+}
+
+@media screen and (max-width: 768px) {
+    .card-magazine-exp__name {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .card-magazine-exp__name {
+        margin-bottom: 16px;
+    }
+}

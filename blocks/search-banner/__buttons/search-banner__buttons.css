@@ -1,0 +1,18 @@
+.search-banner__buttons { 
+	display: flex;
+	gap: 20px;
+   grid-area: btn;
+}
+
+@media screen and (max-width: 768px) {
+	.search-banner__buttons {
+		gap: 12px;
+	}
+}
+
+@media screen and (max-width: 620px) {
+	.search-banner__buttons {
+		flex-direction: column-reverse;
+		gap: 16px;
+	}
+}

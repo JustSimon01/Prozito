@@ -1,0 +1,21 @@
+.slider__image {
+    object-fit: contain;
+}
+
+@media screen and (max-width: 800px) {
+    .slider__image {
+        max-height: 370px;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .slider__image {
+        height: 220px;
+        margin: 0 auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }  
+}

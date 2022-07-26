@@ -1,0 +1,15 @@
+.main-page__search-banner {
+   margin: 0 32px 92px;
+}
+
+@media screen and (max-width: 1155px) {
+   .main-page__search-banner {
+       margin: 0 0 25px;
+   }
+}
+
+@media screen and (max-width: 620px) {
+   .main-page__search-banner {
+       margin: 0 0 32px;
+   }
+}

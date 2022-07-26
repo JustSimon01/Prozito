@@ -1,0 +1,21 @@
+.diary{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.diary__card-container::-webkit-scrollbar {
+	width: 0;
+}
+
+@media (max-width: 768px) {
+  .diary {
+    max-width: 734px;
+  }
+}
+
+@media (max-width: 530px) {
+  .diary {
+    margin-top: 24px;
+  }
+}

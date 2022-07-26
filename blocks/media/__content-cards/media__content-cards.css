@@ -1,0 +1,49 @@
+.media__content-cards{
+    grid-area: cards;
+    margin: 24px 0 15px 20px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    gap: 20px;
+    padding: 0;
+    padding-bottom: 47px;
+    list-style: none;
+    transition: all ease-in-out 0.2s;
+    scroll-behavior: smooth
+}
+
+.media__content-cards::-webkit-scrollbar {
+    height: 4px;
+    
+  }
+  
+  .media__content-cards::-webkit-scrollbar-track {
+    background: #E7E4DE;
+    width: 90%;
+  }
+  
+  .media__content-cards::-webkit-scrollbar-thumb {
+    background: #323232;
+  }
+
+
+  @media screen and (max-width:1155px) {
+    .media__content-cards {
+        padding-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+  .media__content-cards{
+    margin: 0;
+    padding: 0;
+  }
+  
+}
+
+@media screen and (max-width: 360px) {
+  .media__content-cards{
+    display: none;
+  }
+  
+}

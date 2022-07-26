@@ -1,0 +1,19 @@
+.tipical-img__picture {
+    display: block;
+    width: 235px;
+    height: 461px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 400px) {
+    .tipical-img__picture {
+        height: 240px;
+    }  
+}
+
+@media screen and (max-width: 800px) {
+    .tipical-img__picture {
+        height: 350px;
+    }  
+}

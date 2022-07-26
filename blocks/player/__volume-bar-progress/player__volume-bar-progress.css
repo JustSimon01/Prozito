@@ -1,0 +1,7 @@
+.player__volume-bar-progress{
+    border-radius: 4px;
+    height: 100%;
+    width: 50px;
+    background-color: #323232;
+    position: relative;
+}

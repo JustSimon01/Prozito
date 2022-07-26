@@ -1,0 +1,28 @@
+.search-banner__title {
+   margin: 0 0 32px;
+   grid-area: title;
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+	.search-banner__title {
+		font-size: calc(24px + (36 - 24) * ((100vw - 768px) / (1000 - 768)));
+	}
+}
+
+@media screen and (max-width: 768px) {
+   .search-banner__title {
+      font-size: 24px;
+      line-height: 30px;
+      margin: 0 0 12px;
+   }
+}
+
+@media screen and (max-width: 620px) {
+   .search-banner__title {
+      margin: 0;
+      font-size: 26px;
+      justify-self: center;
+      text-align: center;
+      max-width: 224px;
+   }
+}

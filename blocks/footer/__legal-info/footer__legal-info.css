@@ -1,0 +1,28 @@
+.footer__legal-info{
+    grid-area: legal;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    max-width: 327px;
+    gap: 12px;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+@media screen and (max-width: 930px) {
+    .footer__legal-info {
+        gap: 8px;
+        font-size: 14px;
+        line-height: 18px;
+        padding:0;
+
+     }
+}
+
+@media screen and (max-width: 360px) {
+    .footer__legal-info {
+        justify-self:flex-start;
+        align-self:flex-end;
+     }
+}

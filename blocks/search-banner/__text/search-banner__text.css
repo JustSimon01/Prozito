@@ -1,0 +1,28 @@
+.search-banner__text {
+   max-width: 660px;
+   margin: 0 0 16px;
+   grid-area: text;
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 768px) {
+	.search-banner__text {
+      max-width: calc(420px + (660 - 420) * ((100vw - 768px) / (1000 - 768)));
+		font-size: calc(14px + (20 - 14) * ((100vw - 768px) / (1000 - 768)));
+      line-height: calc(18px + (26 - 18) * ((100vw - 768px) / (1000 - 768)));
+	}
+}
+
+@media screen and (max-width: 768px) {
+   .search-banner__text { 
+      max-width: 420px;
+      font-size: 14px;
+      line-height: 18px;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .search-banner__text { 
+      margin: 0;
+   }
+}

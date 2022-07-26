@@ -1,0 +1,31 @@
+.card-news__link {
+   color: #323232;
+   display: grid;
+   grid-template-areas: 
+   "data img"
+   "text text";
+   grid-template-columns: 1fr 212px;
+   text-decoration: none;
+   transition: opacity .2s linear;
+   font-family: 'PT Sans', sans-serif;
+}
+
+.card-news__link:hover {
+   opacity: .8;
+}
+
+@media screen and (max-width: 768px) {
+   .card-news__link {
+      grid-template-columns: 1fr 102px;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .card-news__link {
+      grid-template-areas: 
+      "img"
+      "text"
+      "data";
+      grid-template-columns: none;
+   }
+}

@@ -1,0 +1,10 @@
+.route {
+    margin: 44px auto auto 20px;
+}
+
+@media screen and (max-width: 1440px) {
+    .route {
+        margin-top: calc(27px + (44 - 27) * (100vw - 768px) / (1440 - 768));
+        margin-left: calc(15px + (20 - 15) * (100vw - 768px) / (1440 - 768));
+    }
+}

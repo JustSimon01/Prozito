@@ -1,0 +1,8 @@
+.magazine__cards_pages {
+    margin: 40px auto 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+}

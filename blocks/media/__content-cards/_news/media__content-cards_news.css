@@ -1,0 +1,22 @@
+.media__content-cards_news{
+    padding: 0;
+    padding-bottom: 70px;
+}
+
+@media screen and (max-width:1155px) {
+    .media__content-cards_news {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .media__content-cards_news{
+        padding-bottom: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        overflow-x: unset;
+
+    }
+    
+  }

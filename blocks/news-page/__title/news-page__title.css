@@ -1,0 +1,11 @@
+.news-page__title {
+   text-align: center;
+   margin: 42px 0 62px;
+}
+
+@media screen and (max-width: 620px) {
+   .news-page__title {
+      margin: 20px 0 26px;
+   }
+   
+}

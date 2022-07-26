@@ -66,7 +66,7 @@ y1 = firstTouch.clientY;
 //определяем куда идет свайп лево или право, если пользоватяль тянет вверх\вниз, то не переключаем
 function handleTouchMove(event) {
     if (!x1 || !y1) {
-       return false;
+       return false;}
 
     let x2 = event.touches[0].clientX;
     let y2 = event.touches[0].clientY;

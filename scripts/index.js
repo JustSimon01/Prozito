@@ -46,7 +46,7 @@ buttonMiniPopupClose.addEventListener('click', function() {
 // Слайдер 
 
 // Блок Новости
-
+/*
 const newsBtnRigth = document.querySelector('.button_news_rigth');
 const newsBtnLeft = document.querySelector('.button_news_left');
 const newsCards = document.querySelector('.news_cards_index');
@@ -54,6 +54,7 @@ const newsCards = document.querySelector('.news_cards_index');
 let positionNewsCards = 0;
 let positionNewsShift = newsCards.offsetWidth / 2;
 
+/*
 const magazineBtnRigth = document.querySelector(".button_magazine_right");
 const magazineBtnLeft = document.querySelector(".button_magazine_left");
 const magazineCards = document.querySelector(".magazine__cards_page_index");
@@ -61,7 +62,7 @@ const magazineCards = document.querySelector(".magazine__cards_page_index");
 let positionMagazineCards = 0;
 let positionMagazineShift = magazineCards.offsetWidth / 2;
 
-
+/*
 
 function cardsMoveRightOuter (pos) {
  positionCards = pos;
@@ -75,6 +76,7 @@ return function cardsMoveRight(cardsName, shift, btnLeft, btnRight) {
     cardsName.scrollTo(positionCards, 0);
     btnRight.classList.add("button-arrow_state_disabled");    
   }
+  
 }
 }
 
@@ -90,6 +92,7 @@ function cardsMoveLeftOuter (pos) {
     cardsName.scrollTo(positionCards, 0);
     btnLeft.classList.add("button-arrow_state_disabled");
   }
+  
 }
 }
 
@@ -104,13 +107,23 @@ newsBtnLeft.addEventListener('click', () => positionNewsCardsOuterLeft(newsCards
 
 magazineBtnRigth.addEventListener('click', () => positionMagazineCardsOuterRight(magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
 magazineBtnLeft.addEventListener('click', () => positionMagazineCardsOuterLeft(magazineCards, positionMagazineShift, magazineBtnLeft, magazineBtnRigth))
+*/
 
-/*newsBtnRigth.addEventListener("click", () => {
+//Блон новости
+
+const newsBtnRigth = document.querySelector('.button_news_rigth');
+const newsBtnLeft = document.querySelector('.button_news_left');
+const newsCards = document.querySelector('.news_cards_index');
+
+let positionNewsCards = 0;
+let positionNewsShift = newsCards.offsetWidth / 2;
+
+newsBtnRigth.addEventListener("click", () => {
     if (positionNewsCards < newsCards.offsetWidth) {
       positionNewsCards = positionNewsCards + positionNewsShift;
       newsCards.scrollTo(positionNewsCards, 0);
       newsBtnLeft.classList.remove("button-arrow_state_disabled");
-    } else if ((positionNewsCards = newsCards.offsetWidth)) {
+    } else if ((positionNewsCards >= newsCards.offsetWidth)) {
       positionNewsCards = positionNewsCards + positionNewsShift;
       newsCards.scrollTo(positionNewsCards, 0);
       newsBtnRigth.classList.add("button-arrow_state_disabled");
@@ -144,7 +157,7 @@ magazineBtnRigth.addEventListener("click", () => {
     positionMagazineCards = positionMagazineCards + positionMagazineShift;
     magazineCards.scrollTo(positionMagazineCards, 0);
     magazineBtnLeft.classList.remove("button-arrow_state_disabled");
-  } else if ((positionMagazineCards = magazineCards.offsetWidth)) {
+  } else if ((positionMagazineCards >= magazineCards.offsetWidth)) {
     positionMagazineCards = positionMagazineCards + positionMagazineShift;
     magazineCards.scrollTo(positionMagazineCards, 0);
     magazineBtnRigth.classList.add("button-arrow_state_disabled");
@@ -162,4 +175,4 @@ magazineBtnLeft.addEventListener("click", () => {
     magazineBtnLeft.classList.add("button-arrow_state_disabled");
   }
 });
-*/
+

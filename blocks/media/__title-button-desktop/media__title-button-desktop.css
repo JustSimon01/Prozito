@@ -1,6 +1,7 @@
 .media__title-button-desktop{
     display: flex;
-    margin: 0 0 0 auto;
+    margin: 0;
+    padding-right: 5px;
     align-items: center;
     gap: 20px;
     font-family: 'PT Sans','Arial', sans-serif;
@@ -11,7 +12,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1024px) {
     .media__title-button-desktop{
         display: none;
         }

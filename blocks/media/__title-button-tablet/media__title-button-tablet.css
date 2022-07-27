@@ -11,7 +11,7 @@
     color: #FFFFFF;
     }
 
-@media screen and (max-width: 930px) {
+@media screen and (max-width: 1024px) {
     .media__title-button-tablet{
         display: flex;
         }

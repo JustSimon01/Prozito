@@ -1,0 +1,11 @@
+.page-navigation__counts {
+   display: flex;
+   gap: 18px;
+   margin: 0 224px;
+}
+
+@media screen and (max-width: 768px) {
+   .page-navigation__counts {
+      margin: 0 calc(34px + (224 - 34) * ((100vw - 320px) / (768 - 320)));
+   }
+}

@@ -34,6 +34,11 @@
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/route__link.css);
 
+@import url(../blocks/media/media.css);
+@import url(../blocks/media/__title-block/media__title-block.css);
+@import url(../blocks/media/__title-header/media__title-header.css);
+@import url(../blocks/media/__title-header/_news/media__title-header_news.css);
+@import url(../blocks/media/__title-button-mobile/media__title-button-mobile.css);
 
 /*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
@@ -41,6 +46,7 @@
 
 
 @import url(../blocks/news-page/news-page.css);
+@import url(../blocks/news-page/__media/news-page__media.css);
 @import url(../blocks/news-page/__cards/news-page__cards.css);
 @import url(../blocks/news-page/__title/news-page__title.css);
 
@@ -52,12 +58,15 @@
 @import url(../blocks/card-news/__time/card-news__time.css);
 @import url(../blocks/card-news/__link/card-news__link.css);
 
+@import url(../blocks/button-arrow/button-arrow.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 
-@import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);
-@import url(../blocks/magazine/__cards_pages_count/magazine__cards_pages_count.css);
-@import url(../blocks/magazine/__cards_pages_count/__cards_pages_count_active/magazine__cards_pages_count_active.css);
+/* навигация страниц */
+@import url(../blocks/page-navigation/page-navigation.css);
+@import url(../blocks/page-navigation/__counts/page-navigation__counts.css);
+@import url(../blocks/page-navigation/__count/page-navigation__count.css);
+@import url(../blocks/page-navigation/__count/_active/page-navigation__count_active.css);
 
 /*футер*/
 @import url(../blocks/footer/footer.css);

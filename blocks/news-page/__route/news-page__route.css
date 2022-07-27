@@ -1,3 +1,9 @@
 .news-page__route {
    margin-left: 20px;
 }
+
+@media screen and (max-width: 360px) {
+   .news-page__route {
+      display: none;
+   }
+}

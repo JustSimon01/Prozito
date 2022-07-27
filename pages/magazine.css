@@ -43,6 +43,7 @@
 @import url(../blocks/footer/__menu-block/footer__menu-block.css);
 @import url(../blocks/network-logo/network-logo.css);
 
+@import url(../blocks/button-arrow/button-arrow.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 
@@ -69,8 +70,8 @@
 @import url(../blocks/card-magazine-tematic/__text/card-magazine-tematic__text.css);
 @import url(../blocks/card-magazine-tematic/__text_container/card-magazine-tematic__text_container.css);
 
-/* счетчик страниц */
-
-@import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);
-@import url(../blocks/magazine/__cards_pages_count/magazine__cards_pages_count.css);
-@import url(../blocks/magazine/__cards_pages_count/__cards_pages_count_active/magazine__cards_pages_count_active.css);
+/* навигация страниц */
+@import url(../blocks/page-navigation/page-navigation.css);
+@import url(../blocks/page-navigation/__counts/page-navigation__counts.css);
+@import url(../blocks/page-navigation/__count/page-navigation__count.css);
+@import url(../blocks/page-navigation/__count/_active/page-navigation__count_active.css);

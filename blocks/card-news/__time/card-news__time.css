@@ -10,3 +10,9 @@
       line-height: 16px;
    }  
 }
+
+@media screen and (max-width: 360px) {
+   .card-news__time {
+      margin: 0px;
+   }  
+}

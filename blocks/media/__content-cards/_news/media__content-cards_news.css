@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 360px) {
     .media__content-cards_news{
+        margin: 16px 0 0 0;
         padding-bottom: 0px;
         display: flex;
         flex-direction: column;

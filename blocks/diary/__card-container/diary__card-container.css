@@ -5,7 +5,7 @@
 
 @media (max-width: 768px) {
 	.diary__card-container {
-		margin-bottom: 32px;
+		margin-bottom: 30px;
 	}
 }
 
@@ -15,5 +15,6 @@
 		overflow: scroll;
 		scroll-behavior: smooth;
 		scroll-snap-type: x mandatory;
+		margin-bottom: 39px;
 	}
 }

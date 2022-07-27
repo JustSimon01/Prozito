@@ -1,6 +1,6 @@
 .media__content-cards{
     grid-area: cards;
-    margin: 24px 0 15px 20px;
+    margin: 24px 0 22px 20px;
     display: grid;
     grid-auto-flow: column;
     overflow-x: scroll;
@@ -29,7 +29,9 @@
 
   @media screen and (max-width:1155px) {
     .media__content-cards {
-        padding-bottom: 16px;
+      margin: 16px 0 15px 12px;
+        padding-bottom: 12px;
+        gap: 12px;
     }
 }
 

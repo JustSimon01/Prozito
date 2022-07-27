@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 768px) {
     .media{
+        grid-template-rows: 53px auto;
         grid-template-columns: 253px minmax(270px, 827px) minmax(94px,136px);
     }
     

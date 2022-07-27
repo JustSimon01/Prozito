@@ -1,11 +1,15 @@
 .media__content-cards_news{
     padding: 0;
-    padding-bottom: 70px;
+    padding-bottom: 66px;
+    /*вычитаем толщину скрола*/
 }
 
 @media screen and (max-width:1155px) {
     .media__content-cards_news {
-        padding-bottom: 50px;
+        margin: 16px 0 25px 12px;
+        padding-bottom: 46px;
+        gap: 20px;
+        /*вычитаем толщину скрола*/
     }
 }
 

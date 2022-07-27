@@ -12,7 +12,7 @@ function openPopup(popup) {
 const button = document.querySelector('#aboutProject');
 
 const menuList = document.querySelector('.header__menu');
-button.addEventListener('click', function(){
+button.addEventListener('mouseover', function(){
     if (menuList.classList.contains('pop-up_opened')){
         menuList.classList.remove('pop-up_opened');
         button.style.borderBottom = '';

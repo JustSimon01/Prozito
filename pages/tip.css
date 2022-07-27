@@ -116,7 +116,7 @@
 
 /*селектры осноговного контента*/
 .main h1 {
-    font-family: 'WF', 'Arial', sans-serif;
+    font-family: 'WF', 'Arial', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 46px;
@@ -157,7 +157,7 @@
 }
 
 .main h3 {
-    font-family: 'WF','Arial', sans-serif;
+    font-family: 'WF','Arial', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -205,7 +205,7 @@
 }
 
 .main blockquote {
-    font-family: 'WF','Arial', sans-serif;;;
+    font-family: 'WF','Arial', serif;;;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;

@@ -1,6 +1,6 @@
 .mini-pop-up {
-	width: 237px;
-	height: 132px;
+	max-width: 237px;
+	min-height: 132px;
 	position: sticky;
 	float: right;
 	top: 120px;

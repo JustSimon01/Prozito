@@ -11,8 +11,8 @@
    <meta name="author" content="Александр Отопков, Семен Чехов, Кирилл Карпачев, Юрий Федулов, Сергей Белов">
    <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body class="main-page">
-  <header class="header header_color_beige">
+<body>
+<header class="header header_color_beige">
     <div class="header__line">
      <img class="logo" src="./images/logot/logo.svg" alt="логотип">
      <ul class="header__navigation text__PTsans-p-20px">
@@ -49,18 +49,6 @@
             <li><a class="header__mobile-menu-element" href="#">Спецпроекты</a></li>
          </ul>
       </div>
-   </header>
-  <div class="info-line">
-    <div class="pop-up mini-pop-up pop-up_opened">
-       <button class="button-close mini-pop-up__close-button" type="button"></button>
-       <a class="mini-pop-up__link" href="./tip.html">
-       <div class="mini-pop-up__container">
-          <h3 class="mini-pop-up__title">СПЕЦПРОЕКТ БЛОКАДА</h3>
-          <p class="mini-pop-up__text">Исследование блокадных дневников</p>
-         </div>
-       </a>
-     </div>
-  </div>
   <section class="about-project">
       <h1 class="about-project__paragraph text__WF-h1-46px">Центр «Прожито» собирает, описывает и публикует документы личного
          происхождения и разрабатывает исследовательские инструменты для работы с ними. Материалы публикуются и
@@ -112,8 +100,20 @@
             </div>
          </div>
       </div>
-  </section>
-  <main>
+   </section>
+</header>
+  <main class="main-page">
+   <div class="info-line">
+      <div class="pop-up mini-pop-up pop-up_opened">
+         <button class="button-close mini-pop-up__close-button" type="button"></button>
+         <a class="mini-pop-up__link" href="./tip.html">
+         <div class="mini-pop-up__container">
+            <h3 class="mini-pop-up__title">СПЕЦПРОЕКТ БЛОКАДА</h3>
+            <p class="mini-pop-up__text">Исследование блокадных дневников</p>
+           </div>
+         </a>
+       </div>
+    </div>
       <section class="media media_news">
          <div class="media__title-block">
             <h2 class="media__title-header media__title-header_news text__WF-h1-46px text_color_white">Новости и&nbsp;события</h2>

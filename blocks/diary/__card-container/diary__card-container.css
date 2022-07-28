@@ -15,7 +15,7 @@
 		overflow: scroll;
 		scroll-behavior: smooth;
 		scroll-snap-type: x mandatory;
-		margin-bottom: 46px;
+		margin-bottom: 64px;
 		scrollbar-width: none;
 	}
 	

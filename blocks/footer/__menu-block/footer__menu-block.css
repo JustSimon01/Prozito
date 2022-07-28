@@ -1,5 +1,7 @@
 .footer__menu-block{
     padding: 32px 0 35px;
+    max-height: 85px;
+    box-sizing: border-box;
     margin:0;
     display: flex;
     flex-direction: row;

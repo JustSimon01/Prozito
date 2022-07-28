@@ -11,7 +11,7 @@
     }
 }
 
-@media screen and (max-width: 768px ) {
+@media screen and (max-width: 360px ) {
     .document-card__link-description{
         font-size: 12px;
         line-height: 16px;

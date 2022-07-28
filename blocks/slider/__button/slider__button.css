@@ -5,13 +5,14 @@
    border: 0;
    cursor: pointer;
    background: none;
+   display: block;
+   margin-top: 260px;
 }
-
-
 
 @media screen and (max-width: 927px) {
    .slider__button {
       margin-right: 30px;
+      margin-top: 0;
    }
 
    .slider__button:last-child {

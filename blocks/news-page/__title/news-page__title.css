@@ -7,5 +7,10 @@
    .news-page__title {
       margin: 20px 0 26px;
    }
-   
+}
+
+@media screen and (max-width: 360px) {
+   .news-page__title {
+      display: none;
+   }
 }

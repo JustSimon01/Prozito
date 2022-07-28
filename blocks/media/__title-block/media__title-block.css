@@ -5,7 +5,7 @@ flex-direction: column;
 justify-content: space-between;
 align-items: flex-start;
 box-sizing: border-box;
-padding: 16px 32px 32px;
+padding: 16px 32px 40px 32px;
 max-width: 477px;
 
 width: 100%;
@@ -16,7 +16,7 @@ background-color: #323232;
 
 @media screen and (max-width: 1155px) {
     .media__title-block{
-        padding: 16px 20px 38px;
+        padding: 16px 20px 38px 16px;
     }
     
 }

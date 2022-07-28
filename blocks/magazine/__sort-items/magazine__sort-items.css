@@ -1,4 +1,4 @@
-.magazine__sort_items {
+.magazine__sort-items {
     padding: 0;
     margin: 32px auto auto;
     list-style: none;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .magazine__sort_items {
+    .magazine__sort-items {
         margin-top: 16px;
         column-gap: calc(20px + (52 - 20) * (100vw - 320px) / (768 - 320));
         flex-wrap: wrap;

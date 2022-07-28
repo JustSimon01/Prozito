@@ -12,7 +12,7 @@ function openPopup(popup) {
 const button = document.querySelector('#aboutProject');
 
 const menuList = document.querySelector('.header__menu');
-button.addEventListener('click', function(){
+button.addEventListener('mouseover', function(){
     if (menuList.classList.contains('pop-up_opened')){
         menuList.classList.remove('pop-up_opened');
         button.style.borderBottom = '';
@@ -23,7 +23,7 @@ button.addEventListener('click', function(){
     }
 });
 
-
+//открытие меню, бургер
 const menuBurgerButton = document.querySelector('.header__menu-icon');
 const menuPopup = document.querySelector('.header__menu-mobile');
 const menuPopupCloseButton = document.querySelector('.header__menu-icon_close');
@@ -36,6 +36,13 @@ menuPopupCloseButton.addEventListener('click', function(){
     menuPopup.classList.remove('pop-up_opened');
 });
 
+//закрытие меню при переходе по ссылке
+const menuBurgerLinks = document.querySelectorAll('.header__mobile-menu-element');
+menuBurgerLinks.forEach (function(btn) {
+btn.addEventListener('click', function(){
+  menuPopup.classList.remove('pop-up_opened');
+});
+});
 
 //мини-попап на заглавной (закрытие. поумолчанию открыт)
 const popupMini = document.querySelector('.mini-pop-up');
@@ -49,14 +56,14 @@ buttonMiniPopupClose.addEventListener('click', function() {
 const cards = document.querySelector('media__content-cards');
 
 
-//3dслайдер, свайп
+//3dслайдер, свайп (заработал в firefox)
 const cardsBlock = document.querySelector('.slider-3d')
 //ограничиваем работу свайпа блоком слайдера
-cardsBlock.addEventListener('touchstart', handleTouchStart, false);
-cardsBlock.addEventListener('touchmove', handleTouchMove, false);
+cardsBlock.addEventListener('touchstart', handleTouchStart);
+cardsBlock.addEventListener('touchmove', handleTouchMove);
 
 let x1 = null;
-let y = null;
+let y1 = null;
 //определяем точку качания
 function handleTouchStart(event) {
 const firstTouch = event.touches[0];

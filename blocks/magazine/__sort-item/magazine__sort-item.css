@@ -1,7 +1,7 @@
-.magazine__sort_item {
+.magazine__sort-item {
     border: 0;
     padding: 0;
     background-color: #fff;
-    margin: 16px auto;
+    margin: 16px auto auto;
     cursor: pointer;
 }

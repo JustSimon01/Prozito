@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     max-width: 1375px;
-    margin: 0 auto 32px;
+    margin: 0 auto 94px;
     padding: 0 17px;
 }
 
 @media screen and (max-width: 768px) {
     .footer{
-        margin: 0 auto 20px;
+        margin: 0 auto 22px;
     }
 }
 @media screen and (max-width: 620px) {

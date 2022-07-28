@@ -27,14 +27,6 @@
 @import url(../blocks/document-card/__paragraph/document-card__paragraph.css);
 @import url(../blocks/document-card/__link-description/document-card__link-description.css);
 
-/*текстовые переменные */
-@import url(../blocks/text/h1/text__h1.css);
-@import url(../blocks/text/h2/text__h2.css);
-@import url(../blocks/text/h3/text__h3.css);
-@import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
-@import url(../blocks/text/pt_sans_small/text__pt_sans_small.css);
-@import url(../blocks/text/pt_sans_small_italic/text__pt_sans_small_italic.css);
-@import url(../blocks/text/color/text__color_white.css);
 
 @import url(../blocks/news/news.css);
 
@@ -51,8 +43,11 @@
 @import url(../blocks/header/__menu-mobile/header__menu-mobile.css);
 @import url(../blocks/header/__menu/header_menu.css);
 @import url(../blocks/header/__menu-element/header__menu-element.css);
+@import url(../blocks/header/__mobile-menu-element/header__mobile-menu-element.css);
+
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
+
 
 @import url(../blocks/search-banner/search-banner.css);
 @import url(../blocks/search-banner/__image/search-banner__image.css);
@@ -114,8 +109,8 @@
 @import url(../blocks/diary/__card-image/diary__card-image.css);
 @import url(../blocks/diary/__card-text/diary__card-text.css);
 @import url(../blocks/diary/__navigation/diary__navigation.css);
-@import url(../blocks/diary/__navigation-item/_state/diary__navigation-item_state_active.css);
 @import url(../blocks/diary/__navigation-item/diary__navigation-item.css);
+@import url(../blocks/diary/__navigation-item/_state/diary__navigation-item_state_active.css);
 @import url(../blocks/diary/__card-items/diary__card-items.css);
 
 /*Прямоугольные кнопки*/
@@ -149,7 +144,7 @@
 @import url(../blocks/card-magazine-tematic/__name/card-magazine-tematic__name.css);
 @import url(../blocks/card-magazine-tematic/__img/card-magazine-tematic__img.css);
 @import url(../blocks/card-magazine-tematic/__text/card-magazine-tematic__text.css);
-@import url(../blocks/card-magazine-tematic/__text_container/card-magazine-tematic__text_container.css);
+@import url(../blocks/card-magazine-tematic/__text-container/card-magazine-tematic__text-container.css);
 
 /*3d слайдер*/
 @import url(../blocks/slider-3d/slider-3d.css);

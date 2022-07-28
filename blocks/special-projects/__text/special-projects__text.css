@@ -9,3 +9,9 @@
       margin: 0 0 11px;
    }
 }
+
+@media screen and (max-width: 360px) {
+   .special-projects__text {
+      margin: 0 0 24px;
+   }
+}

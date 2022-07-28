@@ -1,6 +1,6 @@
 .documents{
     margin: 114px auto 0;
-    padding: 0 16px;
+    
     display: grid;
     max-width: 1144px;
     gap: 20px 19.66px;
@@ -13,6 +13,7 @@
 
 @media screen and (max-width: 768px ) {
     .documents{
+        padding: 0;
         margin: 28px auto 0;
         max-width: 736px;
         gap: 24px 12px;
@@ -23,7 +24,7 @@
 @media screen and (max-width: 620px ) {
     .documents{
         margin: 93px auto 0;
-        padding: 0 12px;
         grid-template-rows: unset;
+        gap: 12px;
     }
 }

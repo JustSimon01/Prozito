@@ -1,7 +1,6 @@
 .mini-pop-up__text {
 	max-width: 189px;
-	height: 36px;
-	font-family: 'PT Sans';
+	font-family: 'PT Sans','Arial', sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
@@ -9,5 +8,17 @@
 	color: #323232;
 	margin: 0;
 	margin-top: 12px;
-	margin-left: 24px;
+}
+
+@media screen and (max-width: 768px) {
+	.mini-pop-up__text{
+		font-size: 12px;
+		line-height: 16px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.mini-pop-up__text{
+		margin-top: 4px;
+	}
 }

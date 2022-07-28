@@ -1,7 +1,7 @@
 .info-line{
     position: absolute;
-    top:0;
+    top:-1300px;
+    bottom: 0;
     right: 0;
     width: 0px;
-    height: 100%;
 }

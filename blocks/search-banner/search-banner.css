@@ -8,14 +8,14 @@
     "img text"
     "img btn";
     justify-content: space-between;
-    grid-template-rows: 0fr 1fr 0fr;
+    grid-template-rows: auto 1fr auto;
     gap: 0 10px;
 }
 
 
 @media screen and (max-width: 1155px) {
     .search-banner {
-        padding: 20px;
+        padding: 20px 19px 20px 17px;
     }
 }
 

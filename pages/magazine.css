@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-@import url(../blocks/page/page__magazine.css);
+@import url(../blocks/magazine/magazine.css);
 
 @import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
 @import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
@@ -29,6 +29,7 @@
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/header/__mobile-menu-element/header__mobile-menu-element.css);
 
 /*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
@@ -43,15 +44,16 @@
 @import url(../blocks/footer/__menu-block/footer__menu-block.css);
 @import url(../blocks/network-logo/network-logo.css);
 
+@import url(../blocks/button-arrow/button-arrow.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 
 @import url(../blocks/magazine/__title/magazine__title.css);
 
 @import url(../blocks/magazine/__sort/magazine__sort.css);
-@import url(../blocks/magazine/__sort_items/magazine__sort_items.css);
-@import url(../blocks/magazine/__sort_item/magazine__sort_item.css);
-@import url(../blocks/magazine/__sort_item/__sort_item_active/magazine__sort_item_active.css);
+@import url(../blocks/magazine/__sort-items/magazine__sort-items.css);
+@import url(../blocks/magazine/__sort-item/magazine__sort-item.css);
+@import url(../blocks/magazine/__sort-item/__sort-item_active/magazine__sort-item_active.css);
 
 
 /* для вставки карточек добавлять вот эти классы */
@@ -67,10 +69,10 @@
 @import url(../blocks/card-magazine-tematic/__name/card-magazine-tematic__name.css);
 @import url(../blocks/card-magazine-tematic/__img/card-magazine-tematic__img.css);
 @import url(../blocks/card-magazine-tematic/__text/card-magazine-tematic__text.css);
-@import url(../blocks/card-magazine-tematic/__text_container/card-magazine-tematic__text_container.css);
+@import url(../blocks/card-magazine-tematic/__text-container/card-magazine-tematic__text-container.css);
 
-/* счетчик страниц */
-
-@import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);
-@import url(../blocks/magazine/__cards_pages_count/magazine__cards_pages_count.css);
-@import url(../blocks/magazine/__cards_pages_count/__cards_pages_count_active/magazine__cards_pages_count_active.css);
+/* навигация страниц */
+@import url(../blocks/page-navigation/page-navigation.css);
+@import url(../blocks/page-navigation/__counts/page-navigation__counts.css);
+@import url(../blocks/page-navigation/__count/page-navigation__count.css);
+@import url(../blocks/page-navigation/__count/_active/page-navigation__count_active.css);

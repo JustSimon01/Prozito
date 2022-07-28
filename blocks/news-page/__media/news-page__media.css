@@ -1,0 +1,10 @@
+.news-page__media {
+   display: none;
+}
+
+@media screen and (max-width: 360px) {
+   .news-page__media {
+      margin: 156px 0 15px 12px;
+      display: block;
+   }
+}

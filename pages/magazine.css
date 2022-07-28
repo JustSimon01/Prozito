@@ -68,7 +68,7 @@
 @import url(../blocks/card-magazine-tematic/__name/card-magazine-tematic__name.css);
 @import url(../blocks/card-magazine-tematic/__img/card-magazine-tematic__img.css);
 @import url(../blocks/card-magazine-tematic/__text/card-magazine-tematic__text.css);
-@import url(../blocks/card-magazine-tematic/__text_container/card-magazine-tematic__text-container.css);
+@import url(../blocks/card-magazine-tematic/__text-container/card-magazine-tematic__text-container.css);
 
 /* навигация страниц */
 @import url(../blocks/page-navigation/page-navigation.css);

@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-@import url(../blocks/page/page__magazine.css);
+@import url(../blocks/magazine/magazine.css);
 
 @import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
 @import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);

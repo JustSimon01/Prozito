@@ -15,6 +15,7 @@
 @media screen and (max-width: 768px) {
     .footer__menu-block{
         padding: 24px 0 28px;
+        max-height: unset;
     }
 }
 

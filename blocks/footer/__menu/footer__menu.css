@@ -13,14 +13,12 @@
         line-height: 18px;
         gap:60.75px;
         justify-content: space-between;
-        padding: 0 61px;
         max-width: 612px;
         width: 100%;
       }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 630px) {
         .footer__menu {
-           text-transform:uppercase;
            justify-content: center;
            flex-wrap: wrap;
            gap: 20px 32px;

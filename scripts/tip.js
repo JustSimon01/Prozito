@@ -26,12 +26,20 @@ popupTipOpen.addEventListener('click', evt => {
 const button = document.querySelector('#aboutProject');
 
 const menuList = document.querySelector('.header__menu');
-button.addEventListener('click', function () {
+button.addEventListener('mouseover', function () {
     if (menuList.classList.contains('pop-up_opened')) {
         menuList.classList.remove('pop-up_opened');
     } else {
         menuList.classList.add('pop-up_opened');
     }
+});
+
+//закрытие меню при переходе по ссылке
+const menuBurgerLinks = document.querySelectorAll('.header__mobile-menu-element');
+menuBurgerLinks.forEach (function(btn) {
+btn.addEventListener('click', function(){
+  menuPopup.classList.remove('pop-up_opened');
+});
 });
 
 

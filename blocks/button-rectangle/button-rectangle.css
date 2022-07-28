@@ -29,6 +29,7 @@
 		min-width: 237px;
 		font-size: 14px;
 		line-height: 18px;
+		min-height: 48px;
 	}
 }
 
@@ -42,5 +43,6 @@
 	.button-rectangle {
 		width: 100%;
 		min-width: 0;
+		min-height: 50px;
 	}
 }

@@ -14,5 +14,7 @@
 @media screen and (max-width: 360px){
    .special-projects__title {
       text-align: left;
+      font-size: 32px;
+line-height: 120%;
    }
 }

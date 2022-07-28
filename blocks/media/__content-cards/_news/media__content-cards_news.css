@@ -5,6 +5,11 @@
     /*вычитаем толщину скрола*/
 }
 
+@-moz-document url-prefix()
+{
+  .media__content-cards_news { padding-bottom: 62px; }
+}
+
 @media screen and (max-width:1155px) {
     .media__content-cards_news {
         margin: 16px 0 25px 12px;

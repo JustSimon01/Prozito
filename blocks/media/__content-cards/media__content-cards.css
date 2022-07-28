@@ -12,7 +12,14 @@
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: #323232 #E7E4DE;
+
 }
+@-moz-document url-prefix()
+{
+  .media__content-cards { padding-bottom: 37px; }
+}
+
+
 /*сделать scrollbar тоньше получается только в chrome/YA браузере*/
 .media__content-cards::-webkit-scrollbar {
     height: 4px;

@@ -15,6 +15,8 @@
 
 @media screen and (max-width: 620px) {
    .special-projects__column-text {
-      border: 1px solid #A5CDAB;
+      outline: 1px solid #A5CDAB;
+      outline-offset: -1px;
+      padding: 12px 8px;
    }
 }

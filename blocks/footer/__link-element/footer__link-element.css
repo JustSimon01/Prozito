@@ -1,5 +1,6 @@
 .footer__link-element{
         align-items: center;
+        display: flex;
         gap: 8px;
         cursor: pointer;
         text-decoration: none;
@@ -9,4 +10,10 @@
 
 .footer__link-element:hover{
         transform: scale(1.1);
+    }
+
+    @media screen and (max-width: 930px) {
+        .footer__link-element {
+                gap: 0px;
+         }
     }

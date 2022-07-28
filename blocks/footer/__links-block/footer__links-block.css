@@ -24,6 +24,8 @@
         justify-items: center;
         grid-template-columns: 100%;
         grid-template-rows: 76px 25px 69px;
+        gap:0;
+        padding: 0;
         grid-template-areas:
         "social"
         "logo"

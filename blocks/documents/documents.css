@@ -25,5 +25,6 @@
         margin: 93px auto 0;
         padding: 0 12px;
         grid-template-rows: unset;
+        gap: 12px;
     }
 }

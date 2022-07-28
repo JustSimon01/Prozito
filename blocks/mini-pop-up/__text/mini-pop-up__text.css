@@ -16,3 +16,9 @@
 		line-height: 16px;
 	}
 }
+
+@media screen and (max-width: 360px) {
+	.mini-pop-up__text{
+		margin-top: 4px;
+	}
+}

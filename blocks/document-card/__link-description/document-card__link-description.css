@@ -5,8 +5,15 @@
 }
 
 @media screen and (max-width: 768px ) {
-    .ddocument-card__link-description{
+    .document-card__link-description{
         font-size: 14px;
         line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 768px ) {
+    .document-card__link-description{
+        font-size: 12px;
+        line-height: 16px;
     }
 }

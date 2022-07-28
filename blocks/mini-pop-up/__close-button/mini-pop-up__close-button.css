@@ -3,3 +3,13 @@
 	top: 0;
 	left: -24px;
 }
+
+@media screen and (max-width: 360px) {
+	.mini-pop-up__close-button{
+		width: 11.24px;
+		height: 11.43px;
+		left: -13.44px;
+		top: 4.57px;
+		background-size: contain;
+	}
+}

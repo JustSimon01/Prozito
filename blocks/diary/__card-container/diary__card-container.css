@@ -18,4 +18,8 @@
 		margin-bottom: 46px;
 		scrollbar-width: none;
 	}
+	
+	.diary__card-container::-webkit-scrollbar {
+		display: none;
+	}
 }

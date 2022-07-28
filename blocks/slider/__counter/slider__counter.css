@@ -2,8 +2,9 @@
    font-family: 'PT Sans', 'Arial', sans-serif;
    font-style: normal;
    font-weight: 400;
-   font-size: 18px;
-   line-height: 30px;
+   font-size: 14px;
+   line-height: 18px;
+   padding-right: 28px;
 }
 
 @media screen and (max-width: 800px) {

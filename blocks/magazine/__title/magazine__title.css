@@ -1,8 +1,6 @@
 .magazine__title {
     margin: 42px auto auto;
     text-align: center;
-    font-family: 'PT Sans', 'Arial', sans-serif;
-    line-height: 60px;
 }
 
 @media screen and (max-width: 768px) {

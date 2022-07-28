@@ -1,7 +1,8 @@
 .tipical-img {
     width: 910px;
     align-self: center;
-    padding-top: 26px;
+    padding-top: 30px;
+    margin-bottom: 2px;
 }
 
 @media screen and (max-width: 911px) {

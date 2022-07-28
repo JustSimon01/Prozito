@@ -16,5 +16,6 @@
 		scroll-behavior: smooth;
 		scroll-snap-type: x mandatory;
 		margin-bottom: 46px;
+		scrollbar-width: none;
 	}
 }

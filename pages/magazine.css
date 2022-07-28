@@ -50,9 +50,9 @@
 @import url(../blocks/magazine/__title/magazine__title.css);
 
 @import url(../blocks/magazine/__sort/magazine__sort.css);
-@import url(../blocks/magazine/__sort_items/magazine__sort_items.css);
-@import url(../blocks/magazine/__sort_item/magazine__sort_item.css);
-@import url(../blocks/magazine/__sort_item/__sort_item_active/magazine__sort_item_active.css);
+@import url(../blocks/magazine/__sort-items/magazine__sort-items.css);
+@import url(../blocks/magazine/__sort-item/magazine__sort-item.css);
+@import url(../blocks/magazine/__sort-item/__sort-item_active/magazine__sort-item_active.css);
 
 
 /* для вставки карточек добавлять вот эти классы */

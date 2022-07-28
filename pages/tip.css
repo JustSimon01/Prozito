@@ -112,7 +112,9 @@
 @import url(../blocks/footer/__menu-block/footer__menu-block.css);
 @import url(../blocks/network-logo/network-logo.css);
 
-
+/* {
+    border: 1px solid rebeccapurple;
+}
 
 /*селектры осноговного контента*/
 .main h1 {
@@ -204,6 +206,10 @@
         line-height: 20px;
         margin: 0 auto;
     }  
+}
+
+.main p:last-of-type {
+    padding-top: 20px;
 }
 
 .main blockquote {

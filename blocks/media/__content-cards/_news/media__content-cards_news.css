@@ -1,6 +1,7 @@
 .media__content-cards_news{
     padding: 0;
     padding-bottom: 66px;
+    margin: 24px 0 22px 20px;
     /*вычитаем толщину скрола*/
 }
 

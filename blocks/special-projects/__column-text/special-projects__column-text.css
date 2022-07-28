@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 768px) {
    .special-projects__column-text {
-      padding: 12px 8px;
+      padding: 12px 12px;
       margin: 0;
       height: 100%;
    }

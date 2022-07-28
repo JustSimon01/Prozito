@@ -9,3 +9,10 @@
 	margin: 0;
 	margin-top: 12px;
 }
+
+@media screen and (max-width: 768px) {
+	.mini-pop-up__text{
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

@@ -10,3 +10,23 @@
 	box-sizing: border-box;
 	padding: 16px 33px 16px 24px;
 }
+
+@media screen and (max-width: 768px) {
+	.mini-pop-up{
+		min-width: 191px;
+        min-height: 112px;
+		padding: 12px 20px;
+		top: 90px;
+		right: 70px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.mini-pop-up{
+		min-width: 191px;
+        min-height: 112px;
+		padding: 12px 20px;
+		top: 90px;
+		right: 70px;
+	}
+}

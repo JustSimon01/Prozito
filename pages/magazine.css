@@ -2,14 +2,19 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/magazine/magazine.css);
 
-@import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
-@import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
-@import url(../blocks/textNew/__WF-h3-26px/text__WF-h3-26px.css);
-@import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
-@import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
-@import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
-@import url(../blocks/textNew/_italic/text_italic.css);
-@import url(../blocks/textNew/_color/_white/text_color_white.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/__PTsans-p-14px/text__PTsans-p-14px.css);
+@import url(../blocks/text/__PTsans-p-16px/text__PTsans-p-16px.css);
+@import url(../blocks/text/__PTsans-p-20px/text__PTsans-p-20px.css);
+@import url(../blocks/text/__WF-h1-46px/text__WF-h1-46px.css);
+@import url(../blocks/text/__WF-h2-36px/text__WF-h2-36px.css);
+@import url(../blocks/text/__WF-h3-26px/text__WF-h3-26px.css);
+@import url(../blocks/text/__PTsans-p-14px/_style/text__PTsans-p-14px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-16px/_style/text__PTsans-p-16px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-14px/_color/text__PTsans-p-14px_color_white.css);
+@import url(../blocks/text/__PTsans-p-20px/_color/text__PTsans-p-20px_color_white.css);
+@import url(../blocks/text/__WF-h1-46px/_color/text__WF-h1-46px_color_white.css);
+@import url(../blocks/text/__WF-h3-26px/_color/text__WF-h3-26px_color_white.css);
 
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/route__link.css);

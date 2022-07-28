@@ -13,8 +13,8 @@
 @import url(../blocks/text/__PTsans-p-16px/_style/text__PTsans-p-16px_style_italic.css);
 @import url(../blocks/text/__PTsans-p-14px/_color/text__PTsans-p-14px_color_white.css);
 @import url(../blocks/text/__PTsans-p-20px/_color/text__PTsans-p-20px_color_white.css);
-@import url(../blocks/text/__WF-h1-46px/_color/text__PTsans-p-46px_color_white.css);
-@import url(../blocks/text/__WF-h3-26px/_color/text__PTsans-p-26px_color_white.css);
+@import url(../blocks/text/__WF-h1-46px/_color/text__WF-h1-46px_color_white.css);
+@import url(../blocks/text/__WF-h3-26px/_color/text__WF-h3-26px_color_white.css);
 
 /*header*/
 @import url(../blocks/header/header.css);

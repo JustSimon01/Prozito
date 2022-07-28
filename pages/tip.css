@@ -152,8 +152,9 @@
     line-height: 18px;
     margin: 0 auto;
     width: 200px;
-    padding-bottom: 25px;
+    padding-bottom: 31px;
     text-align: center;
+    white-space: nowrap;
 }
 
 .main h3 {
@@ -166,6 +167,7 @@
     color: #323232;
     margin: 0 auto;
     padding-top: 30px;
+    padding-right: 49px;
 }
 
 @media screen and (max-width: 400px) {
@@ -176,14 +178,14 @@
 }
 
 .main p {
-    font-family: 'PT Sans', 'Arial', sans-serif;;
+    font-family: 'PT Sans', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     max-width: 676px;
     margin: 0 auto;
-    padding-top: 35px;
+    padding-top: 28px;
     text-align: left;
 }
 
@@ -212,8 +214,8 @@
     line-height: 26px;
     color: #3A543E;
     width: 676px;
-    margin: 33px auto 0;
-    padding-left: 10px;
+    margin: 32px auto 5px;
+    padding-left: 14px;
     border-left: 2px solid #3A543E;;
 }
 

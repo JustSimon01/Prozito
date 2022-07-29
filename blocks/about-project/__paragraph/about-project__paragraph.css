@@ -1,10 +1,15 @@
 .about-project__paragraph{
     max-width: 1163px;
     margin: 0 auto 0 0;
-    padding: 0 16px;
+    padding: 0 32px;
     color: #323232;
 }
 
+@media screen and (max-width: 1440px ) {
+    .about-project__paragraph{
+        padding: 0 16px;
+    }
+}
 
 @media screen and (max-width: 768px ) {
     .about-project__paragraph{

@@ -12,47 +12,57 @@
    <link rel="stylesheet" href="./pages/news.css">
 </head>
 
-<body class="news-page">
-  <header class="header">
-     <div class="header__line">
-      <img class="logo" src="./images/logot/logo.svg" alt="логотип">
-      <ul class="header__navigation text__PTsans-p-20px">
-        <li><a class="header__navigation-element" href="https://prozhito.org/page/archive">Архив</a></li>
-        <li><a class="header__navigation-element" href="https://prozhito.org/persons">Корпус</a></li>
-        <li class="header__navigation-element" id="aboutProject">О проекте</li>
-      </ul>
-      <button class="header__menu-icon" type="button" id="menuButton"></button>
-      <ul class="pop-up header__menu text__PTsans-p-20px">
-       <li><a class="header__menu-element" href="#">О прожито</a></li>
-       <li><a class="header__menu-element" href="#">Как работать?</a></li>
-       <li><a class="header__menu-element" href="#">Медиа</a></li>
-       <li><a class="header__menu-element" href="#">Новости</a></li>
-       <li><a class="header__menu-element" href="#">Спецпроекты</a></li>
-      </ul>
-     </div>
-     <div class="header__menu-mobile pop-up">
-       <div class="header">
-        <div class="header__line header__line_menu-mobile">
-         <img class="logo" src="./images/logot/logo.svg" alt="логотип">
-         <button class="header__menu-icon header__menu-icon_close" type="button"></button>
+<body class="news-page text">
+   <header class="header">
+      <div class="header__line">
+       <img class="logo" src="./images/logot/logo.svg" alt="логотип">
+       <ul class="header__navigation text__PTsans-p-20px">
+         <li><a class="header__navigation-element" href="https://prozhito.org/page/archive">Архив</a></li>
+         <li><a class="header__navigation-element" href="https://prozhito.org/persons">Корпус</a></li>
+         <li class="header__navigation-element" id="aboutProject">О проекте</li>
+       </ul>
+       <button class="header__menu-icon" type="button" id="menuButton"></button>
+       <ul class="pop-up header__menu text__PTsans-p-20px">
+        <li><a class="header__menu-element" href="#">О прожито</a></li>
+        <li><a class="header__menu-element" href="#">Как работать?</a></li>
+        <li><a class="header__menu-element" href="#">Медиа</a></li>
+        <li><a class="header__menu-element" href="#">Новости</a></li>
+        <li><a class="header__menu-element" href="#">Спецпроекты</a></li>
+       </ul>
+      </div>
+      <div class="header__menu-mobile pop-up">
+        <div class="header__mobile">
+         <div class="header__line header__line_menu-mobile">
+          <img class="logo" src="./images/logot/logo.svg" alt="логотип">
+          <button class="header__menu-icon header__menu-icon_close" type="button"></button>
+         </div>
         </div>
-       </div>
-          <ul class="header__menu-mobile-blocks text__PTsans-p-14px">
-             <li>Архив</li>
-             <li>Корпус</li>
-             <li>О проекте</li>
-          </ul>
-          <ul class="header__menu-mobile-blocks text__PTsans-p-14px">
-             <li>О прожито</li>
-             <li>Как работать?</li>
-             <li>Медиа</li>
-             <li>Новости</li>
-             <li>Спецпроекты</li>
-          </ul>
-       </div>
-    </header>
+           <ul class="header__menu-mobile-blocks text__PTsans-p-14px">
+              <li><a class="header__mobile-menu-element" href="https://prozhito.org/page/archive">Архив</a></li>
+              <li><a class="header__mobile-menu-element" href="https://prozhito.org/persons">Корпус</a></li>
+              <li><a class="header__mobile-menu-element" href="#">О проекте</a></li>
+           </ul>
+           <ul class="header__menu-mobile-blocks text__PTsans-p-14px">
+              <li><a class="header__mobile-menu-element" href="#">О прожито</a></li>
+              <li><a class="header__mobile-menu-element" href="#">Как работать?</a></li>
+              <li><a class="header__mobile-menu-element" href="#">Медиа</a></li>
+              <li><a class="header__mobile-menu-element" href="#">Новости</a></li>
+              <li><a class="header__mobile-menu-element" href="#">Спецпроекты</a></li>
+           </ul>
+        </div>
+   </header>
 
    <main>
+      <section class="media news-page__media">
+         <div class="media__title-block">
+            <h2 class="media__title-header media__title-header_news text__WF-h1-46px">Новости и&nbsp;события</h2>
+            <p class="media__title-button-mobile">
+               Ко всем новостям
+               <a href="./news.html" class="button-arrow button-arrow_direction_right"></a>
+            </p>
+         </div>
+      </section>
+
       <nav class="route news-page__route">
          <a href="index.html" class="route__link text__PTsans-p-20px">Главная страница / </a>
          <a href="" class="route__link text__PTsans-p-20px">Все новости</a>
@@ -63,7 +73,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic">Спецпроект</p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic">Спецпроект</p>
                </div>
                <img src="./images/card-news/card-news_blackbook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга
@@ -74,7 +84,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic"></p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic"></p>
                </div>
                <img src="./images/card-news/card-news_redbook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
@@ -85,7 +95,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic">Лекция</p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic">Лекция</p>
                </div>
                <img src="./images/card-news/card-news_whitebook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
@@ -96,7 +106,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic">Спецпроект</p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic">Спецпроект</p>
                </div>
                <img src="./images/card-news/card-news_blackbook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга
@@ -107,7 +117,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic"></p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic"></p>
                </div>
                <img src="./images/card-news/card-news_redbook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
@@ -118,7 +128,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic">Лекция</p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic">Лекция</p>
                </div>
                <img src="./images/card-news/card-news_whitebook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
@@ -129,7 +139,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic">Спецпроект</p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic">Спецпроект</p>
                </div>
                <img src="./images/card-news/card-news_blackbook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">В издательстве Европейского университета в Санкт-Петербурге вышла первая книга
@@ -140,7 +150,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic"></p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic"></p>
                </div>
                <img src="./images/card-news/card-news_redbook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">Центр изучения эго-документов «Прожито» проведёт исследовательскую
@@ -151,7 +161,7 @@
             <a href="#" class="card-news__link">
                <div class="card-news__data">
                   <p class="card-news__time text__PTsans-p-14px">27.01.2022</p>
-                  <p class="card-news__tag text__PTsans-p-14px text_italic">Лекция</p>
+                  <p class="card-news__tag text__PTsans-p-14px text__PTsans-p-14px_style_italic">Лекция</p>
                </div>
                <img src="./images/card-news/card-news_whitebook.jpg" alt="Книга" class="card-news__image">
                <p class="card-news__text">4 октября на фестивале «Тверской переплёт» выступит Михаил Мельниченко —
@@ -159,38 +169,42 @@
             </a>
          </li>
       </ul>
-      <div class="magazine__cards_pages">
-         <button class="button-arrow_direction_left"></button>
-         <button class="magazine__cards_pages_count magazine__cards_pages_count_active text__pt_sans_small">1</button>
-         <button class="magazine__cards_pages_count text__pt_sans_small">2</button>
-         <button class="magazine__cards_pages_count text__pt_sans_small">...</button>
-         <button class="magazine__cards_pages_count text__pt_sans_small">5</button>
-         <button class="button-arrow_direction_right"></button>
-       </div>
+      <nav class="page-navigation">
+         <button class="button-arrow button-arrow_direction_left"></button>
+         <div class="page-navigation__counts">
+            <button class="page-navigation__count page-navigation__count_active text__PTsans-p-14px">1</button>
+            <button class="page-navigation__count text__PTsans-p-14px">2</button>
+            <button class="page-navigation__count text__PTsans-p-14px">...</button>
+            <button class="page-navigation__count text__PTsans-p-14px">5</button>
+         </div>
+         <button class=" button-arrow button-arrow_direction_right"></button>
+      </nav>
    </main>
-   <footer class="footer">
+   <footer class="footer news-page__footer">
       <div class="footer__menu-block">
-        <ul class="footer__menu text__PTsans-p-16px">
-          <li><a class="footer__link-element" href="#"> О команде</a></li>
-          <li><a class="footer__link-element" href="#"> Благодарности</a></li>
-          <li><a class="footer__link-element" href="#"> Партнёры</a></li>
-          <li><a class="footer__link-element" href="#"> FAQ</a></li>
-          <li><a class="footer__link-element" href="#"> Инструкции</a></li>
-        </ul>
+         <ul class="footer__menu text__PTsans-p-14px">
+            <li><a class="footer__link-element" href="#"> О команде</a></li>
+            <li><a class="footer__link-element" href="#"> Благодарности</a></li>
+            <li><a class="footer__link-element" href="#"> Партнёры</a></li>
+            <li><a class="footer__link-element" href="#"> FAQ</a></li>
+            <li><a class="footer__link-element" href="#"> Инструкции</a></li>
+         </ul>
       </div>
       <div class="footer__links-block">
-        <img class="logo logo_footer" src="./images/logot/logo.svg" alt="логотип">
-  
-        <ul class="footer__social text__PTsans-p-20px">
-          <li><a class="footer__link-element" href="https://t.me/prozhito"><img class="network-logo" src="./images/logot/logo_telegram.svg" alt="Телеграмм">Телеграмм</a></li>
-          <li><a class="footer__link-element" href="https://vk.com/prozhito"><img class="network-logo" src="./images/logot/logo_VK.svg" alt="Вконтакте">Вконтакте</a></li>
-        </ul>
-        <ul class="footer__legal-info text__PTsans-p-20px">
-          <li><a class="footer__link-element" href="#">Юридическая информация</a></li>
-          <li><a class="footer__link-element" href="#">Политика конфиденциальности</a></li>
-        </ul>
+         <img class="logo logo_footer" src="./images/logot/logo.svg" alt="логотип">
+
+         <ul class="footer__social text__PTsans-p-20px">
+            <li><a class="footer__link-element" href="https://t.me/prozhito"><img class="network-logo"
+                     src="./images/logot/logo_telegram.svg" alt="Телеграм">Телеграм</a></li>
+            <li><a class="footer__link-element" href="https://vk.com/prozhito"><img class="network-logo"
+                     src="./images/logot/logo_VK.svg" alt="Вконтакте">Вконтакте</a></li>
+         </ul>
+         <ul class="footer__legal-info text__PTsans-p-20px">
+            <li><a class="footer__link-element" href="#">Юридическая информация</a></li>
+            <li><a class="footer__link-element" href="#">Политика конфиденциальности</a></li>
+         </ul>
       </div>
-    </footer>
+   </footer>
    <script src="./scripts/news.js"></script>
 </body>
 

@@ -1,0 +1,17 @@
+.magazine__sort-items {
+    padding: 0;
+    margin: 16px auto auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .magazine__sort-items {
+        margin-top: 16px;
+        column-gap: calc(20px + (52 - 20) * (100vw - 320px) / (768 - 320));
+        flex-wrap: wrap;
+        margin: auto 15px;
+    }
+}

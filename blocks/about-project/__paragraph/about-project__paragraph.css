@@ -5,16 +5,21 @@
     color: #323232;
 }
 
+@media screen and (max-width: 1440px ) {
+    .about-project__paragraph{
+        padding: 0 16px;
+    }
+}
 
 @media screen and (max-width: 768px ) {
     .about-project__paragraph{
         max-width: 676px;
-        padding: 0 16px;
+        padding: 0;
     }
 }
 
 @media screen and (max-width: 620px ) {
     .about-project__paragraph{
-        padding: 0 12px;
+        padding: 0;
     }
 }

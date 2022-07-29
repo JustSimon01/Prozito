@@ -5,14 +5,19 @@
 @import url(../blocks/page-tip/page-tip.css);
 
 /*текстовые переменные новые */
-@import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
-@import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
-@import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
-@import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
-@import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
-@import url(../blocks/textNew/__WF-h3-26px/text__WF-h3-26px.css);
-@import url(../blocks/textNew/_color/_white/text_color_white.css);
-@import url(../blocks/textNew/_italic/text_italic.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/__PTsans-p-14px/text__PTsans-p-14px.css);
+@import url(../blocks/text/__PTsans-p-16px/text__PTsans-p-16px.css);
+@import url(../blocks/text/__PTsans-p-20px/text__PTsans-p-20px.css);
+@import url(../blocks/text/__WF-h1-46px/text__WF-h1-46px.css);
+@import url(../blocks/text/__WF-h2-36px/text__WF-h2-36px.css);
+@import url(../blocks/text/__WF-h3-26px/text__WF-h3-26px.css);
+@import url(../blocks/text/__PTsans-p-14px/_style/text__PTsans-p-14px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-16px/_style/text__PTsans-p-16px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-14px/_color/text__PTsans-p-14px_color_white.css);
+@import url(../blocks/text/__PTsans-p-20px/_color/text__PTsans-p-20px_color_white.css);
+@import url(../blocks/text/__WF-h1-46px/_color/text__WF-h1-46px_color_white.css);
+@import url(../blocks/text/__WF-h3-26px/_color/text__WF-h3-26px_color_white.css);
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/_color/_beige/header_color_beige.css);
@@ -28,6 +33,8 @@
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/header/__mobile-menu-element/header__mobile-menu-element.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
 /*route*/
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/route__link.css);
@@ -112,11 +119,13 @@
 @import url(../blocks/footer/__menu-block/footer__menu-block.css);
 @import url(../blocks/network-logo/network-logo.css);
 
-
+/* {
+    border: 1px solid rebeccapurple;
+}
 
 /*селектры осноговного контента*/
 .main h1 {
-    font-family: 'WF', 'Arial', sans-serif;
+    font-family: 'WF', 'Arial', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 46px;
@@ -152,12 +161,13 @@
     line-height: 18px;
     margin: 0 auto;
     width: 200px;
-    padding-bottom: 25px;
+    padding-bottom: 31px;
     text-align: center;
+    white-space: nowrap;
 }
 
 .main h3 {
-    font-family: 'WF','Arial', sans-serif;
+    font-family: 'WF','Arial', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
@@ -166,6 +176,7 @@
     color: #323232;
     margin: 0 auto;
     padding-top: 30px;
+    padding-right: 49px;
 }
 
 @media screen and (max-width: 400px) {
@@ -176,14 +187,14 @@
 }
 
 .main p {
-    font-family: 'PT Sans', 'Arial', sans-serif;;
+    font-family: 'PT Sans', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
     max-width: 676px;
     margin: 0 auto;
-    padding-top: 35px;
+    padding-top: 28px;
     text-align: left;
 }
 
@@ -204,16 +215,20 @@
     }  
 }
 
+.main p:last-of-type {
+    padding-top: 24px;
+}
+
 .main blockquote {
-    font-family: 'WF','Arial', sans-serif;;;
+    font-family: 'WF','Arial', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 26px;
     line-height: 26px;
     color: #3A543E;
     width: 676px;
-    margin: 33px auto 0;
-    padding-left: 10px;
+    margin: 32px auto 5px;
+    padding-left: 14px;
     border-left: 2px solid #3A543E;;
 }
 

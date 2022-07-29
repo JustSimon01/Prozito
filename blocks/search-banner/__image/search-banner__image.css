@@ -7,9 +7,10 @@
 
 @media screen and (max-width: 768px) { 
    .search-banner__image {
-      max-height: 260px;
+      height: 259px;
+      width: 174px;
       justify-self: center;
-      width: auto;
+      overflow: hidden;
    }
 }
 

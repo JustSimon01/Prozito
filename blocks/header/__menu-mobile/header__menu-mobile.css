@@ -2,15 +2,15 @@
     position: fixed;
     z-index: 3;
     top: 0px;
+    left: 0;
     display: grid;
-    grid-template-columns: minmax(200px, 700px);
+    grid-template-columns: minmax(200px, 741px);
     grid-template-rows: 49px auto auto 100vh;
     box-sizing: border-box;
-    padding: 0 12px;
     background-color: #E7E4DE;
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 741px) {
     .header__menu-mobile{
 
         display: none;

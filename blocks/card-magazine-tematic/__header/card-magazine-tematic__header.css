@@ -1,0 +1,14 @@
+.card-magazine-tematic__header{
+    height: 35px;
+}
+@media screen and (max-width: 768px) {
+    .card-magazine-tematic__header {
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .card-magazine-tematic__header {
+        height: 22px;
+    }
+}

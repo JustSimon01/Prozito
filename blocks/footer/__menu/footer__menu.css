@@ -4,23 +4,21 @@
         display: flex;
         flex-direction: row;
         gap: 60px;
-
+        text-transform:uppercase;
         list-style: none;
 }
 @media screen and (max-width: 930px) {
      .footer__menu {
         font-size: 14px;
         line-height: 18px;
-        gap:unset;
+        gap:60.75px;
         justify-content: space-between;
-        padding: 0 61px;
-        max-width: 598px;
+        max-width: 612px;
         width: 100%;
       }
 }
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 630px) {
         .footer__menu {
-           text-transform:uppercase;
            justify-content: center;
            flex-wrap: wrap;
            gap: 20px 32px;

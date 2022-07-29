@@ -13,3 +13,10 @@
       line-height: 16px;
    }
 }
+
+@media screen and (max-width: 360px) {
+   .special-projects__date {
+      font-size: 14px;
+      line-height: 18px;
+   }
+}

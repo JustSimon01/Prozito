@@ -2,14 +2,19 @@
 @import url(../vendor/fonts.css);
 
 /*текстовые переменные новые */
-@import url(../blocks/textNew/__PTsans-p-14px/text__PTsans-p-14px.css);
-@import url(../blocks/textNew/__PTsans-p-16px/text__PTsans-p-16px.css);
-@import url(../blocks/textNew/__PTsans-p-20px/text__PTsans-p-20px.css);
-@import url(../blocks/textNew/__WF-h1-46px/text__WF-h1-46px.css);
-@import url(../blocks/textNew/__WF-h2-36px/text__WF-h2-36px.css);
-@import url(../blocks/textNew/__WF-h3-26px/text__WF-h3-26px.css);
-@import url(../blocks/textNew/_color/_white/text_color_white.css);
-@import url(../blocks/textNew/_italic/text_italic.css);
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/__PTsans-p-14px/text__PTsans-p-14px.css);
+@import url(../blocks/text/__PTsans-p-16px/text__PTsans-p-16px.css);
+@import url(../blocks/text/__PTsans-p-20px/text__PTsans-p-20px.css);
+@import url(../blocks/text/__WF-h1-46px/text__WF-h1-46px.css);
+@import url(../blocks/text/__WF-h2-36px/text__WF-h2-36px.css);
+@import url(../blocks/text/__WF-h3-26px/text__WF-h3-26px.css);
+@import url(../blocks/text/__PTsans-p-14px/_style/text__PTsans-p-14px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-16px/_style/text__PTsans-p-16px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-14px/_color/text__PTsans-p-14px_color_white.css);
+@import url(../blocks/text/__PTsans-p-20px/_color/text__PTsans-p-20px_color_white.css);
+@import url(../blocks/text/__WF-h1-46px/_color/text__WF-h1-46px_color_white.css);
+@import url(../blocks/text/__WF-h3-26px/_color/text__WF-h3-26px_color_white.css);
 
 /*header*/
 @import url(../blocks/header/header.css);
@@ -26,14 +31,19 @@
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/header/__mobile-menu-element/header__mobile-menu-element.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
 
-@import url(../blocks/text/pt_sans_middle/text__pt_sans_middle.css);
-@import url(../blocks/text/h1/text__h1.css);
 @import url(../blocks/news-page/__route/news-page__route.css);
 
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/route__link.css);
 
+@import url(../blocks/media/media.css);
+@import url(../blocks/media/__title-block/media__title-block.css);
+@import url(../blocks/media/__title-header/media__title-header.css);
+@import url(../blocks/media/__title-header/_news/media__title-header_news.css);
+@import url(../blocks/media/__title-button-mobile/media__title-button-mobile.css);
 
 /*Попапы*/
 @import url(../blocks/pop-up/pop-up.css);
@@ -41,6 +51,7 @@
 
 
 @import url(../blocks/news-page/news-page.css);
+@import url(../blocks/news-page/__media/news-page__media.css);
 @import url(../blocks/news-page/__cards/news-page__cards.css);
 @import url(../blocks/news-page/__title/news-page__title.css);
 
@@ -52,12 +63,15 @@
 @import url(../blocks/card-news/__time/card-news__time.css);
 @import url(../blocks/card-news/__link/card-news__link.css);
 
+@import url(../blocks/button-arrow/button-arrow.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 
-@import url(../blocks/magazine/__cards_pages/magazine__cards_pages.css);
-@import url(../blocks/magazine/__cards_pages_count/magazine__cards_pages_count.css);
-@import url(../blocks/magazine/__cards_pages_count/__cards_pages_count_active/magazine__cards_pages_count_active.css);
+/* навигация страниц */
+@import url(../blocks/page-navigation/page-navigation.css);
+@import url(../blocks/page-navigation/__counts/page-navigation__counts.css);
+@import url(../blocks/page-navigation/__count/page-navigation__count.css);
+@import url(../blocks/page-navigation/__count/_active/page-navigation__count_active.css);
 
 /*футер*/
 @import url(../blocks/footer/footer.css);

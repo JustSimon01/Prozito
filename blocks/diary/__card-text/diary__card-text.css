@@ -4,6 +4,11 @@
 	color: rgba(50, 50, 50, 0.5);
 	margin: 0;
 	margin-top: 12px;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
 @media (max-width: 1080px) {

@@ -1,11 +1,16 @@
 .news-page__title {
    text-align: center;
-   margin: 42px 0 62px;
+   margin: 42px 0 65px;
 }
 
 @media screen and (max-width: 620px) {
    .news-page__title {
       margin: 20px 0 26px;
    }
-   
+}
+
+@media screen and (max-width: 360px) {
+   .news-page__title {
+      display: none;
+   }
 }

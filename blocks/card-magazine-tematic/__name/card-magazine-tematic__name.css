@@ -1,3 +1,9 @@
 .card-magazine-tematic__name {
     margin: 12px 16px auto;
 }
+
+@media screen and (max-width: 768px) {
+    .card-magazine-tematic__name {
+        margin: 12px auto auto 8px;
+    }
+}

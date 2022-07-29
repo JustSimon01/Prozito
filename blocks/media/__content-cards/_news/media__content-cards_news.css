@@ -1,16 +1,27 @@
 .media__content-cards_news{
     padding: 0;
-    padding-bottom: 70px;
+    padding-bottom: 66px;
+    margin: 24px 0 22px 20px;
+    /*вычитаем толщину скрола*/
+}
+
+@-moz-document url-prefix()
+{
+  .media__content-cards_news { padding-bottom: 69px; }
 }
 
 @media screen and (max-width:1155px) {
     .media__content-cards_news {
-        padding-bottom: 50px;
+        margin: 16px 0 25px 12px;
+        padding-bottom: 46px;
+        gap: 20px;
+        /*вычитаем толщину скрола*/
     }
 }
 
 @media screen and (max-width: 360px) {
     .media__content-cards_news{
+        margin: 16px 0 0 0;
         padding-bottom: 0px;
         display: flex;
         flex-direction: column;

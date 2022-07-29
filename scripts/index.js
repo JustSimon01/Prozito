@@ -10,20 +10,24 @@ function openPopup(popup) {
 
 //открытие-закрытие попапа меню через функции
 const button = document.querySelector('#aboutProject');
-
 const menuList = document.querySelector('.header__menu');
-button.addEventListener('click', function(){
-    if (menuList.classList.contains('pop-up_opened')){
-        menuList.classList.remove('pop-up_opened');
-        button.style.borderBottom = '';
- 
-    }else{
+//открываем при наведении
+button.addEventListener('mouseover', function(){
         menuList.classList.add('pop-up_opened');
-        button.style.borderBottom = `1px solid #323232`;
-    }
+        button.style.borderBottom = `1px solid #323232`;  
 });
+//закрываем при нажатии в любую часть документа, открываем при нажатии пальцем (исключили баг в планшетной с наведением)
+document.addEventListener('click',function(e){ 
+  if (e.target !== button){
+    menuList.classList.remove('pop-up_opened');
+    button.style.borderBottom = '';
+  }else{
+    menuList.classList.add('pop-up_opened');
+    button.style.borderBottom = `1px solid #323232`;  
+  }
+  });
 
-
+//открытие меню, бургер
 const menuBurgerButton = document.querySelector('.header__menu-icon');
 const menuPopup = document.querySelector('.header__menu-mobile');
 const menuPopupCloseButton = document.querySelector('.header__menu-icon_close');
@@ -36,6 +40,13 @@ menuPopupCloseButton.addEventListener('click', function(){
     menuPopup.classList.remove('pop-up_opened');
 });
 
+//закрытие меню при переходе по ссылке
+const menuBurgerLinks = document.querySelectorAll('.header__mobile-menu-element');
+menuBurgerLinks.forEach (function(btn) {
+btn.addEventListener('click', function(){
+  menuPopup.classList.remove('pop-up_opened');
+});
+});
 
 //мини-попап на заглавной (закрытие. поумолчанию открыт)
 const popupMini = document.querySelector('.mini-pop-up');
@@ -49,14 +60,14 @@ buttonMiniPopupClose.addEventListener('click', function() {
 const cards = document.querySelector('media__content-cards');
 
 
-//3dслайдер, свайп
+//3dслайдер, свайп (заработал в firefox)
 const cardsBlock = document.querySelector('.slider-3d')
 //ограничиваем работу свайпа блоком слайдера
-cardsBlock.addEventListener('touchstart', handleTouchStart, false);
-cardsBlock.addEventListener('touchmove', handleTouchMove, false);
+cardsBlock.addEventListener('touchstart', handleTouchStart);
+cardsBlock.addEventListener('touchmove', handleTouchMove);
 
 let x1 = null;
-let y = null;
+let y1 = null;
 //определяем точку качания
 function handleTouchStart(event) {
 const firstTouch = event.touches[0];
@@ -284,9 +295,9 @@ sliderContainer.addEventListener('scroll', () => {
 
 //карточки новостей, стрелки + слайд
 
-const newsBtnRigth = document.querySelector('.button_news_rigth');
-const newsBtnLeft = document.querySelector('.button_news_left');
-const newsCards = document.querySelector('.news_cards_index');
+const newsBtnRigth = document.getElementById('button-news-rigth');
+const newsBtnLeft = document.getElementById('button-news-left');
+const newsCards = document.querySelector('.media__content-cards_news');
 
 let positionNewsCards = 0;
 
@@ -339,9 +350,9 @@ newsBtnLeft.addEventListener("click", () => {
 });
 
 //карточки магазина, стрелки + слайд
-const magazineBtnRigth = document.querySelector(".button_magazine_right");
-const magazineBtnLeft = document.querySelector(".button_magazine_left");
-const magazineCards = document.querySelector(".magazine__cards_page_index");
+const magazineBtnRigth = document.getElementById("button-magazine-right");
+const magazineBtnLeft = document.getElementById("button-magazine-left");
+const magazineCards = document.querySelector(".media__content-cards_magazine");
 
 let positionMagazineCards = 0;
 

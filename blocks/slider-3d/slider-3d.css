@@ -2,7 +2,7 @@
     display: none;
     grid-area: cards;
     position: relative;
-    height: 348px;
+    height: 347px;
     margin: 24px auto 0px;
     perspective: 1000px;
     transform-style: preserve-3d;

@@ -1,10 +1,10 @@
 .magazine__sort-items {
     padding: 0;
-    margin: 32px auto auto;
+    margin: 16px auto auto;
     list-style: none;
     display: flex;
     justify-content: center;
-    column-gap: 52px;
+    column-gap: 32px;
 }
 
 @media screen and (max-width: 768px) {

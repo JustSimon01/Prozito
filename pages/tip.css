@@ -34,6 +34,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
 @import url(../blocks/header/__mobile-menu-element/header__mobile-menu-element.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
 /*route*/
 @import url(../blocks/route/route.css);
 @import url(../blocks/route/route__link.css);

@@ -30,7 +30,7 @@
      </ul>
     </div>
     <div class="header__menu-mobile pop-up">
-      <div class="header">
+      <div class="header__mobile">
        <div class="header__line header__line_menu-mobile">
         <img class="logo" src="./images/logot/logo.svg" alt="логотип">
         <button class="header__menu-icon header__menu-icon_close" type="button"></button>
@@ -62,7 +62,7 @@
             </div>
             <div class="document-card__link-container">
                <p class="document-card__link-description text__PTsans-p-20px">Подробнее</p>
-               <a href="./tip.html" class="button-arrow_direction_right button-arrow_style_green"></a>
+               <a href="./tip.html" class="button-arrow button-arrow_direction_right button-arrow_style_green"></a>
             </div>
          </div>
          <div class="document-card">
@@ -74,7 +74,7 @@
             </div>
             <div class="document-card__link-container">
                <p class="document-card__link-description text__PTsans-p-20px">Узнать больше</p>
-               <a href="./tip.html" class="button-arrow_direction_right button-arrow_style_green"></a>
+               <a href="./tip.html" class="button-arrow button-arrow_direction_right button-arrow_style_green"></a>
             </div>
          </div>
          <div class="document-card">
@@ -85,7 +85,7 @@
             </div>
             <div class="document-card__link-container">
                <p class="document-card__link-description text__PTsans-p-20px">Ознакомиться</p>
-               <a href="./tip.html" class="button-arrow_direction_right button-arrow_style_green"></a>
+               <a href="./tip.html" class="button-arrow button-arrow_direction_right button-arrow_style_green"></a>
             </div>
          </div>
          <div class="document-card">
@@ -96,7 +96,7 @@
             </div>
             <div class="document-card__link-container">
                <p class="document-card__link-description text__PTsans-p-20px">Перейти к архиву</p>
-               <a href="./tip.html" class="button-arrow_direction_right button-arrow_style_green"></a>
+               <a href="./tip.html" class="button-arrow button-arrow_direction_right button-arrow_style_green"></a>
             </div>
          </div>
       </div>
@@ -119,24 +119,23 @@
             <h2 class="media__title-header media__title-header_news text__WF-h1-46px text__WF-h1-46px_color_white">Новости и&nbsp;события</h2>
             <p class="media__title-button-desktop">
                Ко всем новостям
-               <a href="./news.html" class="button-arrow_direction_right button-arrow_style_green"></a>
+               <a href="./news.html" class="button-arrow button-arrow_direction_right button-arrow_style_green"></a>
             </p>
             <p class="media__title-button-tablet">
                Ко всем новостям
-               <a href="./news.html" class="button-arrow_direction_right button-arrow_style_green"></a>
+               <a href="./news.html" class="button-arrow button-arrow_direction_right button-arrow_style_green"></a>
             </p>
             <p class="media__title-button-mobile">
                Ко всем новостям
-               <a href="./news.html" class="button-arrow_direction_right"></a>
+               <a href="./news.html" class="button-arrow button-arrow_direction_right"></a>
             </p>
          </div>
          <h3 class="media__content-header text__WF-h1-46px">Свежее</h3>
          <div class="media__content-buttons">
-            <button
-               class="button_news_left button-arrow_direction_left button-arrow_style_circle button-arrow_state_disabled"></button>
-            <button class="button_news_rigth button-arrow_direction_right button-arrow_style_circle"></button>
+            <button id="button-news-left" class="button-arrow  button-arrow_direction_left button-arrow_style_circle button-arrow_state_disabled"></button>
+            <button id="button-news-rigth" class="button-arrow button-arrow_direction_right button-arrow_style_circle"></button>
          </div>
-         <ul class="news_cards_index media__content-cards media__content-cards_news">
+         <ul class="media__content-cards media__content-cards_news">
             <li class="card-news text__PTsans-p-20px">
                <a href="#" class="card-news__link">
                   <div class="card-news__data">
@@ -235,24 +234,23 @@
             <h2 class="media__title-header text__WF-h1-46px text__WF-h1-46px_color_white">Журнал «Прожито»</h2>
             <p class="media__title-button-desktop">
                Посмотреть всю подборку
-               <a href="./magazine.html" class="button-arrow_direction_right button-arrow_style_green"></a>
+               <a href="./magazine.html" class="button-arrow button-arrow_direction_right button-arrow_style_green"></a>
             </p>
             <p class="media__title-button-tablet">
                Посмотреть всю подборку
-               <a href="./magazine.html" class="button-arrow_direction_right button-arrow_style_green"></a>
+               <a href="./magazine.html" class="button-arrow button-arrow_direction_right button-arrow_style_green"></a>
             </p>
             <p class="media__title-button-mobile">
                Посмотреть всю подборку
-               <a href="./magazine.html" class="button-arrow_direction_right"></a>
+               <a href="./magazine.html" class="button-arrow button-arrow_direction_right"></a>
             </p>
          </div>
          <h3 class="media__content-header text__WF-h1-46px">Новые материалы</h3>
          <div class="media__content-buttons">
-            <button
-               class="button_magazine_left button-arrow_direction_left button-arrow_style_circle button-arrow_state_disabled"></button>
-            <button class="button_magazine_right button-arrow_direction_right button-arrow_style_circle"></button>
+            <button id="button-magazine-left" class="button-arrow button-arrow_direction_left button-arrow_style_circle button-arrow_state_disabled"></button>
+            <button id="button-magazine-right" class="button-arrow button-arrow_direction_right button-arrow_style_circle"></button>
          </div>
-         <ul class="media__content-cards magazine__cards_page_index">
+         <ul class="media__content-cards media__content-cards_magazine">
             <li class="card-magazine-exp">
                <h3 class="text__WF-h3-26px card-magazine-exp__title">Галина Зеленина о дневниках Леонида Липкина</h3>
                <img src="./images/magazine-news/magazine-news-zelenina.jpg" alt="картинка новости"
@@ -330,7 +328,7 @@
                </div>
              </li>
          </ul>
-         <ul class="media__content-cards magazine__cards_page_index slider-3d">
+         <ul class="media__content-cards slider-3d">
             <li class="card-magazine-exp slider-3d__card-1">
                <h3 class="text__WF-h3-26px card-magazine-exp__title">Галина Зеленина о дневниках Леонида Липкина</h3>
                <img src="./images/magazine-news/magazine-news-zelenina.jpg" alt="картинка новости"

@@ -291,9 +291,9 @@ sliderContainer.addEventListener('scroll', () => {
 
 //карточки новостей, стрелки + слайд
 
-const newsBtnRigth = document.querySelector('.button_news_rigth');
-const newsBtnLeft = document.querySelector('.button_news_left');
-const newsCards = document.querySelector('.news_cards_index');
+const newsBtnRigth = document.getElementById('button-news-rigth');
+const newsBtnLeft = document.getElementById('button-news-left');
+const newsCards = document.querySelector('.media__content-cards_news');
 
 let positionNewsCards = 0;
 
@@ -346,9 +346,9 @@ newsBtnLeft.addEventListener("click", () => {
 });
 
 //карточки магазина, стрелки + слайд
-const magazineBtnRigth = document.querySelector(".button_magazine_right");
-const magazineBtnLeft = document.querySelector(".button_magazine_left");
-const magazineCards = document.querySelector(".magazine__cards_page_index");
+const magazineBtnRigth = document.getElementById("button-magazine-right");
+const magazineBtnLeft = document.getElementById("button-magazine-left");
+const magazineCards = document.querySelector(".media__content-cards_magazine");
 
 let positionMagazineCards = 0;
 

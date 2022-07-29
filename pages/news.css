@@ -32,6 +32,7 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
 @import url(../blocks/header/__mobile-menu-element/header__mobile-menu-element.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
 
 @import url(../blocks/news-page/__route/news-page__route.css);
 

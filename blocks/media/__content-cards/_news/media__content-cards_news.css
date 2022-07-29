@@ -7,7 +7,7 @@
 
 @-moz-document url-prefix()
 {
-  .media__content-cards_news { padding-bottom: 62px; }
+  .media__content-cards_news { padding-bottom: 69px; }
 }
 
 @media screen and (max-width:1155px) {

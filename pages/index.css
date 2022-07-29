@@ -49,6 +49,7 @@
 @import url(../blocks/header/__menu/header_menu.css);
 @import url(../blocks/header/__menu-element/header__menu-element.css);
 @import url(../blocks/header/__mobile-menu-element/header__mobile-menu-element.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_footer/logo_footer.css);
@@ -129,6 +130,7 @@
 @import url(../blocks/button-rectangle/__arrow/button-rectangle__arrow.css);
 
 /*Стрелки влево-вправо и стили для них*/
+@import url(../blocks/button-arrow/button-arrow.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
 @import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
 @import url(../blocks/button-arrow/_style/button-arrow_style_circle.css);

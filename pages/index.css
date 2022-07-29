@@ -12,6 +12,7 @@
 @import url(../blocks/text/__WF-h3-26px/text__WF-h3-26px.css);
 @import url(../blocks/text/__PTsans-p-14px/_style/text__PTsans-p-14px_style_italic.css);
 @import url(../blocks/text/__PTsans-p-16px/_style/text__PTsans-p-16px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-16px/_color/text__PTsans-p-16px_color_white.css);
 @import url(../blocks/text/__PTsans-p-14px/_color/text__PTsans-p-14px_color_white.css);
 @import url(../blocks/text/__PTsans-p-20px/_color/text__PTsans-p-20px_color_white.css);
 @import url(../blocks/text/__WF-h1-46px/_color/text__WF-h1-46px_color_white.css);
@@ -152,6 +153,7 @@
 @import url(../blocks/card-magazine-tematic/__img/card-magazine-tematic__img.css);
 @import url(../blocks/card-magazine-tematic/__text/card-magazine-tematic__text.css);
 @import url(../blocks/card-magazine-tematic/__text-container/card-magazine-tematic__text-container.css);
+@import url(../blocks/card-magazine-tematic/__header/card-magazine-tematic__header.css);
 
 /*3d слайдер*/
 @import url(../blocks/slider-3d/slider-3d.css);

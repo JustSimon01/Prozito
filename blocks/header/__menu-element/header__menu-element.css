@@ -1,0 +1,12 @@
+.header__menu-element{
+    display: block;
+    color: #323232;
+    text-decoration: none;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.header__menu-element:hover{
+    transform: scale(1.1);
+}
+

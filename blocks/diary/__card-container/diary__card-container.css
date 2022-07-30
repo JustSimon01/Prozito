@@ -1,0 +1,25 @@
+.diary__card-container {
+	width: 100%;
+	margin-bottom: 75px;
+}
+
+@media (max-width: 768px) {
+	.diary__card-container {
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 530px) {
+	.diary__card-container {
+		padding-top: 14px;
+		overflow: scroll;
+		scroll-behavior: smooth;
+		scroll-snap-type: x mandatory;
+		margin-bottom: 64px;
+		scrollbar-width: none;
+	}
+	
+	.diary__card-container::-webkit-scrollbar {
+		display: none;
+	}
+}

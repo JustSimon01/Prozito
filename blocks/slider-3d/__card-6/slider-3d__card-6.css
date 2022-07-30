@@ -1,0 +1,6 @@
+@media screen and (max-width:360px) {
+    .slider-3d__card-6{
+       display: none;
+    }
+}
+

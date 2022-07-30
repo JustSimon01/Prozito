@@ -1,0 +1,25 @@
+.media__content-buttons{
+    grid-area: buttons;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 26px 32px 0 0;
+    height: 100%;
+    gap: 12px;
+    height: 100%;
+}
+
+@media screen and (max-width: 930px) {
+    .media__content-buttons{
+        padding: 19px 16px 0 0;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .media__content-buttons{
+        display: none;
+    }
+    }

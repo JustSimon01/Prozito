@@ -1,0 +1,16 @@
+.text__PTsans-p-14px{
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px; 
+    color: #323232;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .text__PTsans-p-14px {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

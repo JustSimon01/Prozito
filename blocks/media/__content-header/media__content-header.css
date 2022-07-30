@@ -1,0 +1,27 @@
+.media__content-header{
+grid-area: header;
+max-height: 55px;
+padding:16px 0 0 20px;
+margin: 0;
+text-overflow: ellipsis;
+white-space: nowrap;
+overflow: hidden;
+
+}
+
+@media screen and (max-width: 930px) {
+    .media__content-header{
+        font-size: 30px;
+        line-height: 37px;
+        max-height: 37px;
+        padding:16px 0 0 12px;
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .media__content-header{
+        display: none;
+    }
+    
+  }

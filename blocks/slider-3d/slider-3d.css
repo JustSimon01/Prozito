@@ -1,0 +1,20 @@
+.slider-3d {
+    display: none;
+    grid-area: cards;
+    position: relative;
+    height: 347px;
+    margin: 24px auto 0px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    overflow-x: unset;
+
+}
+
+@media screen and (max-width:360px){
+    
+
+.slider-3d {
+    display: block;
+
+}
+}

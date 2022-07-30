@@ -1,0 +1,24 @@
+.card-magazine-exp__img {
+    height: 204px;
+    width: 204px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+
+@media screen and (max-width: 768px) {
+    .card-magazine-exp__img {
+        height: 86px;
+        width: 86px;
+        margin: 4px auto;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .card-magazine-exp__img {
+        height: 160px;
+        width: 160px;
+        margin: 12px auto;
+    }
+}

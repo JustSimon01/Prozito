@@ -1,0 +1,19 @@
+.main {
+    margin: 0 auto;
+    max-width: 678px;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+}
+
+@media screen and (max-width: 400px) {
+    .main {
+        padding-top: 90px;
+        max-width: 320px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }  
+}   
+
+

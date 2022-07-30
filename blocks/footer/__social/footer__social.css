@@ -1,0 +1,32 @@
+.footer__social{
+    grid-area: social;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: end;
+    min-width: 120px;
+    gap: 12px;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+@media screen and (max-width: 930px) {
+    .footer__social {
+        flex-direction: row;
+        gap: 24px;
+        justify-self: flex-end;
+        align-self: center;
+        font-size: 0px;
+        line-height: 0px;
+        padding:0;
+        min-width:fit-content;
+
+     }
+}
+@media screen and (max-width: 360px) {
+    .footer__social {
+        justify-self:unset;
+        gap: 24px;
+     }
+}

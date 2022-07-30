@@ -1,0 +1,15 @@
+.media_news {
+    margin-top: 0px;
+}
+
+
+@media screen and (max-width: 360px) {
+    .media_news {
+        margin-top: 2px;
+    }
+    
+    
+}
+
+
+

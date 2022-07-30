@@ -1,0 +1,19 @@
+.card-news__time {
+   font-size: 14px;
+   line-height: 18px;
+   margin: 0 0 8px;
+}
+
+@media screen and (max-width: 800px) {
+   .card-news__time {
+      font-size: 12px;
+      line-height: 16px;
+      margin: 0 0 4px;
+   }  
+}
+
+@media screen and (max-width: 360px) {
+   .card-news__time {
+      margin: 0px;
+   }  
+}

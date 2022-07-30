@@ -1,0 +1,17 @@
+.card-news {
+   max-width: 328px;
+   min-width: 328px;
+}
+
+@media screen and (max-width: 768px) {
+   .card-news {
+      max-width: 180px;
+      min-width: 180px;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .card-news { 
+      max-width: 336px;
+   }   
+}

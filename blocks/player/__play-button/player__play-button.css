@@ -1,0 +1,28 @@
+.player__play-button{
+    box-sizing: border-box;
+    background: transparent;
+    background-image: url(../../../images/player/Play.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    margin: 2.1px 26.6px 2.1px 5.3px;
+    width: 24px;
+    height: 28px;
+    padding: 0;
+    cursor: pointer;
+    transform: scale(1);
+    transition: ease-in-out 0.2s;
+}
+
+.player__play-button:active{
+    transform: scale(1.2);
+}
+
+
+
+@media screen and (max-width:800px) {
+    .player__play-button{
+        margin-right: 5px;
+    }
+}

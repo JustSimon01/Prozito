@@ -1,0 +1,21 @@
+.card-news__image {
+   width: 100%;
+   min-height: 223px;
+   max-height: 223px;
+   object-fit: cover;
+   grid-area: img;
+}
+
+@media screen and (max-width: 768px) {
+   .card-news__image {
+      min-height: 120px;
+      max-height: 120px;
+   }
+}
+
+@media screen and (max-width: 360px){
+   .card-news__image {
+      min-height: 160px;
+      max-height: 160px;
+   }
+}

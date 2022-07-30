@@ -1,0 +1,14 @@
+.header{
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 0 16px;
+}
+
+
+@media screen and (max-width: 620px ) {
+    .header{
+        padding: 0 12px;
+    }
+}

@@ -1,0 +1,22 @@
+.news-page__cards {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, 328px);
+   gap: 62px 80px;
+   list-style: none;
+   padding: 0;
+   justify-content: center;
+   margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+   .news-page__cards {
+      grid-template-columns: repeat(auto-fit, 180px);
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .news-page__cards {
+      gap: 16px 0;
+      grid-template-columns: 336px;
+   }
+}

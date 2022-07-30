@@ -1,0 +1,20 @@
+.header__menu-mobile{
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+    left: 0;
+    display: grid;
+    grid-template-columns: minmax(200px, 741px);
+    grid-template-rows: 49px auto auto 100vh;
+    box-sizing: border-box;
+    background-color: #E7E4DE;
+}
+
+@media screen and (min-width: 741px) {
+    .header__menu-mobile{
+
+        display: none;
+    }
+
+
+}

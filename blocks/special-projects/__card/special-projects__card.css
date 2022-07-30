@@ -1,0 +1,20 @@
+.special-projects__card {
+   display: flex;
+   text-decoration: none;
+   color: #323232;
+   background-color: #F7F4F0;
+   max-width: 678px;
+   width: 100%;
+}
+
+@media screen and (max-width: 930px) {
+   .special-projects__card {
+      flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 620px) {
+   .special-projects__card {
+      background: none;
+   }
+}

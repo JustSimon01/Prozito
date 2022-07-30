@@ -1,0 +1,16 @@
+.diary__label-text {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #323232;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (max-width: 1080px) {
+	.diary__label-text {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

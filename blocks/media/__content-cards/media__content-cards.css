@@ -1,0 +1,60 @@
+.media__content-cards{
+    grid-area: cards;
+    margin: 24px 0 12px 20px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    gap: 20px;
+    padding: 0;
+    padding-bottom: 43px;
+    list-style: none;
+    transition: all ease-in-out 0.2s;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #323232 #E7E4DE;
+
+}
+@-moz-document url-prefix()
+{
+  .media__content-cards { padding-bottom: 47px; }
+}
+
+
+/*сделать scrollbar тоньше получается только в chrome/YA браузере*/
+.media__content-cards::-webkit-scrollbar {
+    height: 4px;
+    
+  }
+  
+  .media__content-cards::-webkit-scrollbar-track {
+    background: #E7E4DE;
+    width: 90%;
+  }
+  
+  .media__content-cards::-webkit-scrollbar-thumb {
+    background: #323232;
+  }
+
+
+  @media screen and (max-width:1155px) {
+    .media__content-cards {
+      margin: 16px 0 15px 12px;
+        padding-bottom: 12px;
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+  .media__content-cards{
+    margin: 0;
+    padding: 0;
+  }
+  
+}
+
+@media screen and (max-width: 360px) {
+  .media__content-cards{
+    display: none;
+  }
+  
+}

@@ -1,0 +1,34 @@
+.search-banner {
+    background-color: #F7F4F0;
+    padding: 56px 116px 64px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-areas: 
+    "img title"
+    "img text"
+    "img btn";
+    justify-content: space-between;
+    grid-template-rows: auto 1fr auto;
+    gap: 0 10px;
+}
+
+
+@media screen and (max-width: 1155px) {
+    .search-banner {
+        padding: 20px 19px 20px 17px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .search-banner {
+        grid-template-areas: 
+        "title"
+        "img"
+        "text"
+        "btn";
+        grid-template-rows: auto;
+        padding: 20px 12px;
+        gap: 16px;
+        justify-content: center;
+    }
+}

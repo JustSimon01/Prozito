@@ -1,0 +1,22 @@
+
+@media screen and (max-width:360px) {
+.slider-3d__card-5{
+    position: absolute;
+    width: 252px;
+    height: 100%;
+    left: calc(50% - 126px);;
+    top: 0;
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 6px 10px rgba(0,0,0, 0.3), 0 2px 2px rgba(0,0,0, 0.2);
+    transform: translate3d(-15%, 0, -100px); 
+}
+
+}

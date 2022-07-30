@@ -1,0 +1,17 @@
+.player__forward-button{
+    box-sizing: border-box;
+    background: transparent;
+    background-image: url(../../../images/player/Forward.svg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    border: none;
+    margin: 0.5px 4.7px 4.7px 4.7px;
+    width: 23px;
+    height: 26px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.player__forward-button:active{
+    transform: scale(1.2);
+}

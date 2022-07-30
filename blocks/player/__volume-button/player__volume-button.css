@@ -1,0 +1,21 @@
+.player__volume-button{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 2.8px 2.3px 2.8px 4px;
+    background: transparent;
+    background-image: url(../../../images/player/Volume.svg);
+    background-repeat: no-repeat;
+    background-size: contain ;
+    border: none;
+    Width:25.74px;
+    Height:26.44px;
+    cursor: pointer;
+    position: relative;
+    transition: ease-in-out 0.2s;
+}
+
+.player__volume-button:active{
+    transform: scale(1.2);
+}
+
+

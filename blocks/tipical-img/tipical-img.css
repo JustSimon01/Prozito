@@ -1,0 +1,29 @@
+.tipical-img {
+    width: 910px;
+    align-self: center;
+    padding-top: 30px;
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 911px) {
+    .tipical-img {
+        max-width: 600px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}
+
+@media screen and (max-width: 610px) {
+    .tipical-img {
+        max-width: 400px;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .tipical-img {
+        max-width: 300px;
+        margin: 0 auto;
+        padding-top: 10px;
+    }  
+}
+

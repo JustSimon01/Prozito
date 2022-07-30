@@ -1,0 +1,17 @@
+.mini-pop-up__title {
+	max-width: 189px;
+	font-family: 'WF','Arial', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 100%;
+	color: #323232;
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.mini-pop-up__title{
+		font-size: 18px;
+		line-height: 22px;
+	}
+}

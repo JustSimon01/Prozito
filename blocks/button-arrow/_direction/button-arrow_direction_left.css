@@ -1,0 +1,10 @@
+.button-arrow_direction_left {
+	background-image: url(../../../images/buttons/arrow-left.svg);
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	padding: 0;
+	width: 24px;
+	height: 24px;
+}

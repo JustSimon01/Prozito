@@ -1,0 +1,28 @@
+.media{
+    display: grid;
+    grid-template-columns: minmax(253px, 477px) minmax(412px, 827px) minmax(94px,136px);
+    grid-template-rows: 71px auto;
+    grid-template-areas:
+    "title header buttons"
+    "title cards cards";
+}
+
+@media screen and (max-width: 768px) {
+    .media{
+        grid-template-rows: 53px auto;
+        grid-template-columns: 253px minmax(270px, 827px) minmax(94px,136px);
+    }
+    
+}
+
+@media screen and (max-width: 620px) {
+    .media{
+        margin: 0 12px 0;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "title"
+        "cards";
+
+    }
+    }

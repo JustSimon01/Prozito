@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'WF';
+    src: url('./fonts/WF.woff') format('woff'),
+         url('./fonts/WF.woff2') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url(./fonts/PTSans-Regular.ttf) format('ttf'),
+         url('./fonts/PTSans-Regular.woff') format('woff'),
+         url('./fonts/PTSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url(./fonts/PTSans-Italic.ttf) format('ttf'),
+         url('./fonts/PTSans-Italic.woff') format('woff'),
+         url('./fonts/PTSans-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: auto;
+}
+

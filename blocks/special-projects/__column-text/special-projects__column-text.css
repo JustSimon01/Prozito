@@ -1,0 +1,22 @@
+.special-projects__column-text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin: 28px 31.45px 17px;
+}
+
+@media screen and (max-width: 768px) {
+   .special-projects__column-text {
+      padding: 12px 12px;
+      margin: 0;
+      height: 100%;
+   }
+}
+
+@media screen and (max-width: 620px) {
+   .special-projects__column-text {
+      outline: 1px solid #A5CDAB;
+      outline-offset: -1px;
+      padding: 12px 8px;
+   }
+}

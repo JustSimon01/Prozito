@@ -1,0 +1,22 @@
+.document-card{
+box-sizing: border-box;
+padding: 32px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+outline: 1px solid rgba(50, 50, 50, 0.3);
+outline-offset: -1px;
+}
+
+@media screen and (max-width: 768px ) {
+    .document-card{
+        padding: 28px;
+    }
+}
+
+@media screen and (max-width: 620px ) {
+    .document-card{
+        padding: 12px;
+        gap: 12px;
+    }
+}

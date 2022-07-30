@@ -1,0 +1,11 @@
+.diary{
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 530px) {
+  .diary {
+    margin-top: 32px;
+  }
+}

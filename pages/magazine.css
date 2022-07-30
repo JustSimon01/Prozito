@@ -1,0 +1,86 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/magazine/magazine.css);
+
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/__PTsans-p-14px/text__PTsans-p-14px.css);
+@import url(../blocks/text/__PTsans-p-16px/text__PTsans-p-16px.css);
+@import url(../blocks/text/__PTsans-p-20px/text__PTsans-p-20px.css);
+@import url(../blocks/text/__WF-h1-46px/text__WF-h1-46px.css);
+@import url(../blocks/text/__WF-h2-36px/text__WF-h2-36px.css);
+@import url(../blocks/text/__WF-h3-26px/text__WF-h3-26px.css);
+@import url(../blocks/text/__PTsans-p-14px/_style/text__PTsans-p-14px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-16px/_style/text__PTsans-p-16px_style_italic.css);
+@import url(../blocks/text/__PTsans-p-14px/_color/text__PTsans-p-14px_color_white.css);
+@import url(../blocks/text/__PTsans-p-16px/_color/text__PTsans-p-16px_color_white.css);
+@import url(../blocks/text/__PTsans-p-20px/_color/text__PTsans-p-20px_color_white.css);
+@import url(../blocks/text/__WF-h1-46px/_color/text__WF-h1-46px_color_white.css);
+@import url(../blocks/text/__WF-h3-26px/_color/text__WF-h3-26px_color_white.css);
+
+@import url(../blocks/route/route.css);
+@import url(../blocks/route/route__link.css);
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_color/_beige/header_color_beige.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__line/_menu-mobile/header__line_menu-mobile.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__navigation-element/header__navigation-element.css);
+@import url(../blocks/header/__menu-icon/header__menu-icon.css);
+@import url(../blocks/header/__menu-icon/_close/header__menu-icon_close.css);
+@import url(../blocks/header/__menu-mobile-blocks/header__menu-mobile-blocks.css);
+@import url(../blocks/header/__menu-mobile/header__menu-mobile.css);
+@import url(../blocks/header/__menu/header_menu.css);
+@import url(../blocks/header/__menu-element/header__menu-element.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_footer/logo_footer.css);
+@import url(../blocks/header/__mobile-menu-element/header__mobile-menu-element.css);
+@import url(../blocks/header/__mobile/header__mobile.css);
+
+/*Попапы*/
+@import url(../blocks/pop-up/pop-up.css);
+@import url(../blocks/pop-up/_opened/pop-up_opened.css);
+/* Footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links-block/footer__links-block.css);
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__link-element/footer__link-element.css);
+@import url(../blocks/footer/__legal-info/footer__legal-info.css);
+@import url(../blocks/footer/__menu-block/footer__menu-block.css);
+@import url(../blocks/network-logo/network-logo.css);
+
+@import url(../blocks/button-arrow/button-arrow.css);
+@import url(../blocks/button-arrow/_direction/button-arrow_direction_left.css);
+@import url(../blocks/button-arrow/_direction/button-arrow_direction_right.css);
+
+@import url(../blocks/magazine/__title/magazine__title.css);
+
+@import url(../blocks/magazine/__sort/magazine__sort.css);
+@import url(../blocks/magazine/__sort-items/magazine__sort-items.css);
+@import url(../blocks/magazine/__sort-item/magazine__sort-item.css);
+@import url(../blocks/magazine/__sort-item/__sort-item_active/magazine__sort-item_active.css);
+
+
+/* для вставки карточек добавлять вот эти классы */
+
+@import url(../blocks/magazine/__cards/magazine__cards.css);
+
+@import url(../blocks/card-magazine-exp/card-magazine-exp.css);
+@import url(../blocks/card-magazine-exp/__img/card-magazine-exp__img.css);
+@import url(../blocks/card-magazine-exp/__name/card-magazine-exp__name.css);
+@import url(../blocks/card-magazine-exp/__title/card-magazine-exp__title.css);
+
+@import url(../blocks/card-magazine-tematic/card-magazine-tematic.css);
+@import url(../blocks/card-magazine-tematic/__name/card-magazine-tematic__name.css);
+@import url(../blocks/card-magazine-tematic/__img/card-magazine-tematic__img.css);
+@import url(../blocks/card-magazine-tematic/__text/card-magazine-tematic__text.css);
+@import url(../blocks/card-magazine-tematic/__text-container/card-magazine-tematic__text-container.css);
+@import url(../blocks/card-magazine-tematic/__header/card-magazine-tematic__header.css);
+
+/* навигация страниц */
+@import url(../blocks/page-navigation/page-navigation.css);
+@import url(../blocks/page-navigation/__counts/page-navigation__counts.css);
+@import url(../blocks/page-navigation/__count/page-navigation__count.css);
+@import url(../blocks/page-navigation/__count/_active/page-navigation__count_active.css);

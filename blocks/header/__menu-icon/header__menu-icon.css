@@ -1,0 +1,17 @@
+.header__menu-icon{
+display: none;
+background-color: transparent;
+background-position: center;
+background-repeat: no-repeat;
+border: none;
+width: 16px;
+height: 14px;
+background-image: url(../../../images/svg/menu\ mobil.svg);
+}
+
+@media screen and (max-width: 740px) {
+    .header__menu-icon{
+        display: block;
+        }
+    
+}

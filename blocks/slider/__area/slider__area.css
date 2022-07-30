@@ -1,0 +1,21 @@
+.slider__area {
+    max-width: 570px;
+    max-height: 400px;
+    display: flex;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 800px) {
+    .slider__area {
+        max-height: 400px;
+        max-width: 400px;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slider__area {
+        max-width: 250px;
+
+    }
+}

@@ -1,0 +1,17 @@
+.special-projects__text {
+   margin: 0 0 18px;
+}
+
+@media screen and (max-width: 768px) {
+   .special-projects__text {
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0 0 11px;
+   }
+}
+
+@media screen and (max-width: 360px) {
+   .special-projects__text {
+      margin: 0 0 24px;
+   }
+}

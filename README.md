@@ -30,6 +30,8 @@ Grid таблицы. Grid area. Flex box. CSS. Java Script.
 Реализация отклика на действия пользователя выполненна с использованием JS и CSS.
 Реализованы слайдеры, 3d слайдер, рабочий аудио плеер.
 
+**Посмотреть проект на Github Pages**
+*https://justsimon01.github.io/Prozito/*
 
 **Figma**
 
